@@ -37,7 +37,7 @@ M = Embodied hardware emissions (gCO₂)  ← amortized over device lifetime
 
 **Why SCI instead of raw energy?** Because 1 kWh in Sweden (hydro, 25 gCO₂) ≠ 1 kWh in Poland (coal, 650 gCO₂). The same model config can have **26× different carbon impact** depending on *where* it runs.
 
-### 2. Green LLM Bench (Website)
+### 2. EcoBench (Website)
 An interactive benchmark dashboard that visualizes the Pareto frontier—like MLPerf, but for sustainability:
 - **SCI vs BPB scatter plot** with Pareto frontier highlighted
 - **Per-model throughput vs carbon** breakdowns
@@ -46,9 +46,9 @@ An interactive benchmark dashboard that visualizes the Pareto frontier—like ML
 - **3D globe routing visualization** — see how carbon intensity varies geographically
 - Sortable leaderboard of all tested configurations
 
-### 3. EcoRoute Extension (Zed + MCP)
+### 3. EcoRoute Extension (Zed + ACP)
 A developer-facing tool that brings carbon-aware model routing into the IDE:
-- **Zed slash command** (`/eco`) that recommends the greenest model for your task
+- **3 Zed ACP commands**  that recommends the greenest model for your task
 - **MCP server** that serves real SCI data from the workbench
 - **Task-aware routing** — different quality thresholds for autocomplete (tier 4), chat (5), debug (6), and refactor (7)
 - Detects your current model from Zed settings and shows carbon savings %
@@ -56,6 +56,8 @@ A developer-facing tool that brings carbon-aware model routing into the IDE:
 ---
 
 ## How We Built It
+
+![EcoRoute Workflow](workflow.png)
 
 ### Hardware: NVIDIA DGX Spark
 | Component | Spec |
@@ -234,7 +236,7 @@ The lowest absolute carbon: **Qwen3.5-0.8B at batch 4, seq 256** — 0.0000573 g
 
 ```
 eco_router/
-├── frontend/                          ← Green LLM Bench (static website)
+├── frontend/                          ←  EcoBench (static website)
 │   ├── index.html                     ← Dashboard, leaderboard, calculator, methodology
 │   ├── styles.css                     ← Design system
 │   ├── dist/globe.html                ← 3D globe routing visualization (Three.js)
