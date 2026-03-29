@@ -1,0 +1,256 @@
+🔬 Auto-Improving LLM Research Workbench
+Optimizing: SCI = (E x I) + M — gCO2 per token
+  Strategy: auto
+  Max iterations: 50
+  Total time: 600s
+  Per-experiment budget: 90s
+  Grid intensity (I): 400 gCO2/kWh (us_average)
+  Embodied (M): 0.00003 gCO2/tok
+  Database: /home/asus/yhackDGX/yhacktemp/autoresearch-yaledgx/runs/run_20260328_120150/results.db
+
+[12:01:55] INFO     🚀 Research loop starting — strategy=grid, max_iter=50, total_time=10:00,      
+                    existing_results=0                                                             
+           INFO     📁 Results →                                                                   
+                    /home/asus/yhackDGX/yhacktemp/autoresearch-yaledgx/runs/run_20260328_120150/res
+                    ults.db                                                                        
+           INFO     🔄 Switching to Random strategy (0 completed results)                          
+           INFO     ━━━ Iteration 1/50 ⏱ 9:59 remaining ━━━ [random] Qwen3.5-0.8B none batch=1     
+           INFO     Executing experiment f9628aaac9aa                                              
+           INFO     Starting benchmark: Qwen/Qwen3.5-0.8B [none, batch=1, seq=512] on cuda (mem:   
+                    8.3/119.6 GB, load: 0.7)                                                       
+           INFO     Power monitor started (interval=1.0s)                                          
+[12:01:57] INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/config.json "HTTP/1.1 307
+                    Temporary Redirect"                                                            
+           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b9
+                    67f1860aea9cf38778875588b17/config.json "HTTP/1.1 200 OK"                      
+           INFO     HTTP Request: GET                                                              
+                    https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b9
+                    67f1860aea9cf38778875588b17/config.json "HTTP/1.1 200 OK"                      
+           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/tokenizer_config.json    
+                    "HTTP/1.1 307 Temporary Redirect"                                              
+           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b9
+                    67f1860aea9cf38778875588b17/tokenizer_config.json "HTTP/1.1 200 OK"            
+           INFO     HTTP Request: GET                                                              
+                    https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b9
+                    67f1860aea9cf38778875588b17/tokenizer_config.json "HTTP/1.1 200 OK"            
+           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/tokenizer_config.json    
+                    "HTTP/1.1 307 Temporary Redirect"                                              
+           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b9
+                    67f1860aea9cf38778875588b17/tokenizer_config.json "HTTP/1.1 200 OK"            
+           INFO     HTTP Request: GET                                                              
+                    https://huggingface.co/api/models/Qwen/Qwen3.5-0.8B/tree/main/additional_chat_t
+                    emplates?recursive=false&expand=false "HTTP/1.1 404 Not Found"                 
+[12:01:58] INFO     HTTP Request: GET                                                              
+                    https://huggingface.co/api/models/Qwen/Qwen3.5-0.8B/tree/main?recursive=true&ex
+                    pand=false "HTTP/1.1 200 OK"                                                   
+           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/tokenizer.json "HTTP/1.1 
+                    302 Found"                                                                     
+           INFO     HTTP Request: GET                                                              
+                    https://huggingface.co/api/models/Qwen/Qwen3.5-0.8B/xet-read-token/2fc06364715b
+                    967f1860aea9cf38778875588b17 "HTTP/1.1 200 OK"                                 
+[12:02:02] INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/tokenizer.model "HTTP/1.1
+                    404 Not Found"                                                                 
+[12:02:03] INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/added_tokens.json        
+                    "HTTP/1.1 404 Not Found"                                                       
+           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/special_tokens_map.json  
+                    "HTTP/1.1 404 Not Found"                                                       
+           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/chat_template.jinja      
+                    "HTTP/1.1 307 Temporary Redirect"                                              
+           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b9
+                    67f1860aea9cf38778875588b17/chat_template.jinja "HTTP/1.1 200 OK"              
+           INFO     HTTP Request: GET                                                              
+                    https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b9
+                    67f1860aea9cf38778875588b17/chat_template.jinja "HTTP/1.1 200 OK"              
+[12:02:04] INFO     HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-0.8B "HTTP/1.1
+                    200 OK"                                                                        
+           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/config.json "HTTP/1.1 307
+                    Temporary Redirect"                                                            
+           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b9
+                    67f1860aea9cf38778875588b17/config.json "HTTP/1.1 200 OK"                      
+`torch_dtype` is deprecated! Use `dtype` instead!
+           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/model.safetensors        
+                    "HTTP/1.1 404 Not Found"                                                       
+           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/model.safetensors.index.j
+                    son "HTTP/1.1 307 Temporary Redirect"                                          
+           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b9
+                    67f1860aea9cf38778875588b17/model.safetensors.index.json "HTTP/1.1 200 OK"     
+           INFO     HTTP Request: GET                                                              
+                    https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b9
+                    67f1860aea9cf38778875588b17/model.safetensors.index.json "HTTP/1.1 200 OK"     
+           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/model.safetensors-00001-o
+                    f-00001.safetensors "HTTP/1.1 302 Found"                                       
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/320 [00:00<?, ?it/s]Loading weights: 100%|██████████| 320/320 [00:00<00:00, 11559.33it/s]
+[12:09:04] INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/generation_config.json   
+                    "HTTP/1.1 404 Not Found"                                                       
+           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/config.json "HTTP/1.1 307
+                    Temporary Redirect"                                                            
+           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b9
+                    67f1860aea9cf38778875588b17/config.json "HTTP/1.1 200 OK"                      
+           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/custom_generate/generate.
+                    py "HTTP/1.1 404 Not Found"                                                    
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+[12:10:17] INFO     Quality eval: BPB=4.0656, PPL=16.74, tokens=124, time=0.4s                     
+           INFO     Power monitor stopped: 487 samples, avg=6.0W, gpu_util=6%                      
+           INFO     Benchmark complete: BPB=4.0656, 1.8 tok/s, 3.359 J/tok, 6.0W avg, GPU util=6%, 
+                    mem=13.1 GB                                                                    
+[12:10:18] INFO     🌟 Pareto-optimal! f9628aaac9aa — SCI=0.000403 gCO₂/tok, BPB=4.0656, 1.8 tok/s 
+           INFO     ━━━ Iteration 2/50 ⏱ 1:37 remaining ━━━ [random] Qwen3.5-4B none batch=8       
+           INFO     Executing experiment 27ef367ea383                                              
+           INFO     Starting benchmark: Qwen/Qwen3.5-4B [none, batch=8, seq=2048] on cuda (mem:    
+                    11.4/119.6 GB, load: 1.8)                                                      
+           INFO     Power monitor started (interval=1.0s)                                          
+[12:10:19] INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/Qwen/Qwen3.5-4B/resolve/main/config.json "HTTP/1.1 307  
+                    Temporary Redirect"                                                            
+[12:10:20] INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-4B/851bf6e806efd8d
+                    0a36b00ddf55e13ccb7b8cd0a/config.json "HTTP/1.1 200 OK"                        
+[12:10:22] INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/Qwen/Qwen3.5-4B/resolve/main/tokenizer_config.json      
+                    "HTTP/1.1 307 Temporary Redirect"                                              
+[12:10:23] INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-4B/851bf6e806efd8d
+                    0a36b00ddf55e13ccb7b8cd0a/tokenizer_config.json "HTTP/1.1 200 OK"              
+[12:10:24] INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/Qwen/Qwen3.5-4B/resolve/main/tokenizer_config.json      
+                    "HTTP/1.1 307 Temporary Redirect"                                              
+[12:10:25] INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-4B/851bf6e806efd8d
+                    0a36b00ddf55e13ccb7b8cd0a/tokenizer_config.json "HTTP/1.1 200 OK"              
+[12:10:26] INFO     HTTP Request: GET                                                              
+                    https://huggingface.co/api/models/Qwen/Qwen3.5-4B/tree/main/additional_chat_tem
+                    plates?recursive=false&expand=false "HTTP/1.1 404 Not Found"                   
+[12:10:28] INFO     HTTP Request: GET                                                              
+                    https://huggingface.co/api/models/Qwen/Qwen3.5-4B/tree/main?recursive=true&expa
+                    nd=false "HTTP/1.1 200 OK"                                                     
+[12:10:29] INFO     HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-4B "HTTP/1.1  
+                    200 OK"                                                                        
+           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/Qwen/Qwen3.5-4B/resolve/main/config.json "HTTP/1.1 307  
+                    Temporary Redirect"                                                            
+           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-4B/851bf6e806efd8d
+                    0a36b00ddf55e13ccb7b8cd0a/config.json "HTTP/1.1 200 OK"                        
+           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/Qwen/Qwen3.5-4B/resolve/main/model.safetensors "HTTP/1.1
+                    404 Not Found"                                                                 
+           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/Qwen/Qwen3.5-4B/resolve/main/model.safetensors.index.jso
+                    n "HTTP/1.1 307 Temporary Redirect"                                            
+           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-4B/851bf6e806efd8d
+                    0a36b00ddf55e13ccb7b8cd0a/model.safetensors.index.json "HTTP/1.1 200 OK"       
+           INFO     HTTP Request: GET                                                              
+                    https://huggingface.co/api/models/Qwen/Qwen3.5-4B/revision/main "HTTP/1.1 200  
+                    OK"                                                                            
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/Qwen/Qwen3.5-4B/resolve/851bf6e806efd8d0a36b00ddf55e13cc
+                    b7b8cd0a/model.safetensors-00002-of-00002.safetensors "HTTP/1.1 302 Found"     
+           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/Qwen/Qwen3.5-4B/resolve/851bf6e806efd8d0a36b00ddf55e13cc
+                    b7b8cd0a/model.safetensors-00001-of-00002.safetensors "HTTP/1.1 302 Found"     
+Fetching 2 files:  50%|█████     | 1/2 [10:48<10:48, 648.52s/it]Fetching 2 files: 100%|██████████| 2/2 [11:04<00:00, 276.63s/it]Fetching 2 files: 100%|██████████| 2/2 [11:04<00:00, 332.41s/it]
+Loading weights:   0%|          | 0/426 [00:00<?, ?it/s]Loading weights: 100%|██████████| 426/426 [00:00<00:00, 8771.16it/s]
+[12:21:34] INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/Qwen/Qwen3.5-4B/resolve/main/generation_config.json     
+                    "HTTP/1.1 404 Not Found"                                                       
+           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/Qwen/Qwen3.5-4B/resolve/main/config.json "HTTP/1.1 307  
+                    Temporary Redirect"                                                            
+           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-4B/851bf6e806efd8d
+                    0a36b00ddf55e13ccb7b8cd0a/config.json "HTTP/1.1 200 OK"                        
+           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/Qwen/Qwen3.5-4B/resolve/main/custom_generate/generate.py
+                    "HTTP/1.1 404 Not Found"                                                       
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+[12:23:48] INFO     Quality eval: BPB=1.5657, PPL=2.96, tokens=124, time=1.2s                      
+[12:23:49] INFO     Power monitor stopped: 789 samples, avg=13.4W, gpu_util=9%                     
+           INFO     Benchmark complete: BPB=1.5657, 5.1 tok/s, 2.663 J/tok, 13.4W avg, GPU util=9%,
+                    mem=29.5 GB                                                                    
+           INFO     🌟 Pareto-optimal! 27ef367ea383 — SCI=0.000326 gCO₂/tok, BPB=1.5657, 5.1 tok/s 
+           INFO     ⏱️  Total time limit reached (600s). Stopping.                                 
+           INFO     ━━━ Research loop complete (1314.4s elapsed) ━━━                               
+╭──────────────────────────── 📊 Workbench Summary — SCI Optimization ────────────────────────────╮
+│   Total experiments       2                                                                     │
+│   Completed               2                                                                     │
+│   Failed                  0                                                                     │
+│   Frontier size           1                                                                     │
+│                                                                                                 │
+│   🌱 Best SCI             0.000326 gCO₂/tok                                                     │
+│     Grid intensity (I)    400 gCO₂/kWh                                                          │
+│     @ 1M tok/day          0.3259 kgCO₂ (≈ 0.8 miles driven)                                     │
+│                                                                                                 │
+│   Best BPB                1.5657                                                                │
+│   Best J/token            2.6632                                                                │
+│   Best throughput         5.1 tok/s                                                             │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────╯
+                               🏆 Pareto Frontier — Top 1 (by SCI ↓)                               
+┏━━━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┳━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━━┳━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃              ┃        ┃       ┃       ┃        ┃        ┃       ┃  tok/s ┃      ┃   Mem ┃       ┃
+┃ Hash         ┃ Model  ┃ Quant ┃ Batch ┃  SCI ↓ ┃  BPB ↓ ┃ J/tok ┃      ↑ ┃ GPU% ┃    GB ┃ Watts ┃
+┡━━━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━╇━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━━╇━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 27ef367ea383 │ Qwen3… │ none  │     8 │ 0.000… │ 1.5657 │ 2.66… │    5.1 │   9% │  29.5 │  13.4 │
+└──────────────┴────────┴───────┴───────┴────────┴────────┴───────┴────────┴──────┴───────┴───────┘
+╭───────────────────────────────── 🌱 SCI (gCO₂/tok) ↑ vs BPB → ──────────────────────────────────╮
+│                                                                                                 │
+│ 4.03e-04 │                                                           ●                          │
+│          │                                                                                      │
+│          │                                                                                      │
+│          │                                                                                      │
+│          │                                                                                      │
+│          │                                                                                      │
+│          │                                                                                      │
+│          │                                                                                      │
+│          │                                                                                      │
+│          │                                                                                      │
+│          │                                                                                      │
+│          │                                                                                      │
+│          │                                                                                      │
+│          │                                                                                      │
+│          │                                                                                      │
+│          │                                                                                      │
+│          │                                                                                      │
+│          │                                                                                      │
+│          │                                                                                      │
+│ 3.26e-04 │●                                                                                     │
+│          └────────────────────────────────────────────────────────────                          │
+│           1.566                                              4.066                              │
+│           BPB →  (red = Pareto frontier)                                                        │
+│                                                                                                 │
+╰─────────────────── ● none  ▲ gptq-4bit  ■ gptq-8bit  ◆ awq-4bit  ★ awq-8bit ────────────────────╯
+           INFO     📁 Results →                                                                   
+                    /home/asus/yhackDGX/yhacktemp/autoresearch-yaledgx/runs/run_20260328_120150/res
+                    ults.db                                                                        

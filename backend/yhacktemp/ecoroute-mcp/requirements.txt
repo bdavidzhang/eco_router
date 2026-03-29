@@ -1,0 +1,8 @@
+mcp
+httpx
+anyio
+fastapi
+uvicorn
+numpy
+scikit-learn
+pandas

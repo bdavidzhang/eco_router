@@ -1,0 +1,93 @@
+🔬 Auto-Improving LLM Research Workbench
+Optimizing: SCI = (E x I) + M — gCO2 per token
+  Strategy: auto
+  Max iterations: 2
+  Total time: unlimited
+  Per-experiment budget: 300s
+  Grid intensity (I): 400 gCO2/kWh (us_average)
+  Embodied (M): 0.00003 gCO2/tok
+  Database: 
+/home/asus/yhackDGX/yhacktemp/autoresearch-yaledgx/runs/run_20260328_134309/resu
+lts.db
+
+[13:43:18] INFO     🚀 Research loop starting — strategy=grid, max_iter=2,      
+                    existing_results=0                                          
+           INFO     📁 Results →                                                
+                    /home/asus/yhackDGX/yhacktemp/autoresearch-yaledgx/runs/run_
+                    20260328_134309/results.db                                  
+           INFO     🔄 Switching to Random strategy (0 completed results)       
+           INFO     ━━━ Iteration 1/2 ━━━ [random] Qwen3.5-9B none batch=32     
+           INFO     Executing experiment 99a67d9a214d                           
+           INFO     Starting benchmark: Qwen/Qwen3.5-9B [none, batch=32,        
+                    seq=512] on cuda (mem: 8.6/119.6 GB, load: 0.3)             
+           INFO     Power monitor started (interval=1.0s)                       
+[13:43:19] INFO     HTTP Request: HEAD                                          
+                    https://huggingface.co/Qwen/Qwen3.5-9B/resolve/main/config.j
+                    son "HTTP/1.1 307 Temporary Redirect"                       
+           INFO     HTTP Request: HEAD                                          
+                    https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5
+                    -9B/c202236235762e1c871ad0ccb60c8ee5ba337b9a/config.json    
+                    "HTTP/1.1 200 OK"                                           
+           INFO     HTTP Request: HEAD                                          
+                    https://huggingface.co/Qwen/Qwen3.5-9B/resolve/main/tokenize
+                    r_config.json "HTTP/1.1 307 Temporary Redirect"             
+           INFO     HTTP Request: HEAD                                          
+                    https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5
+                    -9B/c202236235762e1c871ad0ccb60c8ee5ba337b9a/tokenizer_confi
+                    g.json "HTTP/1.1 200 OK"                                    
+           INFO     HTTP Request: HEAD                                          
+                    https://huggingface.co/Qwen/Qwen3.5-9B/resolve/main/tokenize
+                    r_config.json "HTTP/1.1 307 Temporary Redirect"             
+           INFO     HTTP Request: HEAD                                          
+                    https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5
+                    -9B/c202236235762e1c871ad0ccb60c8ee5ba337b9a/tokenizer_confi
+                    g.json "HTTP/1.1 200 OK"                                    
+           INFO     HTTP Request: GET                                           
+                    https://huggingface.co/api/models/Qwen/Qwen3.5-9B/tree/main/
+                    additional_chat_templates?recursive=false&expand=false      
+                    "HTTP/1.1 404 Not Found"                                    
+           INFO     HTTP Request: GET                                           
+                    https://huggingface.co/api/models/Qwen/Qwen3.5-9B/tree/main?
+                    recursive=true&expand=false "HTTP/1.1 200 OK"               
+[13:43:20] INFO     HTTP Request: GET                                           
+                    https://huggingface.co/api/models/Qwen/Qwen3.5-9B "HTTP/1.1 
+                    200 OK"                                                     
+           INFO     HTTP Request: HEAD                                          
+                    https://huggingface.co/Qwen/Qwen3.5-9B/resolve/main/config.j
+                    son "HTTP/1.1 307 Temporary Redirect"                       
+           INFO     HTTP Request: HEAD                                          
+                    https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5
+                    -9B/c202236235762e1c871ad0ccb60c8ee5ba337b9a/config.json    
+                    "HTTP/1.1 200 OK"                                           
+`torch_dtype` is deprecated! Use `dtype` instead!
+           INFO     HTTP Request: HEAD                                          
+                    https://huggingface.co/Qwen/Qwen3.5-9B/resolve/main/model.sa
+                    fetensors "HTTP/1.1 404 Not Found"                          
+           INFO     HTTP Request: HEAD                                          
+                    https://huggingface.co/Qwen/Qwen3.5-9B/resolve/main/model.sa
+                    fetensors.index.json "HTTP/1.1 307 Temporary Redirect"      
+           INFO     HTTP Request: HEAD                                          
+                    https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5
+                    -9B/c202236235762e1c871ad0ccb60c8ee5ba337b9a/model.safetenso
+                    rs.index.json "HTTP/1.1 200 OK"                             
+           INFO     HTTP Request: GET                                           
+                    https://huggingface.co/api/models/Qwen/Qwen3.5-9B/revision/m
+                    ain "HTTP/1.1 200 OK"                                       
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files: 100%|██████████| 4/4 [00:00<00:00, 10512.04it/s]
+The fast path is not available because one of the required library is not installed. Falling back to torch implementation. To install follow https://github.com/fla-org/flash-linear-attention#installation and https://github.com/Dao-AILab/causal-conv1d
+Loading weights:   0%|          | 0/427 [00:00<?, ?it/s]Loading weights: 100%|██████████| 427/427 [00:00<00:00, 4875.72it/s]
+[13:43:21] INFO     HTTP Request: HEAD                                          
+                    https://huggingface.co/Qwen/Qwen3.5-9B/resolve/main/generati
+                    on_config.json "HTTP/1.1 404 Not Found"                     
+           INFO     HTTP Request: HEAD                                          
+                    https://huggingface.co/Qwen/Qwen3.5-9B/resolve/main/config.j
+                    son "HTTP/1.1 307 Temporary Redirect"                       
+           INFO     HTTP Request: HEAD                                          
+                    https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5
+                    -9B/c202236235762e1c871ad0ccb60c8ee5ba337b9a/config.json    
+                    "HTTP/1.1 200 OK"                                           
+           INFO     HTTP Request: HEAD                                          
+                    https://huggingface.co/Qwen/Qwen3.5-9B/resolve/main/custom_g
+                    enerate/generate.py "HTTP/1.1 404 Not Found"                
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:248044 for open-end generation.

@@ -1,0 +1,5 @@
+18:04:10 INFO 🌟 Pareto-optimal! 03231afb0e87 — SCI=0.000117 gCO₂/tok, BPB=4.0656, 19.6 tok/s
+18:04:10 INFO 📉 Config f56e365bed67 dominated (rank 1, SCI=0.001506)
+18:04:10 INFO Skipping evaluation for 98cf840cc034 (status=failed)
+18:04:10 INFO Skipping evaluation for a158977610fa (status=failed)
+18:04:10 INFO 📉 Config f9def18723f9 dominated (rank 1, SCI=0.000527)

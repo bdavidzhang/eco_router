@@ -1,0 +1,11 @@
+{
+  "timestamp": "20260328_134309",
+  "target_iterations": 15,
+  "batch_size_per_call": 2,
+  "time_budget_per_experiment_sec": 300,
+  "strategy": "auto",
+  "region": "us_average",
+  "model_family": "Qwen/Qwen3.5",
+  "hostname": "gx10-f443",
+  "script": "run_15iter.sh"
+}

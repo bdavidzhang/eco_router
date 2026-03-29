@@ -1,0 +1,198 @@
+[0;34mDGX Spark Sensor Discovery[0m
+Date: Sat Mar 28 10:23:50 AM PDT 2026
+Hostname: gx10-f443
+Kernel: 6.17.0-1008-nvidia
+Architecture: aarch64
+
+========================================
+1. SYSTEM OVERVIEW
+========================================
+
+[1;33mCPU Info:[0m
+processor	: 0
+BogoMIPS	: 2000.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 dgh bti ecv afp wfxt
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd87
+CPU revision	: 1
+
+processor	: 1
+BogoMIPS	: 2000.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 dgh bti ecv afp wfxt
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd87
+CPU revision	: 1
+
+processor	: 2
+BogoMIPS	: 2000.00
+
+[1;33mMemory:[0m
+               total        used        free      shared  buff/cache   available
+Mem:           119Gi       7.0Gi       109Gi       122Mi       3.8Gi       112Gi
+Swap:           15Gi          0B        15Gi
+
+[1;33mUptime:[0m
+ 10:23:50 up 59 min,  3 users,  load average: 0.30, 0.25, 0.19
+
+========================================
+2. NVIDIA GPU / TEGRA SENSORS
+========================================
+
+[1;33mnvidia-smi:[0m
+[0;32m✓[0m nvidia-smi available
+Sat Mar 28 10:23:50 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.126.09             Driver Version: 580.126.09     CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GB10                    On  |   0000000F:01:00.0 Off |                  N/A |
+| N/A   39C    P8              4W /  N/A  | Not Supported          |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|    0   N/A  N/A            3196      G   /usr/lib/xorg/Xorg                      117MiB |
+|    0   N/A  N/A            3333      G   /usr/bin/gnome-shell                    147MiB |
+|    0   N/A  N/A            4368      G   .../7965/usr/lib/firefox/firefox        313MiB |
+|    0   N/A  N/A            5491      G   /usr/bin/gnome-control-center            31MiB |
++-----------------------------------------------------------------------------------------+
+
+name, temperature.gpu, power.draw [W], clocks.current.graphics [MHz], clocks.current.memory [MHz], utilization.gpu [%], utilization.memory [%]
+NVIDIA GB10, 39, 4.03 W, 208 MHz, [N/A], 0 %, 0 %
+
+[1;33mtegrastats:[0m
+[0;31m✗[0m tegrastats not found
+tegrastats not available (Jetson-specific tool)
+
+[1;33mjetson_clocks (status):[0m
+jetson_clocks not available
+
+========================================
+3. THERMAL ZONES (/sys/class/thermal)
+========================================
+
+[1;33mAvailable thermal zones:[0m
+  thermal_zone0: acpitz = 41.8°C
+  thermal_zone1: acpitz = 41.8°C
+  thermal_zone2: acpitz = 41.8°C
+  thermal_zone3: acpitz = 40.9°C
+  thermal_zone4: acpitz = 41.1°C
+  thermal_zone5: acpitz = 40.7°C
+  thermal_zone6: acpitz = 40.9°C
+
+========================================
+4. HARDWARE MONITORING (/sys/class/hwmon)
+========================================
+
+[1;33mhwmon0:[0m
+  Device: acpi_fan
+  fan1: 2
+  power1: 5000
+
+[1;33mhwmon1:[0m
+  Device: acpitz
+  temp1: 41800
+  temp2: 41800
+  temp3: 41800
+  temp4: 40900
+  temp5: 41100
+  temp6: 40700
+  temp7: 40900
+
+[1;33mhwmon2:[0m
+  Device: nvme
+  Composite: 37850
+  Sensor 1: 37850
+
+[1;33mhwmon3:[0m
+  Device: mlx5
+  asic: 43000
+
+[1;33mhwmon4:[0m
+  Device: mlx5
+  asic: 43000
+
+[1;33mhwmon5:[0m
+  Device: mlx5
+  asic: 43000
+
+[1;33mhwmon6:[0m
+  Device: mlx5
+  asic: 42000
+
+[1;33mhwmon7:[0m
+  Device: mt7925_phy0
+  temp1: 42000
+
+========================================
+5. lm-sensors
+========================================
+[0;31m✗[0m sensors not found
+Install with: sudo apt install lm-sensors
+Then run: sudo sensors-detect
+
+========================================
+6. IPMI SENSORS
+========================================
+[0;32m✓[0m ipmitool available
+
+[1;33mIPMI sensor list:[0m
+IPMI access failed (may need sudo or IPMI not available)
+
+[1;33mIPMI sensor reading:[0m
+Reading failed
+
+[1;33mIPMI sdr:[0m
+SDR failed
+
+========================================
+7. POWER SUPPLY
+========================================
+
+[1;33mPower supplies:[0m
+
+========================================
+8. NVMe STORAGE SENSORS
+========================================
+[0;32m✓[0m nvme available
+
+[1;33mNVMe devices:[0m
+nvme list failed (may need sudo)
+
+  nvme0n1:
+    Temperature info not available
+[0;32m✓[0m smartctl available
+
+[1;33mSMART data:[0m
+
+========================================
+9. PMIC (Power Management IC)
+========================================
+
+========================================
+10. BATTERY (if present)
+========================================
+No battery detected
+
+========================================
+11. SUMMARY
+========================================
+
+Sensor sources found:
+  - Thermal zones: 140
+  - HWMON devices: 96
+  - Power supplies: 0
+
+[0;32mDiscovery complete![0m
+Run 'bash collect_all.sh' for a full data collection.

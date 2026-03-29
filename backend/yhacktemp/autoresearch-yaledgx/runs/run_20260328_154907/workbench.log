@@ -1,0 +1,107 @@
+15:49:11 INFO 🚀 Research loop starting — strategy=grid, max_iter=50, total_time=10:00, existing_results=0
+15:49:11 INFO 📁 Results → /home/asus/yhackDGX/yhacktemp/autoresearch-yaledgx/runs/run_20260328_154907/results.db
+15:49:11 INFO 🔄 Switching to Random strategy (0 completed results)
+15:49:11 INFO ━━━ Iteration 1/50 ⏱ 9:59 remaining ━━━ [random] Qwen3.5-9B none batch=32
+15:49:11 INFO Executing experiment 6e0d432ea49f
+15:49:11 INFO Starting benchmark: Qwen/Qwen3.5-9B [none, batch=32, seq=128] on cuda (mem: 8.4/119.6 GB, load: 2.7)
+15:49:11 INFO Power monitor started (interval=1.0s)
+15:49:12 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-9B/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+15:49:12 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-9B/c202236235762e1c871ad0ccb60c8ee5ba337b9a/config.json "HTTP/1.1 200 OK"
+15:49:12 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-9B/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+15:49:12 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-9B/c202236235762e1c871ad0ccb60c8ee5ba337b9a/tokenizer_config.json "HTTP/1.1 200 OK"
+15:49:12 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-9B/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+15:49:12 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-9B/c202236235762e1c871ad0ccb60c8ee5ba337b9a/tokenizer_config.json "HTTP/1.1 200 OK"
+15:49:12 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-9B/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+15:49:12 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-9B/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+15:49:13 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-9B "HTTP/1.1 200 OK"
+15:49:13 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-9B/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+15:49:13 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-9B/c202236235762e1c871ad0ccb60c8ee5ba337b9a/config.json "HTTP/1.1 200 OK"
+15:49:13 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-9B/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+15:49:13 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-9B/resolve/main/model.safetensors.index.json "HTTP/1.1 307 Temporary Redirect"
+15:49:13 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-9B/c202236235762e1c871ad0ccb60c8ee5ba337b9a/model.safetensors.index.json "HTTP/1.1 200 OK"
+15:49:13 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-9B/revision/main "HTTP/1.1 200 OK"
+15:49:14 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-9B/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+15:49:14 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-9B/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+15:49:14 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-9B/c202236235762e1c871ad0ccb60c8ee5ba337b9a/config.json "HTTP/1.1 200 OK"
+15:49:14 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-9B/resolve/main/custom_generate/generate.py "HTTP/1.1 404 Not Found"
+15:53:49 INFO 📦 Cached model: Qwen/Qwen3.5-9B|none|float16
+15:53:50 INFO Power monitor stopped: 151 samples, avg=16.1W, gpu_util=25%
+15:53:50 ERROR Unexpected error for 6e0d432ea49f: Hard deadline hit during model load
+Traceback (most recent call last):
+  File "/home/asus/yhackDGX/yhacktemp/autoresearch-yaledgx/src/workbench/executor.py", line 51, in run
+    metrics = run_benchmark(config, on_phase=on_phase)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asus/yhackDGX/yhacktemp/autoresearch-yaledgx/src/workbench/benchmark/harness.py", line 254, in run_benchmark
+    return _run_benchmark_inner(config, hard_deadline, _emit)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asus/yhackDGX/yhacktemp/autoresearch-yaledgx/src/workbench/benchmark/harness.py", line 298, in _run_benchmark_inner
+    raise TimeoutError("Hard deadline hit during model load")
+TimeoutError: Hard deadline hit during model load
+
+15:53:50 INFO Skipping evaluation for 6e0d432ea49f (status=failed)
+15:53:50 INFO ━━━ Iteration 2/50 ⏱ 5:20 remaining ━━━ [random] Qwen3.5-0.8B none batch=4
+15:53:50 INFO Executing experiment 8a216c104242
+15:53:50 INFO Starting benchmark: Qwen/Qwen3.5-0.8B [none, batch=4, seq=2048] on cuda (mem: 94.2/119.6 GB, load: 75.9)
+15:53:50 INFO Power monitor started (interval=1.0s)
+15:53:50 INFO Evicting cached model (new config: Qwen/Qwen3.5-0.8B|none|bfloat16)
+15:53:53 INFO Model cache cleared.
+15:53:53 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+15:53:53 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/config.json "HTTP/1.1 200 OK"
+15:53:53 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+15:53:53 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/tokenizer_config.json "HTTP/1.1 200 OK"
+15:53:53 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+15:53:53 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/tokenizer_config.json "HTTP/1.1 200 OK"
+15:53:53 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-0.8B/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+15:53:53 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-0.8B/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+15:53:55 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-0.8B "HTTP/1.1 200 OK"
+15:53:55 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+15:53:55 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/config.json "HTTP/1.1 200 OK"
+15:53:55 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+15:53:55 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/model.safetensors.index.json "HTTP/1.1 307 Temporary Redirect"
+15:53:55 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/model.safetensors.index.json "HTTP/1.1 200 OK"
+15:53:55 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/model.safetensors-00001-of-00001.safetensors "HTTP/1.1 302 Found"
+15:53:55 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+15:53:55 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+15:53:55 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-0.8B/2fc06364715b967f1860aea9cf38778875588b17/config.json "HTTP/1.1 200 OK"
+15:53:55 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-0.8B/resolve/main/custom_generate/generate.py "HTTP/1.1 404 Not Found"
+15:54:09 INFO 📦 Cached model: Qwen/Qwen3.5-0.8B|none|bfloat16
+15:54:31 INFO Quality eval: BPB=4.0656, PPL=16.74, tokens=124, time=0.8s
+15:54:31 INFO Power monitor stopped: 36 samples, avg=21.9W, gpu_util=56%
+15:54:31 INFO Benchmark complete: BPB=4.0656, 24.7 tok/s, 0.834 J/tok, 21.9W avg, GPU util=56%, mem=47.0 GB (40.8s wall)
+15:54:31 WARNING Experiment 8a216c104242 completed but thermal throttled — results may be unreliable
+15:54:31 INFO Skipping evaluation for 8a216c104242 (status=discarded)
+15:54:31 WARNING ⚠️  Thermal threshold exceeded — cooling down for 10s
+15:54:41 INFO ━━━ Iteration 3/50 ⏱ 4:29 remaining ━━━ [random] Qwen3.5-0.8B none batch=8
+15:54:41 INFO Executing experiment 757b1dfbf983
+15:54:41 INFO Starting benchmark: Qwen/Qwen3.5-0.8B [none, batch=8, seq=128] on cuda (mem: 56.3/119.6 GB, load: 35.3)
+15:54:41 INFO Power monitor started (interval=1.0s)
+15:54:41 INFO ♻️  Reusing cached model for Qwen/Qwen3.5-0.8B
+15:55:03 INFO Quality eval: BPB=4.0656, PPL=16.74, tokens=124, time=0.4s
+15:55:03 INFO Power monitor stopped: 21 samples, avg=27.8W, gpu_util=80%
+15:55:03 INFO Benchmark complete: BPB=4.0656, 60.7 tok/s, 0.441 J/tok, 27.8W avg, GPU util=80%, mem=59.7 GB (22.0s wall)
+15:55:03 INFO 🌟 Pareto-optimal! 757b1dfbf983 — SCI=0.000079 gCO₂/tok, BPB=4.0656, 60.7 tok/s
+15:55:03 INFO ━━━ Iteration 4/50 ⏱ 4:07 remaining ━━━ [random] Qwen3.5-9B none batch=2
+15:55:03 INFO Executing experiment 6ab9184cb42a
+15:55:03 INFO Starting benchmark: Qwen/Qwen3.5-9B [none, batch=2, seq=512] on cuda (mem: 59.8/119.6 GB, load: 28.1)
+15:55:03 INFO Power monitor started (interval=1.0s)
+15:55:03 INFO Evicting cached model (new config: Qwen/Qwen3.5-9B|none|bfloat16)
+15:55:03 INFO Model cache cleared.
+15:55:03 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-9B/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+15:55:03 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-9B/c202236235762e1c871ad0ccb60c8ee5ba337b9a/config.json "HTTP/1.1 200 OK"
+15:55:03 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-9B/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+15:55:03 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-9B/c202236235762e1c871ad0ccb60c8ee5ba337b9a/tokenizer_config.json "HTTP/1.1 200 OK"
+15:55:03 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-9B/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+15:55:03 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-9B/c202236235762e1c871ad0ccb60c8ee5ba337b9a/tokenizer_config.json "HTTP/1.1 200 OK"
+15:55:03 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-9B/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+15:55:03 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-9B/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+15:55:04 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-9B "HTTP/1.1 200 OK"
+15:55:05 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-9B/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+15:55:05 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-9B/c202236235762e1c871ad0ccb60c8ee5ba337b9a/config.json "HTTP/1.1 200 OK"
+15:55:05 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-9B/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+15:55:05 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-9B/resolve/main/model.safetensors.index.json "HTTP/1.1 307 Temporary Redirect"
+15:55:05 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-9B/c202236235762e1c871ad0ccb60c8ee5ba337b9a/model.safetensors.index.json "HTTP/1.1 200 OK"
+15:55:05 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-9B/revision/main "HTTP/1.1 200 OK"
+15:55:05 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-9B/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+15:55:05 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-9B/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+15:55:05 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-9B/c202236235762e1c871ad0ccb60c8ee5ba337b9a/config.json "HTTP/1.1 200 OK"
+15:55:05 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-9B/resolve/main/custom_generate/generate.py "HTTP/1.1 404 Not Found"

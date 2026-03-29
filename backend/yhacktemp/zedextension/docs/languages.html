@@ -1,0 +1,892 @@
+<!DOCTYPE HTML>
+<html lang="en" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <style>
+            @view-transition {
+                navigation: auto;
+            }
+            ::view-transition-old(root),
+            ::view-transition-new(root) {
+                animation-duration: 0.05s;
+            }
+        </style>
+        <!-- Theme initialization - must run before any CSS loads to prevent flicker -->
+        <script>
+            (function() {
+                var theme;
+                try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+                if (theme === null || theme === undefined) {
+                    theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+                }
+                var html = document.documentElement;
+                html.setAttribute('data-theme', theme);
+                html.setAttribute('data-color-scheme', theme);
+                html.className = theme;
+            })();
+        </script>
+        <title>Language Extensions | Language Extensions</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content=""Overview of programming language support in Zed, including built-in and extension-based languages."">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="../theme/page-toc.css">
+        <link rel="stylesheet" href="../theme/plugins.css">
+        <link rel="stylesheet" href="../theme/highlight.css">
+        <link rel="stylesheet" href="../theme/consent-banner.css">
+
+        <meta name="amplitude-key" content="dff590dc008f326963fa3e9c19ab9ff5" />
+        <meta name="consent-io-instance" content="https://zed-us-east-1-zed-production.c15t.dev" />
+    </head>
+    <body class="no-js">
+    <div id="body-container">
+        <div class="noise-pattern" style="background-image: url('https://cdn.zed.dev/images/noise.png');"></div>
+
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+            // Mark as JS-enabled
+            document.body.classList.remove('no-js');
+            document.body.classList.add('js');
+        </script>
+
+        <header class="header-bar">
+            <div class="left-container">
+                <a href="/" class="logo-nav">
+                    <img src="https://zed.dev/logo_icon.webp" class="icon-logo-img" alt="Zed Industries" style="height: 26px;">
+                </a>
+                <button id="sidebar-toggle" class="icon-button ib-hidden-desktop" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar" aria-expanded="false">
+                    <i class="fa fa-bars"></i>
+                </button>
+            </div>
+            <button id="search-toggle" class="search-button" type="button" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                <i class="icon fa fa-search"></i>
+                <span class="search-content-desktop">
+                    <span class="placeholder">Search docs…</span>
+                    <kbd>S</kbd>
+                </span>
+                <span class="search-content-mobile">
+                    <span class="placeholder">Search…</span>
+                </span>
+            </button>
+            <div class="right-container">
+                <button id="theme-toggle" class="icon-button" type="button" title="Change Theme" aria-label="Change Theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                    <i class="fa fa-paint-brush"></i>
+                </button>
+
+                <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                    <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                    <li role="none"><button role="menuitem" class="theme" id="dark">Dark</button></li>
+                </ul>
+
+                <button id="copy-markdown-toggle" class="icon-button ib-hidden-mobile" type="button" title="Copy Page as Markdown" aria-label="Copy page as markdown">
+                    <i class="fa fa-copy"></i>
+                </button>
+
+                <a class="download-button" href="https://zed.dev/download" title="Download Zed" aria-label="Download Zed">
+                    Download
+                </a>
+            </div>
+        </header>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="search-container">
+                <div id="search-wrapper" class="search-modal hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search…" aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+                <div class="sidebar-scrollbox">
+                    <ol class="chapter"><li class="chapter-item expanded affix "><li class="part-title">Welcome</li><li class="chapter-item expanded "><a href="../getting-started.html">Getting Started</a></li><li class="chapter-item expanded "><a href="../installation.html">Installation</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../update.html">Update</a></li><li class="chapter-item expanded "><a href="../uninstall.html">Uninstall</a></li></ol></li><li class="chapter-item expanded "><a href="../troubleshooting.html">Troubleshooting</a></li><li class="chapter-item expanded affix "><li class="part-title">AI</li><li class="chapter-item expanded "><a href="../ai/overview.html">Overview</a></li><li class="chapter-item expanded "><a href="../ai/agent-panel.html">Agent Panel</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ai/tools.html">Tools</a></li><li class="chapter-item expanded "><a href="../ai/tool-permissions.html">Tool Permissions</a></li><li class="chapter-item expanded "><a href="../ai/external-agents.html">External Agents</a></li></ol></li><li class="chapter-item expanded "><a href="../ai/inline-assistant.html">Inline Assistant</a></li><li class="chapter-item expanded "><a href="../ai/edit-prediction.html">Edit Prediction</a></li><li class="chapter-item expanded "><a href="../ai/text-threads.html">Text Threads</a></li><li class="chapter-item expanded "><a href="../ai/rules.html">Rules</a></li><li class="chapter-item expanded "><a href="../ai/mcp.html">Model Context Protocol</a></li><li class="chapter-item expanded "><a href="../ai/configuration.html">Configuration</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ai/llm-providers.html">LLM Providers</a></li><li class="chapter-item expanded "><a href="../ai/agent-settings.html">Agent Settings</a></li></ol></li><li class="chapter-item expanded "><a href="../ai/subscription.html">Subscription</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../ai/models.html">Models</a></li><li class="chapter-item expanded "><a href="../ai/plans-and-usage.html">Plans and Usage</a></li><li class="chapter-item expanded "><a href="../ai/billing.html">Billing</a></li></ol></li><li class="chapter-item expanded "><li class="part-title">Working with Code</li><li class="chapter-item expanded "><a href="../editing-code.html">Editing Code</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../completions.html">Code Completions</a></li><li class="chapter-item expanded "><a href="../snippets.html">Snippets</a></li><li class="chapter-item expanded "><a href="../diagnostics.html">Diagnostics & Quick Fixes</a></li><li class="chapter-item expanded "><a href="../multibuffers.html">Multibuffers</a></li></ol></li><li class="chapter-item expanded "><a href="../finding-navigating.html">Finding & Navigating</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../command-palette.html">Command Palette</a></li><li class="chapter-item expanded "><a href="../outline-panel.html">Outline Panel</a></li><li class="chapter-item expanded "><a href="../tab-switcher.html">Tab Switcher</a></li></ol></li><li class="chapter-item expanded "><a href="../running-testing.html">Running & Testing</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../terminal.html">Terminal</a></li><li class="chapter-item expanded "><a href="../tasks.html">Tasks</a></li><li class="chapter-item expanded "><a href="../debugger.html">Debugger</a></li><li class="chapter-item expanded "><a href="../repl.html">REPL</a></li></ol></li><li class="chapter-item expanded "><a href="../git.html">Git</a></li><li class="chapter-item expanded "><a href="../modelines.html">Modelines</a></li><li class="chapter-item expanded affix "><li class="part-title">Collaboration</li><li class="chapter-item expanded "><a href="../collaboration/overview.html">Overview</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../collaboration/channels.html">Channels</a></li><li class="chapter-item expanded "><a href="../collaboration/contacts-and-private-calls.html">Contacts and Private Calls</a></li></ol></li><li class="chapter-item expanded "><li class="part-title">Remote Development</li><li class="chapter-item expanded "><a href="../remote-development.html">Overview</a></li><li class="chapter-item expanded "><a href="../environment.html">Environment Variables</a></li><li class="chapter-item expanded "><a href="../dev-containers.html">Dev Containers</a></li><li class="chapter-item expanded affix "><li class="part-title">Platform Support</li><li class="chapter-item expanded "><a href="../macos.html">macOS</a></li><li class="chapter-item expanded "><a href="../windows.html">Windows</a></li><li class="chapter-item expanded "><a href="../linux.html">Linux</a></li><li class="chapter-item expanded affix "><li class="part-title">Customization</li><li class="chapter-item expanded "><a href="../appearance.html">Appearance</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../themes.html">Themes</a></li><li class="chapter-item expanded "><a href="../icon-themes.html">Icon Themes</a></li><li class="chapter-item expanded "><a href="../visual-customization.html">Fonts & Visual Tweaks</a></li></ol></li><li class="chapter-item expanded "><a href="../key-bindings.html">Keybindings</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../vim.html">Vim Mode</a></li><li class="chapter-item expanded "><a href="../helix.html">Helix Mode</a></li></ol></li><li class="chapter-item expanded "><li class="part-title">Language Support</li><li class="chapter-item expanded "><a href="../languages.html">All Languages</a></li><li class="chapter-item expanded "><a href="../configuring-languages.html">Configuring Languages</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../toolchains.html">Toolchains</a></li><li class="chapter-item expanded "><a href="../semantic-tokens.html">Semantic Tokens</a></li></ol></li><li class="chapter-item expanded "><a href="../languages/ansible.html">Ansible</a></li><li class="chapter-item expanded "><a href="../languages/asciidoc.html">AsciiDoc</a></li><li class="chapter-item expanded "><a href="../languages/astro.html">Astro</a></li><li class="chapter-item expanded "><a href="../languages/bash.html">Bash</a></li><li class="chapter-item expanded "><a href="../languages/biome.html">Biome</a></li><li class="chapter-item expanded "><a href="../languages/c.html">C</a></li><li class="chapter-item expanded "><a href="../languages/cpp.html">C++</a></li><li class="chapter-item expanded "><a href="../languages/csharp.html">C#</a></li><li class="chapter-item expanded "><a href="../languages/clojure.html">Clojure</a></li><li class="chapter-item expanded "><a href="../languages/css.html">CSS</a></li><li class="chapter-item expanded "><a href="../languages/dart.html">Dart</a></li><li class="chapter-item expanded "><a href="../languages/deno.html">Deno</a></li><li class="chapter-item expanded "><a href="../languages/diff.html">Diff</a></li><li class="chapter-item expanded "><a href="../languages/docker.html">Docker</a></li><li class="chapter-item expanded "><a href="../languages/elixir.html">Elixir</a></li><li class="chapter-item expanded "><a href="../languages/elm.html">Elm</a></li><li class="chapter-item expanded "><a href="../languages/emmet.html">Emmet</a></li><li class="chapter-item expanded "><a href="../languages/erlang.html">Erlang</a></li><li class="chapter-item expanded "><a href="../languages/fish.html">Fish</a></li><li class="chapter-item expanded "><a href="../languages/gdscript.html">GDScript</a></li><li class="chapter-item expanded "><a href="../languages/gleam.html">Gleam</a></li><li class="chapter-item expanded "><a href="../languages/glsl.html">GLSL</a></li><li class="chapter-item expanded "><a href="../languages/go.html">Go</a></li><li class="chapter-item expanded "><a href="../languages/groovy.html">Groovy</a></li><li class="chapter-item expanded "><a href="../languages/haskell.html">Haskell</a></li><li class="chapter-item expanded "><a href="../languages/helm.html">Helm</a></li><li class="chapter-item expanded "><a href="../languages/html.html">HTML</a></li><li class="chapter-item expanded "><a href="../languages/java.html">Java</a></li><li class="chapter-item expanded "><a href="../languages/javascript.html">JavaScript</a></li><li class="chapter-item expanded "><a href="../languages/julia.html">Julia</a></li><li class="chapter-item expanded "><a href="../languages/json.html">JSON</a></li><li class="chapter-item expanded "><a href="../languages/jsonnet.html">Jsonnet</a></li><li class="chapter-item expanded "><a href="../languages/kotlin.html">Kotlin</a></li><li class="chapter-item expanded "><a href="../languages/lua.html">Lua</a></li><li class="chapter-item expanded "><a href="../languages/luau.html">Luau</a></li><li class="chapter-item expanded "><a href="../languages/makefile.html">Makefile</a></li><li class="chapter-item expanded "><a href="../languages/markdown.html">Markdown</a></li><li class="chapter-item expanded "><a href="../languages/nim.html">Nim</a></li><li class="chapter-item expanded "><a href="../languages/ocaml.html">OCaml</a></li><li class="chapter-item expanded "><a href="../languages/opentofu.html">OpenTofu</a></li><li class="chapter-item expanded "><a href="../languages/php.html">PHP</a></li><li class="chapter-item expanded "><a href="../languages/powershell.html">PowerShell</a></li><li class="chapter-item expanded "><a href="../languages/prisma.html">Prisma</a></li><li class="chapter-item expanded "><a href="../languages/proto.html">Proto</a></li><li class="chapter-item expanded "><a href="../languages/purescript.html">PureScript</a></li><li class="chapter-item expanded "><a href="../languages/python.html">Python</a></li><li class="chapter-item expanded "><a href="../languages/r.html">R</a></li><li class="chapter-item expanded "><a href="../languages/rego.html">Rego</a></li><li class="chapter-item expanded "><a href="../languages/rst.html">ReStructuredText</a></li><li class="chapter-item expanded "><a href="../languages/racket.html">Racket</a></li><li class="chapter-item expanded "><a href="../languages/roc.html">Roc</a></li><li class="chapter-item expanded "><a href="../languages/ruby.html">Ruby</a></li><li class="chapter-item expanded "><a href="../languages/rust.html">Rust</a></li><li class="chapter-item expanded "><a href="../languages/scala.html">Scala</a></li><li class="chapter-item expanded "><a href="../languages/scheme.html">Scheme</a></li><li class="chapter-item expanded "><a href="../languages/sh.html">Shell Script</a></li><li class="chapter-item expanded "><a href="../languages/sql.html">SQL</a></li><li class="chapter-item expanded "><a href="../languages/svelte.html">Svelte</a></li><li class="chapter-item expanded "><a href="../languages/swift.html">Swift</a></li><li class="chapter-item expanded "><a href="../languages/tailwindcss.html">Tailwind CSS</a></li><li class="chapter-item expanded "><a href="../languages/terraform.html">Terraform</a></li><li class="chapter-item expanded "><a href="../languages/toml.html">TOML</a></li><li class="chapter-item expanded "><a href="../languages/typescript.html">TypeScript</a></li><li class="chapter-item expanded "><a href="../languages/uiua.html">Uiua</a></li><li class="chapter-item expanded "><a href="../languages/vue.html">Vue</a></li><li class="chapter-item expanded "><a href="../languages/xml.html">XML</a></li><li class="chapter-item expanded "><a href="../languages/yaml.html">YAML</a></li><li class="chapter-item expanded "><a href="../languages/yara.html">Yara</a></li><li class="chapter-item expanded "><a href="../languages/yarn.html">Yarn</a></li><li class="chapter-item expanded "><a href="../languages/zig.html">Zig</a></li><li class="chapter-item expanded affix "><li class="part-title">Extensions</li><li class="chapter-item expanded "><a href="../extensions.html">Overview</a></li><li class="chapter-item expanded "><a href="../extensions/installing-extensions.html">Installing Extensions</a></li><li class="chapter-item expanded "><a href="../extensions/developing-extensions.html">Developing Extensions</a></li><li class="chapter-item expanded "><a href="../extensions/capabilities.html">Extension Capabilities</a></li><li class="chapter-item expanded "><a href="../extensions/languages.html" class="active">Language Extensions</a></li><li class="chapter-item expanded "><a href="../extensions/debugger-extensions.html">Debugger Extensions</a></li><li class="chapter-item expanded "><a href="../extensions/themes.html">Theme Extensions</a></li><li class="chapter-item expanded "><a href="../extensions/icon-themes.html">Icon Theme Extensions</a></li><li class="chapter-item expanded "><a href="../extensions/snippets.html">Snippets Extensions</a></li><li class="chapter-item expanded "><a href="../extensions/slash-commands.html">Slash Command Extensions</a></li><li class="chapter-item expanded "><a href="../extensions/agent-servers.html">Agent Server Extensions</a></li><li class="chapter-item expanded "><a href="../extensions/mcp-extensions.html">MCP Server Extensions</a></li><li class="chapter-item expanded affix "><li class="part-title">Coming From…</li><li class="chapter-item expanded "><a href="../migrate/vs-code.html">VS Code</a></li><li class="chapter-item expanded "><a href="../migrate/intellij.html">IntelliJ IDEA</a></li><li class="chapter-item expanded "><a href="../migrate/pycharm.html">PyCharm</a></li><li class="chapter-item expanded "><a href="../migrate/webstorm.html">WebStorm</a></li><li class="chapter-item expanded "><a href="../migrate/rustrover.html">RustRover</a></li><li class="chapter-item expanded affix "><li class="part-title">Reference</li><li class="chapter-item expanded "><a href="../reference/all-settings.html">All Settings</a></li><li class="chapter-item expanded "><a href="../all-actions.html">All Actions</a></li><li class="chapter-item expanded "><a href="../reference/cli.html">CLI Reference</a></li><li class="chapter-item expanded affix "><li class="part-title">Account & Privacy</li><li class="chapter-item expanded "><a href="../authentication.html">Authenticate</a></li><li class="chapter-item expanded "><a href="../roles.html">Roles</a></li><li class="chapter-item expanded "><a href="../ai/privacy-and-security.html">Privacy and Security</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../worktree-trust.html">Worktree Trust</a></li><li class="chapter-item expanded "><a href="../ai/ai-improvement.html">AI Improvement</a></li></ol></li><li class="chapter-item expanded "><a href="../telemetry.html">Telemetry</a></li><li class="chapter-item expanded affix "><li class="part-title">Developing Zed</li><li class="chapter-item expanded "><a href="../development.html">Developing Zed</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../development/macos.html">macOS</a></li><li class="chapter-item expanded "><a href="../development/linux.html">Linux</a></li><li class="chapter-item expanded "><a href="../development/windows.html">Windows</a></li><li class="chapter-item expanded "><a href="../development/freebsd.html">FreeBSD</a></li><li class="chapter-item expanded "><a href="../development/debuggers.html">Using Debuggers</a></li><li class="chapter-item expanded "><a href="../performance.html">Performance</a></li><li class="chapter-item expanded "><a href="../development/glossary.html">Glossary</a></li></ol></li><li class="chapter-item expanded "><a href="../development/release-notes.html">Release Notes</a></li><li class="chapter-item expanded "><a href="../development/debugging-crashes.html">Debugging Crashes</a></li></ol>
+                </div>
+                <div style="display: none;" id="sidebar-resize-handle" class="sidebar-resize-handle">
+                    <div class="sidebar-resize-indicator"></div>
+                </div>
+            </nav>
+
+            <!-- Mobile sidebar toggle -->
+            <script>
+                (function() {
+                    var sidebarToggle = document.getElementById('sidebar-toggle');
+                    var sidebar = document.getElementById('sidebar');
+
+                    sidebarToggle.addEventListener('click', function() {
+                        var isOpen = document.body.classList.toggle('sidebar-open');
+                        sidebarToggle.setAttribute('aria-expanded', isOpen);
+                        sidebar.setAttribute('aria-hidden', !isOpen);
+                    });
+
+                    // Close sidebar when clicking a link inside it (on mobile)
+                    sidebar.addEventListener('click', function(e) {
+                        if (e.target.tagName === 'A' && window.innerWidth < 620) {
+                            document.body.classList.remove('sidebar-open');
+                            sidebarToggle.setAttribute('aria-expanded', 'false');
+                            sidebar.setAttribute('aria-hidden', 'true');
+                        }
+                    });
+                })();
+            </script>
+
+            <!-- Search backdrop handlers -->
+            <script>
+                (function() {
+                    var searchWrapper = document.getElementById('search-wrapper');
+                    var searchContainer = document.querySelector('.search-container');
+                    var searchResults = document.getElementById('searchresults');
+
+                    if (!searchWrapper || !searchContainer) return;
+
+                    searchContainer.addEventListener('click', function(e) {
+                        if (e.target === searchContainer) {
+                            searchWrapper.classList.add('hidden');
+                        }
+                    });
+
+                    if (searchResults) {
+                        searchResults.addEventListener('click', function(e) {
+                            if (e.target.tagName === 'A' || e.target.closest('a')) {
+                                searchWrapper.classList.add('hidden');
+                            }
+                        });
+                    }
+                })();
+            </script>
+
+            <!-- Insert section spacers and apply collapsed state before scroll restoration to prevent layout shift/flicker -->
+            <script>
+                (function() {
+                    var chapterList = document.querySelector('#sidebar ol.chapter');
+                    if (!chapterList) return;
+
+                    var collapsedSections = [];
+                    try {
+                        var stored = sessionStorage.getItem('sidebar-collapsed-sections');
+                        if (stored) {
+                            collapsedSections = JSON.parse(stored);
+                        }
+                    } catch (e) {}
+
+                    var partTitles = chapterList.querySelectorAll('li.part-title');
+                    var previousPartTitle = null;
+
+                    partTitles.forEach(function(partTitle, index) {
+                        partTitle._sectionName = partTitle.textContent.trim();
+
+                        // Insert a spacer before this part-title (except for the first one)
+                        if (index > 0) {
+                            var spacer = document.createElement('li');
+                            spacer.className = 'section-spacer';
+                            partTitle.parentNode.insertBefore(spacer, partTitle);
+
+                            if (previousPartTitle) {
+                                previousPartTitle._spacerAfter = spacer;
+                            }
+                        }
+
+                        var isCollapsed = collapsedSections.includes(partTitle._sectionName);
+                        if (isCollapsed) {
+                            // Hide all siblings until next part-title
+                            var sibling = partTitle.nextElementSibling;
+                            while (sibling && !sibling.classList.contains('part-title')) {
+                                sibling.classList.add('section-hidden');
+                                sibling = sibling.nextElementSibling;
+                            }
+                            // Hide the spacer after this section (will be set on next iteration)
+                            partTitle._isCollapsed = true;
+                        }
+
+                        // If previous section was collapsed, hide its spacer
+                        if (previousPartTitle && previousPartTitle._isCollapsed && previousPartTitle._spacerAfter) {
+                            previousPartTitle._spacerAfter.classList.add('section-hidden');
+                        }
+
+                        previousPartTitle = partTitle;
+                    });
+
+                    // Handle the last section's spacer if it was collapsed
+                    if (previousPartTitle && previousPartTitle._isCollapsed && previousPartTitle._spacerAfter) {
+                        previousPartTitle._spacerAfter.classList.add('section-hidden');
+                    }
+                })();
+            </script>
+
+            <!-- Track and set sidebar scroll position -->
+            <script>
+                var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+                sidebarScrollbox.addEventListener('click', function(e) {
+                    if (e.target.tagName === 'A') {
+                        sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                    }
+                }, { passive: true });
+                var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+                sessionStorage.removeItem('sidebar-scroll');
+                if (sidebarScrollTop) {
+                    // preserve sidebar scroll position when navigating via links within sidebar
+                    sidebarScrollbox.scrollTop = sidebarScrollTop;
+                } else {
+                    // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                    var activeSection = document.querySelector('#sidebar .active');
+                    if (activeSection) {
+                        activeSection.scrollIntoView({ block: 'center' });
+                    }
+                }
+            </script>
+
+            <div class="page">
+                <div id="content" class="content">
+                    <main>
+                      
+<h1 id="language-extensions"><a class="header" href="#language-extensions">Language Extensions</a></h1>
+<p>Language support in Zed has several components:</p>
+<ul>
+<li>Language metadata and configuration</li>
+<li>Grammar</li>
+<li>Queries</li>
+<li>Language servers</li>
+</ul>
+<h2 id="language-metadata"><a class="header" href="#language-metadata">Language Metadata</a></h2>
+<p>Each language supported by Zed must be defined in a subdirectory inside the <code>languages</code> directory of your extension.</p>
+<p>This subdirectory must contain a file called <code>config.toml</code> file with the following structure:</p>
+<pre><code class="language-toml">name = "My Language"
+grammar = "my-language"
+path_suffixes = ["myl"]
+line_comments = ["# "]
+</code></pre>
+<ul>
+<li><code>name</code> (required) is the human readable name that will show up in the Select Language dropdown.</li>
+<li><code>grammar</code> (required) is the name of a grammar. Grammars are registered separately, described below.</li>
+<li><code>path_suffixes</code> is an array of file suffixes that should be associated with this language. Unlike <code>file_types</code> in settings, this does not support glob patterns.</li>
+<li><code>line_comments</code> is an array of strings that are used to identify line comments in the language. This is used for the <code>editor::ToggleComments</code> keybind: <kbd class="keybinding">cmd-/|ctrl-k ctrl-c</kbd> for toggling lines of code.</li>
+<li><code>tab_size</code> defines the indentation/tab size used for this language (default is <code>4</code>).</li>
+<li><code>hard_tabs</code> whether to indent with tabs (<code>true</code>) or spaces (<code>false</code>, the default).</li>
+<li><code>first_line_pattern</code> is a regular expression that can be used alongside <code>path_suffixes</code> (above) or <code>file_types</code> in settings to match files that should use this language. For example, Zed uses this to identify Shell Scripts by matching <a href="https://github.com/zed-industries/zed/blob/main/crates/languages/src/bash/config.toml">shebang lines</a> in the first line of a script.</li>
+<li><code>debuggers</code> is an array of strings that are used to identify debuggers in the language. When launching a debugger's <code>New Process Modal</code>, Zed will order available debuggers by the order of entries in this array.</li>
+</ul>
+<!--
+TBD: Document `language_name/config.toml` keys
+
+- autoclose_before
+- brackets (start, end, close, newline, not_in: ["comment", "string"])
+- word_characters
+- prettier_parser_name
+- opt_into_language_servers
+- code_fence_block_name
+- scope_opt_in_language_servers
+- increase_indent_pattern, decrease_indent_pattern
+- collapsed_placeholder
+- auto_indent_on_paste, auto_indent_using_last_non_empty_line
+- overrides: `[overrides.element]`, `[overrides.string]`
+-->
+<h2 id="grammar"><a class="header" href="#grammar">Grammar</a></h2>
+<p>Zed uses the <a href="https://tree-sitter.github.io">Tree-sitter</a> parsing library to provide built-in language-specific features. There are grammars available for many languages, and you can also <a href="https://tree-sitter.github.io/tree-sitter/creating-parsers/3-writing-the-grammar.html">develop your own grammar</a>. A growing list of Zed features are built using pattern matching over syntax trees with Tree-sitter queries. As mentioned above, every language that is defined in an extension must specify the name of a Tree-sitter grammar that is used for parsing. These grammars are then registered separately in extensions' <code>extension.toml</code> file, like this:</p>
+<pre><code class="language-toml">[grammars.gleam]
+repository = "https://github.com/gleam-lang/tree-sitter-gleam"
+rev = "58b7cac8fc14c92b0677c542610d8738c373fa81"
+</code></pre>
+<p>The <code>repository</code> field must specify a repository where the Tree-sitter grammar should be loaded from, and the <code>rev</code> field must contain a Git revision to use, such as the SHA of a Git commit. If you're developing an extension locally and want to load a grammar from the local filesystem, you can use a <code>file://</code> URL for <code>repository</code>. An extension can provide multiple grammars by referencing multiple tree-sitter repositories.</p>
+<h2 id="tree-sitter-queries"><a class="header" href="#tree-sitter-queries">Tree-sitter Queries</a></h2>
+<p>Zed uses the syntax tree produced by the <a href="https://tree-sitter.github.io">Tree-sitter</a> query language to implement
+several features:</p>
+<ul>
+<li>Syntax highlighting</li>
+<li>Bracket matching</li>
+<li>Code outline/structure</li>
+<li>Auto-indentation</li>
+<li>Code injections</li>
+<li>Syntax overrides</li>
+<li>Text redactions</li>
+<li>Runnable code detection</li>
+<li>Selecting classes, functions, etc.</li>
+</ul>
+<p>The following sections elaborate on how <a href="https://tree-sitter.github.io/tree-sitter/using-parsers/queries/index.html">Tree-sitter queries</a> enable these
+features in Zed, using <a href="https://www.json.org/json-en.html">JSON syntax</a> as a guiding example.</p>
+<h3 id="syntax-highlighting"><a class="header" href="#syntax-highlighting">Syntax highlighting</a></h3>
+<p>In Tree-sitter, the <code>highlights.scm</code> file defines syntax highlighting rules for a particular syntax.</p>
+<p>Here's an example from a <code>highlights.scm</code> for JSON:</p>
+<pre><code class="language-scheme">(string) @string
+
+(pair
+  key: (string) @property.json_key)
+
+(number) @number
+</code></pre>
+<p>This query marks strings, object keys, and numbers for highlighting. The following is the full list of captures supported by themes:</p>
+<div class="table-wrapper"><table><thead><tr><th>Capture</th><th>Description</th></tr></thead><tbody>
+<tr><td>@attribute</td><td>Captures attributes</td></tr>
+<tr><td>@boolean</td><td>Captures boolean values</td></tr>
+<tr><td>@comment</td><td>Captures comments</td></tr>
+<tr><td>@comment.doc</td><td>Captures documentation comments</td></tr>
+<tr><td>@constant</td><td>Captures constants</td></tr>
+<tr><td>@constant.builtin</td><td>Captures built-in constants</td></tr>
+<tr><td>@constructor</td><td>Captures constructors</td></tr>
+<tr><td>@embedded</td><td>Captures embedded content</td></tr>
+<tr><td>@emphasis</td><td>Captures emphasized text</td></tr>
+<tr><td>@emphasis.strong</td><td>Captures strongly emphasized text</td></tr>
+<tr><td>@enum</td><td>Captures enumerations</td></tr>
+<tr><td>@function</td><td>Captures functions</td></tr>
+<tr><td>@hint</td><td>Captures hints</td></tr>
+<tr><td>@keyword</td><td>Captures keywords</td></tr>
+<tr><td>@label</td><td>Captures labels</td></tr>
+<tr><td>@link_text</td><td>Captures link text</td></tr>
+<tr><td>@link_uri</td><td>Captures link URIs</td></tr>
+<tr><td>@number</td><td>Captures numeric values</td></tr>
+<tr><td>@operator</td><td>Captures operators</td></tr>
+<tr><td>@predictive</td><td>Captures predictive text</td></tr>
+<tr><td>@preproc</td><td>Captures preprocessor directives</td></tr>
+<tr><td>@primary</td><td>Captures primary elements</td></tr>
+<tr><td>@property</td><td>Captures properties</td></tr>
+<tr><td>@punctuation</td><td>Captures punctuation</td></tr>
+<tr><td>@punctuation.bracket</td><td>Captures brackets</td></tr>
+<tr><td>@punctuation.delimiter</td><td>Captures delimiters</td></tr>
+<tr><td>@punctuation.list_marker</td><td>Captures list markers</td></tr>
+<tr><td>@punctuation.special</td><td>Captures special punctuation</td></tr>
+<tr><td>@string</td><td>Captures string literals</td></tr>
+<tr><td>@string.escape</td><td>Captures escaped characters in strings</td></tr>
+<tr><td>@string.regex</td><td>Captures regular expressions</td></tr>
+<tr><td>@string.special</td><td>Captures special strings</td></tr>
+<tr><td>@string.special.symbol</td><td>Captures special symbols</td></tr>
+<tr><td>@tag</td><td>Captures tags</td></tr>
+<tr><td>@tag.doctype</td><td>Captures doctypes (e.g., in HTML)</td></tr>
+<tr><td>@text.literal</td><td>Captures literal text</td></tr>
+<tr><td>@title</td><td>Captures titles</td></tr>
+<tr><td>@type</td><td>Captures types</td></tr>
+<tr><td>@type.builtin</td><td>Captures built-in types</td></tr>
+<tr><td>@variable</td><td>Captures variables</td></tr>
+<tr><td>@variable.special</td><td>Captures special variables</td></tr>
+<tr><td>@variable.parameter</td><td>Captures function/method parameters</td></tr>
+<tr><td>@variant</td><td>Captures variants</td></tr>
+</tbody></table>
+</div>
+<h3 id="bracket-matching"><a class="header" href="#bracket-matching">Bracket matching</a></h3>
+<p>The <code>brackets.scm</code> file defines matching brackets.</p>
+<p>Here's an example from a <code>brackets.scm</code> file for JSON:</p>
+<pre><code class="language-scheme">("[" @open "]" @close)
+("{" @open "}" @close)
+("\"" @open "\"" @close)
+</code></pre>
+<p>This query identifies opening and closing brackets, braces, and quotation marks.</p>
+<div class="table-wrapper"><table><thead><tr><th>Capture</th><th>Description</th></tr></thead><tbody>
+<tr><td>@open</td><td>Captures opening brackets, braces, and quotes</td></tr>
+<tr><td>@close</td><td>Captures closing brackets, braces, and quotes</td></tr>
+</tbody></table>
+</div>
+<p>Zed uses these to highlight matching brackets: painting each bracket pair with a different color ("rainbow brackets") and highlighting the brackets if the cursor is inside the bracket pair.</p>
+<p>To opt out of rainbow brackets colorization, add the following to the corresponding <code>brackets.scm</code> entry:</p>
+<pre><code class="language-scheme">(("\"" @open "\"" @close) (#set! rainbow.exclude))
+</code></pre>
+<h3 id="code-outlinestructure"><a class="header" href="#code-outlinestructure">Code outline/structure</a></h3>
+<p>The <code>outline.scm</code> file defines the structure for the code outline.</p>
+<p>Here's an example from an <code>outline.scm</code> file for JSON:</p>
+<pre><code class="language-scheme">(pair
+  key: (string (string_content) @name)) @item
+</code></pre>
+<p>This query captures object keys for the outline structure.</p>
+<div class="table-wrapper"><table><thead><tr><th>Capture</th><th>Description</th></tr></thead><tbody>
+<tr><td>@name</td><td>Captures the content of object keys</td></tr>
+<tr><td>@item</td><td>Captures the entire key-value pair</td></tr>
+<tr><td>@context</td><td>Captures elements that provide context for the outline item</td></tr>
+<tr><td>@context.extra</td><td>Captures additional contextual information for the outline item</td></tr>
+<tr><td>@annotation</td><td>Captures nodes that annotate outline item (doc comments, attributes, decorators)<sup class="footnote-reference"><a href="#1">1</a></sup></td></tr>
+</tbody></table>
+</div>
+<div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
+<p>These annotations are used by Assistant when generating code modification steps.</p>
+</div>
+<h3 id="auto-indentation"><a class="header" href="#auto-indentation">Auto-indentation</a></h3>
+<p>The <code>indents.scm</code> file defines indentation rules.</p>
+<p>Here's an example from an <code>indents.scm</code> file for JSON:</p>
+<pre><code class="language-scheme">(array "]" @end) @indent
+(object "}" @end) @indent
+</code></pre>
+<p>This query marks the end of arrays and objects for indentation purposes.</p>
+<div class="table-wrapper"><table><thead><tr><th>Capture</th><th>Description</th></tr></thead><tbody>
+<tr><td>@end</td><td>Captures closing brackets and braces</td></tr>
+<tr><td>@indent</td><td>Captures entire arrays and objects for indentation</td></tr>
+</tbody></table>
+</div>
+<h3 id="code-injections"><a class="header" href="#code-injections">Code injections</a></h3>
+<p>The <code>injections.scm</code> file defines rules for embedding one language within another, such as code blocks in Markdown or SQL queries in Python strings.</p>
+<p>Here's an example from an <code>injections.scm</code> file for Markdown:</p>
+<pre><code class="language-scheme">(fenced_code_block
+  (info_string
+    (language) @injection.language)
+  (code_fence_content) @injection.content)
+
+((inline) @content
+ (#set! injection.language "markdown-inline"))
+</code></pre>
+<p>This query identifies fenced code blocks, capturing the language specified in the info string and the content within the block. It also captures inline content and sets its language to "markdown-inline".</p>
+<div class="table-wrapper"><table><thead><tr><th>Capture</th><th>Description</th></tr></thead><tbody>
+<tr><td>@injection.language</td><td>Captures the language identifier for a code block</td></tr>
+<tr><td>@injection.content</td><td>Captures the content to be treated as a different language</td></tr>
+</tbody></table>
+</div>
+<p>Note that we couldn't use JSON as an example here because it doesn't support language injections.</p>
+<h3 id="syntax-overrides"><a class="header" href="#syntax-overrides">Syntax overrides</a></h3>
+<p>The <code>overrides.scm</code> file defines syntactic <em>scopes</em> that can be used to override certain editor settings within specific language constructs.</p>
+<p>For example, there is a language-specific setting called <code>word_characters</code> that controls which non-alphabetic characters are considered part of a word, for example when you double click to select a variable. In JavaScript, "$" and "#" are considered word characters.</p>
+<p>There is also a language-specific setting called <code>completion_query_characters</code> that controls which characters trigger autocomplete suggestions. In JavaScript, when your cursor is within a <em>string</em>, <code>-</code> should be considered a completion query character. To achieve this, the JavaScript <code>overrides.scm</code> file contains the following pattern:</p>
+<pre><code class="language-scheme">[
+  (string)
+  (template_string)
+] @string
+</code></pre>
+<p>And the JavaScript <code>config.toml</code> contains this setting:</p>
+<pre><code class="language-toml">word_characters = ["#", "$"]
+
+[overrides.string]
+completion_query_characters = ["-"]
+</code></pre>
+<p>You can also disable certain auto-closing brackets in a specific scope. For example, to prevent auto-closing <code>'</code> within strings, you could put the following in the JavaScript <code>config.toml</code>:</p>
+<pre><code class="language-toml">brackets = [
+  { start = "'", end = "'", close = true, newline = false, not_in = ["string"] },
+  # other pairs...
+]
+</code></pre>
+<h4 id="range-inclusivity"><a class="header" href="#range-inclusivity">Range inclusivity</a></h4>
+<p>By default, the ranges defined in <code>overrides.scm</code> are <em>exclusive</em>. So in the case above, if your cursor was <em>outside</em> the quotation marks delimiting the string, the <code>string</code> scope would not take effect. Sometimes, you may want to make the range <em>inclusive</em>. You can do this by adding the <code>.inclusive</code> suffix to the capture name in the query.</p>
+<p>For example, in JavaScript, we also disable auto-closing of single quotes within comments. And the comment scope must extend all the way to the newline after a line comment. To achieve this, the JavaScript <code>overrides.scm</code> contains the following pattern:</p>
+<pre><code class="language-scheme">(comment) @comment.inclusive
+</code></pre>
+<h3 id="text-objects"><a class="header" href="#text-objects">Text objects</a></h3>
+<p>The <code>textobjects.scm</code> file defines rules for navigating by text objects. This was added in Zed v0.165 and is currently used only in Vim mode.</p>
+<p>Vim provides two levels of granularity for navigating around files. Section-by-section with <code>[]</code> etc., and method-by-method with <code>]m</code> etc. Even languages that don't support functions and classes can work well by defining similar concepts. For example CSS defines a rule-set as a method, and a media-query as a class.</p>
+<p>For languages with closures, these typically should not count as functions in Zed. This is best-effort, however, because languages like JavaScript do not syntactically differentiate between closures and top-level function declarations.</p>
+<p>For languages with declarations like C, provide queries that match <code>@class.around</code> or <code>@function.around</code>. The <code>if</code> and <code>ic</code> text objects will default to these if there is no inside.</p>
+<p>If you are not sure what to put in textobjects.scm, both <a href="https://github.com/nvim-treesitter/nvim-treesitter-textobjects">nvim-treesitter-textobjects</a>, and the <a href="https://github.com/helix-editor/helix">Helix editor</a> have queries for many languages. You can refer to the Zed <a href="https://github.com/zed-industries/zed/tree/main/crates/languages/src">built-in languages</a> to see how to adapt these.</p>
+<div class="table-wrapper"><table><thead><tr><th>Capture</th><th>Description</th><th>Vim mode</th></tr></thead><tbody>
+<tr><td>@function.around</td><td>An entire function definition or equivalent small section of a file.</td><td><code>[m</code>, <code>]m</code>, <code>[M</code>,<code>]M</code> motions. <code>af</code> text object</td></tr>
+<tr><td>@function.inside</td><td>The function body (the stuff within the braces).</td><td><code>if</code> text object</td></tr>
+<tr><td>@class.around</td><td>An entire class definition or equivalent large section of a file.</td><td><code>[[</code>, <code>]]</code>, <code>[]</code>, <code>][</code> motions. <code>ac</code> text object</td></tr>
+<tr><td>@class.inside</td><td>The contents of a class definition.</td><td><code>ic</code> text object</td></tr>
+<tr><td>@comment.around</td><td>An entire comment (e.g. all adjacent line comments, or a block comment)</td><td><code>gc</code> text object</td></tr>
+<tr><td>@comment.inside</td><td>The contents of a comment</td><td><code>igc</code> text object (rarely supported)</td></tr>
+</tbody></table>
+</div>
+<p>For example:</p>
+<pre><code class="language-scheme">; include only the content of the method in the function
+(method_definition
+    body: (_
+        "{"
+        (_)* @function.inside
+        "}")) @function.around
+
+; match function.around for declarations with no body
+(function_signature_item) @function.around
+
+; join all adjacent comments into one
+(comment)+ @comment.around
+</code></pre>
+<h3 id="text-redactions"><a class="header" href="#text-redactions">Text redactions</a></h3>
+<p>The <code>redactions.scm</code> file defines text redaction rules. When collaborating and sharing your screen, it makes sure that certain syntax nodes are rendered in a redacted mode to avoid them from leaking.</p>
+<p>Here's an example from a <code>redactions.scm</code> file for JSON:</p>
+<pre><code class="language-scheme">(pair value: (number) @redact)
+(pair value: (string) @redact)
+(array (number) @redact)
+(array (string) @redact)
+</code></pre>
+<p>This query marks number and string values in key-value pairs and arrays for redaction.</p>
+<div class="table-wrapper"><table><thead><tr><th>Capture</th><th>Description</th></tr></thead><tbody>
+<tr><td>@redact</td><td>Captures values to be redacted</td></tr>
+</tbody></table>
+</div>
+<h3 id="runnable-code-detection"><a class="header" href="#runnable-code-detection">Runnable code detection</a></h3>
+<p>The <code>runnables.scm</code> file defines rules for detecting runnable code.</p>
+<p>Here's an example from a <code>runnables.scm</code> file for JSON:</p>
+<pre><code class="language-scheme">(
+    (document
+        (object
+            (pair
+                key: (string
+                    (string_content) @_name
+                    (#eq? @_name "scripts")
+                )
+                value: (object
+                    (pair
+                        key: (string (string_content) @run @script)
+                    )
+                )
+            )
+        )
+    )
+    (#set! tag package-script)
+    (#set! tag composer-script)
+)
+</code></pre>
+<p>This query detects runnable scripts in package.json and composer.json files.</p>
+<p>The <code>@run</code> capture specifies where the run button should appear in the editor. Other captures, except those prefixed with an underscore, are exposed as environment variables with a prefix of <code>ZED_CUSTOM_$(capture_name)</code> when running the code.</p>
+<div class="table-wrapper"><table><thead><tr><th>Capture</th><th>Description</th></tr></thead><tbody>
+<tr><td>@_name</td><td>Captures the "scripts" key</td></tr>
+<tr><td>@run</td><td>Captures the script name</td></tr>
+<tr><td>@script</td><td>Also captures the script name (for different purposes)</td></tr>
+</tbody></table>
+</div><!--
+TBD: `#set! tag`
+-->
+<h2 id="language-servers"><a class="header" href="#language-servers">Language Servers</a></h2>
+<p>Zed uses the <a href="https://microsoft.github.io/language-server-protocol/">Language Server Protocol</a> to provide advanced language support.</p>
+<p>An extension may provide any number of language servers. To provide a language server from your extension, add an entry to your <code>extension.toml</code> with the name of your language server and the language(s) it applies to. The entry in the list of <code>languages</code> has to match the <code>name</code> field from the <code>config.toml</code> file for that language:</p>
+<pre><code class="language-toml">[language_servers.my-language-server]
+name = "My Language LSP"
+languages = ["My Language"]
+</code></pre>
+<p>Then, in the Rust code for your extension, implement the <code>language_server_command</code> method on your extension:</p>
+<pre><pre class="playground"><code class="language-rust"><span class="boring">#![allow(unused)]
+</span><span class="boring">fn main() {
+</span>impl zed::Extension for MyExtension {
+    fn language_server_command(
+        &amp;mut self,
+        language_server_id: &amp;LanguageServerId,
+        worktree: &amp;zed::Worktree,
+    ) -&gt; Result&lt;zed::Command&gt; {
+        Ok(zed::Command {
+            command: get_path_to_language_server_executable()?,
+            args: get_args_for_language_server()?,
+            env: get_env_for_language_server()?,
+        })
+    }
+}
+<span class="boring">}</span></code></pre></pre>
+<p>You can customize the handling of the language server using several optional methods in the <code>Extension</code> trait. For example, you can control how completions are styled using the <code>label_for_completion</code> method. For a complete list of methods, see the <a href="https://docs.rs/zed_extension_api">API docs for the Zed extension API</a>.</p>
+<h3 id="syntax-highlighting-with-semantic-tokens"><a class="header" href="#syntax-highlighting-with-semantic-tokens">Syntax Highlighting with Semantic Tokens</a></h3>
+<p>Zed supports syntax highlighting using semantic tokens from the attached language servers. This is currently disabled by default, but can be enabled in your settings file:</p>
+<pre><code class="language-json">{
+  // Enable semantic tokens globally, backed by tree-sitter highlights for each language:
+  "semantic_tokens": "combined",
+  // Or, specify per-language:
+  "languages": {
+    "Rust": {
+      // No tree-sitter, only LSP semantic tokens:
+      "semantic_tokens": "full"
+    }
+  }
+}
+</code></pre>
+<p>The <code>semantic_tokens</code> setting accepts the following values:</p>
+<ul>
+<li><code>"off"</code> (default): Do not request semantic tokens from language servers.</li>
+<li><code>"combined"</code>: Use LSP semantic tokens together with tree-sitter highlighting.</li>
+<li><code>"full"</code>: Use LSP semantic tokens exclusively, replacing tree-sitter highlighting.</li>
+</ul>
+<h4 id="extension-provided-semantic-token-rules"><a class="header" href="#extension-provided-semantic-token-rules">Extension-Provided Semantic Token Rules</a></h4>
+<p>Language extensions can ship default semantic token rules for their language server's custom token types. To do this, place a <code>semantic_token_rules.json</code> file in the language directory alongside <code>config.toml</code>:</p>
+<pre><code>my-extension/
+  languages/
+    my-language/
+      config.toml
+      highlights.scm
+      semantic_token_rules.json
+</code></pre>
+<p>The file uses the same format as the <code>semantic_token_rules</code> array in user settings — a JSON array of rule objects:</p>
+<pre><code class="language-json">[
+  {
+    "token_type": "lifetime",
+    "style": ["lifetime"]
+  },
+  {
+    "token_type": "builtinType",
+    "style": ["type"]
+  },
+  {
+    "token_type": "selfKeyword",
+    "style": ["variable.special"]
+  }
+]
+</code></pre>
+<p>This is useful when a language server reports custom (non-standard) semantic token types that aren't covered by Zed's built-in default rules. Extension-provided rules act as sensible defaults for that language — users can always override them via <code>semantic_token_rules</code> in their settings file, and built-in default rules are only used when neither user nor extension rules match.</p>
+<h4 id="customizing-semantic-token-styles"><a class="header" href="#customizing-semantic-token-styles">Customizing Semantic Token Styles</a></h4>
+<p>Zed supports customizing the styles used for semantic tokens. You can define rules in your settings file, which customize how semantic tokens get mapped to styles in your theme.</p>
+<pre><code class="language-json">{
+  "global_lsp_settings": {
+    "semantic_token_rules": [
+      {
+        // Highlight macros as keywords.
+        "token_type": "macro",
+        "style": ["syntax.keyword"]
+      },
+      {
+        // Highlight unresolved references in bold red.
+        "token_type": "unresolvedReference",
+        "foreground_color": "#c93f3f",
+        "font_weight": "bold"
+      },
+      {
+        // Underline all mutable variables/references/etc.
+        "token_modifiers": ["mutable"],
+        "underline": true
+      }
+    ]
+  }
+}
+</code></pre>
+<p>All rules that match a given <code>token_type</code> and <code>token_modifiers</code> are applied. Earlier rules take precedence. If no rules match, the token is not highlighted.</p>
+<p>Rules are applied in the following priority order (highest to lowest):</p>
+<ol>
+<li><strong>User settings</strong> — rules from <code>semantic_token_rules</code> in your settings file.</li>
+<li><strong>Extension rules</strong> — rules from <code>semantic_token_rules.json</code> in extension language directories.</li>
+<li><strong>Default rules</strong> — Zed's built-in rules for standard LSP token types.</li>
+</ol>
+<p>Each rule in the <code>semantic_token_rules</code> array is defined as follows:</p>
+<ul>
+<li><code>token_type</code>: The semantic token type as defined by the <a href="https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/#textDocument_semanticTokens">LSP specification</a>. If omitted, the rule matches all token types.</li>
+<li><code>token_modifiers</code>: A list of semantic token modifiers to match. All modifiers must be present to match.</li>
+<li><code>style</code>: A list of styles from the current syntax theme to use. The first style found is used. Any settings below override that style.</li>
+<li><code>foreground_color</code>: The foreground color to use for the token type, in hex format (e.g., <code>"#ff0000"</code>).</li>
+<li><code>background_color</code>: The background color to use for the token type, in hex format (e.g., <code>"#ff0000"</code>).</li>
+<li><code>underline</code>: A boolean or color to underline with, in hex format. If <code>true</code>, then the token will be underlined with the text color.</li>
+<li><code>strikethrough</code>: A boolean or color to strikethrough with, in hex format. If <code>true</code>, then the token have a strikethrough with the text color.</li>
+<li><code>font_weight</code>: One of <code>"normal"</code>, <code>"bold"</code>.</li>
+<li><code>font_style</code>: One of <code>"normal"</code>, <code>"italic"</code>.</li>
+</ul>
+<h3 id="multi-language-support"><a class="header" href="#multi-language-support">Multi-Language Support</a></h3>
+<p>If your language server supports additional languages, you can use <code>language_ids</code> to map Zed <code>languages</code> to the desired <a href="https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/#textDocumentItem">LSP-specific <code>languageId</code></a> identifiers:</p>
+<pre><code class="language-toml">
+[language-servers.my-language-server]
+name = "Whatever LSP"
+languages = ["JavaScript", "HTML", "CSS"]
+
+[language-servers.my-language-server.language_ids]
+"JavaScript" = "javascript"
+"TSX" = "typescriptreact"
+"HTML" = "html"
+"CSS" = "css"
+</code></pre>
+
+                        <div class="footer-buttons">
+                            <a rel="prev" href="../extensions/capabilities.html" class="footer-button" title="Extension Capabilities">
+                                <i class="fa fa-angle-left"></i>
+                                Extension Capabilities
+                            </a>
+                            <a rel="next" href="../extensions/debugger-extensions.html" class="footer-button" title="Debugger Extensions">
+                                Debugger Extensions
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        </div>
+                        <footer class="footer">
+                            <a href="/" class="logo-nav">
+                                <img
+                                    src="https://zed.dev/logo_icon.webp"
+                                    class="footer-logo"
+                                    alt="Zed Industries"
+                                />
+                            </a>
+                            <span class="footer-separator">•</span>
+                            <a class="footer-link" href="https://zed.dev"
+                                >Back to Site</a
+                            >
+                            <span class="footer-separator">•</span>
+                            <a
+                                class="footer-link"
+                                href="https://zed.dev/releases"
+                                >Releases</a
+                            >
+                            <span class="footer-separator">•</span>
+                            <a
+                                class="footer-link"
+                                href="https://zed.dev/roadmap"
+                                >Roadmap</a
+                            >
+                            <span class="footer-separator">•</span>
+                            <a
+                                class="footer-link"
+                                href="https://github.com/zed-industries/zed"
+                                >GitHub</a
+                            >
+                            <span class="footer-separator">•</span>
+                            <a
+                                class="footer-link"
+                                href="https://zed.dev/blog"
+                                >Blog</a
+                            >
+                            <span class="footer-separator">•</span>
+                            <button
+                                id="c15t-manage-consent-btn"
+                                class="footer-link"
+                            >
+                                Manage Site Cookies
+                            </button>
+                        </footer>
+                    </main>
+                    <div class="toc-container">
+                        <nav class="pagetoc"></nav>
+                    </div>
+                    <!-- Immediately detect if page has headins that are not h1 to prevent flicker -->
+                    <script>
+                        (function() {
+                            var tocContainer = document.querySelector('.toc-container');
+                            var headers = document.querySelectorAll('.header');
+                            var hasNonH1Headers = false;
+                            for (var i = 0; i < headers.length; i++) {
+                                var parent = headers[i].parentElement;
+                                if (parent && !parent.tagName.toLowerCase().startsWith('h1')) {
+                                    hasNonH1Headers = true;
+                                    break;
+                                }
+                            }
+                            if (hasNonH1Headers) {
+                                tocContainer.classList.add('has-toc');
+                            } else {
+                                tocContainer.classList.add('no-toc');
+                            }
+                        })();
+                    </script>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script>
+           (function () {
+                // Check for focused search result and bring into the view
+                const ensureVisible = () => {
+                    const focused = document.querySelector("#searchresults li.focus");
+
+                    if (focused) {
+                        focused.scrollIntoView({
+                            block: "nearest",
+                            inline: "nearest"
+                        });
+                    }
+                };
+
+                // 1. Listen for arrow key events
+                // 2. Wait for DOM to update
+                // 3. Call envsureVisible
+                document.addEventListener("keydown", function (e) {
+                    if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+                        requestAnimationFrame(ensureVisible);
+                    }
+                });
+            })();
+        </script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+        <script src="../theme/page-toc.js"></script>
+        <script src="../theme/plugins.js"></script>
+        <script src="../theme/c15t@2.0.0-rc.3.js"></script>
+        <script src="../theme/analytics.js"></script>
+
+
+        <!-- c15t Consent Banner -->
+        <div id="c15t-banner" style="display: none;">
+            <div>
+                <p id="c15t-description">
+                    Zed uses cookies to improve your experience and for marketing. Read <a href="https://zed.dev/cookie-policy">our cookie policy</a> for more details.
+                </p>
+            </div>
+            <div id="c15t-configure-section" style="display: none">
+                <div>
+                    <label for="c15t-toggle-necessary"
+                        >Strictly Necessary</label
+                    >
+                    <label class="c15t-switch">
+                        <input
+                            type="checkbox"
+                            id="c15t-toggle-necessary"
+                            checked
+                            disabled
+                        />
+                        <span class="c15t-slider"></span>
+                    </label>
+                </div>
+                <div>
+                    <label for="c15t-toggle-measurement">Analytics</label>
+                    <label class="c15t-switch">
+                        <input
+                            type="checkbox"
+                            id="c15t-toggle-measurement"
+                        />
+                        <span class="c15t-slider"></span>
+                    </label>
+                </div>
+                <div>
+                    <label for="c15t-toggle-marketing">Marketing</label>
+                    <label class="c15t-switch">
+                        <input
+                            type="checkbox"
+                            id="c15t-toggle-marketing"
+                        />
+                        <span class="c15t-slider"></span>
+                    </label>
+                </div>
+            </div>
+            <div id="c15t-footer">
+                <button
+                    id="c15t-configure-btn"
+                    class="c15t-button icon"
+                    title="Configure"
+                >
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    >
+                        <path d="M20 7h-9" />
+                        <path d="M14 17H5" />
+                        <circle cx="17" cy="17" r="3" />
+                        <circle cx="7" cy="7" r="3" />
+                    </svg>
+                </button>
+                <div>
+                    <button id="c15t-decline" class="c15t-button">
+                        Reject all
+                    </button>
+                    <button id="c15t-accept" class="c15t-button primary">
+                        Accept all
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>

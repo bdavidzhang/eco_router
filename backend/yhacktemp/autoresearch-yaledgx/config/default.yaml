@@ -1,0 +1,48 @@
+# Default workbench configuration
+# Override per-run via CLI flags or experiment configs
+
+workbench:
+  db_path: experiments/results.db
+  max_iterations: 100
+  strategy: auto  # grid | random | bayesian | auto
+  cooldown_sec: 10.0
+  usd_per_kwh: 0.12
+
+# SCI = (E × I) + M per R
+# The Green Software Foundation's Software Carbon Intensity formula.
+# This is THE optimization target.
+sci:
+  # I: Carbon intensity of your electricity grid (gCO₂ per kWh)
+  # Run `workbench regions` to see all presets.
+  region: us_average
+  carbon_intensity_gco2_per_kwh: 400.0
+
+  # M: Embodied emissions per functional unit (gCO₂ per token)
+  # DGX Spark estimate: ~200 kg CO₂ manufacturing ÷ 5-year lifespan
+  # at ~50 tokens/sec average utilization.
+  embodied_gco2_per_token: 0.00003
+
+  # R: Functional unit
+  functional_unit: per_token
+
+experiment_defaults:
+  time_budget_sec: 300  # 5 minutes per experiment
+  temperature: 1.0
+  use_kv_cache: true
+  dtype: float16
+  max_new_tokens: 128
+  sequence_length: 512
+
+thermal:
+  abort_threshold_c: 85.0
+  cooldown_check_interval_sec: 5.0
+
+power:
+  sample_interval_sec: 1.0
+  gpu_index: 0
+
+# DGX Spark CPU affinity (A725 efficiency cores)
+# Controller pinned to these cores via taskset
+cpu_affinity:
+  controller_cores: "0-5,11-14"  # A725 @ 2.8 GHz
+  workload_cores: "6-10,15-19"   # X925 @ 3.9 GHz

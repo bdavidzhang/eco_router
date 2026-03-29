@@ -1,0 +1,34 @@
+# Qwen 3.5 model family — primary search space
+# 0.8B loads in ~2s, 4B in ~8s, 9B in ~15s on DGX Spark
+
+model_name:
+  - Qwen/Qwen3.5-0.8B    # 0.8B — speed demon, tons of data points
+  - Qwen/Qwen3.5-4B      # 4B  — quality/speed sweet spot
+  - Qwen/Qwen3.5-9B      # 9B  — high quality baseline
+
+quantization:
+  - none                  # GPTQ/AWQ available with [quantization] extra
+
+batch_size:
+  - 1
+  - 4
+  - 8
+  - 16
+  - 32
+
+sequence_length:
+  - 128
+  - 256
+  - 512
+  - 1024
+  - 2048
+
+max_new_tokens:
+  - 64
+  - 128
+  - 256
+  - 512
+
+dtype:
+  - float16
+  - bfloat16

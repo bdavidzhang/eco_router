@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "autoresearch-workbench"
+version = "0.1.0"
+description = "Auto-Improving LLM Research Workbench — Pareto-optimal configs for quality × cost × energy"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Pierce Brookins" }]
+requires-python = ">=3.10"
+dependencies = [
+    "click>=8.1",
+    "pyyaml>=6.0",
+    "optuna>=3.5",
+    "rich>=13.0",
+    "torch>=2.1",
+    "transformers>=4.36",
+    "datasets>=2.16",
+    "numpy>=1.24",
+    "optimum>=1.17",
+    "accelerate>=0.26",
+]
+
+[project.optional-dependencies]
+quantization = [
+    "auto-gptq>=0.7",
+    "autoawq>=0.1",
+]
+dev = [
+    "pytest>=7.4",
+    "pytest-cov>=4.1",
+    "ruff>=0.1",
+]
+all = [
+    "autoresearch-workbench[quantization,dev]",
+]
+
+[project.scripts]
+workbench = "workbench.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

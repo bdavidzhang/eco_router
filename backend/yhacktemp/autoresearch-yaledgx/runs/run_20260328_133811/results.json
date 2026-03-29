@@ -1,0 +1,49 @@
+[
+  {
+    "config_hash": "82dc86fef217",
+    "config": {
+      "model_name": "Qwen/Qwen3.5-0.8B",
+      "quantization": "none",
+      "batch_size": 8,
+      "sequence_length": 1024,
+      "max_new_tokens": 512,
+      "temperature": 1.0,
+      "use_kv_cache": false,
+      "dtype": "bfloat16",
+      "time_budget_sec": 30
+    },
+    "metrics": {
+      "val_bpb": 4.065588352168114,
+      "latency_p50_ms": 38.50794805151381,
+      "latency_p95_ms": 38.50794805151381,
+      "latency_p99_ms": 38.50794805151381,
+      "tokens_per_sec": 23.832923882987853,
+      "total_tokens": 4096,
+      "gpu_power_avg_w": 37.23884848484848,
+      "gpu_power_max_w": 41.99,
+      "energy_per_token_j": 1.5583389052108394,
+      "gpu_util_avg_pct": 83.30909090909091,
+      "gpu_clock_avg_mhz": 2345.29696969697,
+      "gpu_clock_min_mhz": 208.0,
+      "gpu_temp_avg_c": 58.448484848484846,
+      "gpu_temp_max_c": 66.0,
+      "thermal_throttled": false,
+      "mem_used_gb": 13.58,
+      "mem_available_gb": 106.06,
+      "mem_pressure_pct": 11.3,
+      "nvme_temp_c": 48.85,
+      "system_load_avg": 1.81,
+      "sci_per_token": 0.00020314876724564882,
+      "carbon_operational_g": 0.00017314876724564883,
+      "carbon_embodied_g": 3e-05,
+      "energy_kwh_per_token": 4.328719181141221e-07,
+      "gpu_efficiency": 0.640001634118328,
+      "cost_per_token_usd": 5.194463017369465e-08
+    },
+    "status": "completed",
+    "strategy_used": "random",
+    "pareto_rank": 0,
+    "created_at": "2026-03-28T20:41:07.744687+00:00",
+    "error_message": null
+  }
+]

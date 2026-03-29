@@ -1,0 +1,9 @@
+18:04:10 INFO 🌟 Pareto-optimal! de6982cab2ab — SCI=0.003531 gCO₂/tok, BPB=4.0656, 0.5 tok/s
+18:04:10 INFO Skipping evaluation for 4bc2137104a6 (status=failed)
+18:04:10 INFO 🌟 Pareto-optimal! cf3046f9dc36 — SCI=0.000665 gCO₂/tok, BPB=4.0656, 2.8 tok/s
+18:04:10 INFO 📉 Config 99a325131cea dominated (rank 1, SCI=0.001208)
+18:04:10 INFO Skipping evaluation for 2ced481b653c (status=failed)
+18:04:10 INFO Skipping evaluation for 68fd8dd51cee (status=failed)
+18:04:10 INFO Skipping evaluation for 3fb8ca2a4410 (status=failed)
+18:04:10 INFO 📉 Config 6cd0010b2830 dominated (rank 1, SCI=0.001200)
+18:04:10 INFO Skipping evaluation for f71adef1b345 (status=failed)

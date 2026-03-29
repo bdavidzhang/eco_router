@@ -1,0 +1,13 @@
+{
+  "timestamp": "20260328_151042",
+  "total_time_sec": 600,
+  "time_budget_per_experiment_sec": 30,
+  "strategy": "auto",
+  "region": "us_average",
+  "sensor_interval_sec": 1,
+  "sensor_channels": 67,
+  "max_iterations": 50,
+  "hostname": "gx10-f443",
+  "python_version": "Python 3.12.3",
+  "script_version": "5.0.0"
+}

@@ -1,0 +1,97 @@
+{
+  "measured": {
+    "Qwen/Qwen3.5-0.8B": {
+      "params_B": 0.8,
+      "n": 41,
+      "median": 0.00019483086526435542,
+      "min": 3.9109019488626575e-05,
+      "max": 0.0025223912035907156
+    },
+    "Qwen/Qwen3.5-4B": {
+      "params_B": 4.0,
+      "n": 1,
+      "median": 0.0003259156920877933,
+      "min": 0.0003259156920877933,
+      "max": 0.0003259156920877933
+    },
+    "Qwen/Qwen3.5-9B": {
+      "params_B": 9.0,
+      "n": 3,
+      "median": 0.0004919456214329606,
+      "min": 7.647482644384085e-05,
+      "max": 0.005008954204874009
+    }
+  },
+  "regression": {
+    "type": "power_law_log_linear",
+    "equation": "SCI = 0.000207 * params_B^0.3738",
+    "coefficient": 0.00020720016250198796,
+    "exponent": 0.3737924235875669,
+    "r_squared": 0.9788805091738855,
+    "fit_on": "per_model_medians",
+    "n_models": 3,
+    "n_experiments": 45
+  },
+  "predictions": [
+    {
+      "model": "Llama 3.1 70B",
+      "params_B": 70,
+      "predicted_sci_per_token": 0.001014083601292823
+    },
+    {
+      "model": "Llama 3.1 405B",
+      "params_B": 405,
+      "predicted_sci_per_token": 0.001954506073008023
+    },
+    {
+      "model": "Mistral Large 2 (123B)",
+      "params_B": 123,
+      "predicted_sci_per_token": 0.0012519321383633582
+    },
+    {
+      "model": "GPT-4 (est. ~200B active MoE)",
+      "params_B": 200,
+      "predicted_sci_per_token": 0.0015014043524150809
+    },
+    {
+      "model": "GPT-4o (est. ~80B)",
+      "params_B": 80,
+      "predicted_sci_per_token": 0.001065984059086172
+    },
+    {
+      "model": "Claude Sonnet 4 (est. ~100B)",
+      "params_B": 100,
+      "predicted_sci_per_token": 0.001158710490351497
+    },
+    {
+      "model": "Claude Opus 4 (est. ~300B)",
+      "params_B": 300,
+      "predicted_sci_per_token": 0.0017471059750898705
+    },
+    {
+      "model": "Gemini 1.5 Pro (est. ~200B active)",
+      "params_B": 200,
+      "predicted_sci_per_token": 0.0015014043524150809
+    },
+    {
+      "model": "Gemini Ultra (est. ~500B active)",
+      "params_B": 500,
+      "predicted_sci_per_token": 0.002114679868086772
+    },
+    {
+      "model": "Grok 2 (est. ~300B)",
+      "params_B": 300,
+      "predicted_sci_per_token": 0.0017471059750898705
+    },
+    {
+      "model": "DeepSeek-V3 (37B active MoE)",
+      "params_B": 37,
+      "predicted_sci_per_token": 0.0007990464287122959
+    },
+    {
+      "model": "Qwen 2.5 72B",
+      "params_B": 72,
+      "predicted_sci_per_token": 0.0010248183825972066
+    }
+  ]
+}

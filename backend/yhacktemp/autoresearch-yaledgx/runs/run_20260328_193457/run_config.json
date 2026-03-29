@@ -1,0 +1,15 @@
+{
+  "timestamp": "20260328_193457",
+  "num_workers": 10,
+  "experiment_limit": "infinite",
+  "time_budget_per_experiment_sec": 30,
+  "execution_mode": "infinite_pool",
+  "save_mode": "incremental",
+  "region": "us_average",
+  "sensor_interval_sec": 1,
+  "sensor_channels": 67,
+  "seed": null,
+  "hostname": "gx10-f443",
+  "python_version": "Python 3.12.3",
+  "script_version": "7.0.0"
+}

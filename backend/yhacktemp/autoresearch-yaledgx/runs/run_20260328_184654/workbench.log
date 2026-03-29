@@ -1,0 +1,322 @@
+18:47:43 INFO 🌟 Pareto-optimal! be0f8f42c507 — SCI=0.000061 gCO₂/tok, BPB=4.0656, 61.6 tok/s
+18:47:43 INFO Exp #10 (slot 9) saved to DB
+18:47:44 INFO 📉 Config a9c80c4a25a4 dominated (rank 1, SCI=0.000067)
+18:47:44 INFO Exp #3 (slot 2) saved to DB
+18:47:44 INFO 📉 Config e87c4b4a60d3 dominated (rank 2, SCI=0.000214)
+18:47:44 INFO Exp #5 (slot 4) saved to DB
+18:48:27 WARNING Exp #11 (slot 9) discarded: thermal/throttle
+18:48:28 WARNING Exp #14 (slot 9) discarded: Thermal abort! Max temp 86.8°C exceeds threshold 85.0°C
+18:48:28 WARNING 🌡️  Thermal cooldown triggered (gpu_hot=False, worker_abort=True) — pausing spawns for 50s
+18:49:02 WARNING Exp #7 (slot 6) died silently (exit code -9)
+18:49:06 INFO Skipping evaluation for c8f20f97cb2d (status=failed)
+18:49:06 INFO Exp #4 (slot 3) saved to DB
+18:49:13 INFO Skipping evaluation for 1475b9389c8f (status=failed)
+18:49:13 INFO Exp #1 (slot 0) saved to DB
+18:49:13 INFO Skipping evaluation for 508ac7adf717 (status=failed)
+18:49:13 INFO Exp #9 (slot 8) saved to DB
+18:49:26 WARNING Exp #2 (slot 1) died silently (exit code -9)
+18:49:30 INFO Skipping evaluation for ee2ac7ee10b9 (status=failed)
+18:49:30 INFO Exp #6 (slot 5) saved to DB
+18:49:34 INFO Skipping evaluation for 16def5685e6b (status=failed)
+18:49:34 INFO Exp #8 (slot 7) saved to DB
+18:49:34 INFO Skipping evaluation for d03dbb1a4932 (status=failed)
+18:49:34 INFO Exp #12 (slot 2) saved to DB
+18:49:38 INFO Skipping evaluation for 83ef7a54c014 (status=failed)
+18:49:38 INFO Exp #13 (slot 4) saved to DB
+18:50:10 INFO 📉 Config 631122bf167e dominated (rank 3, SCI=0.000632)
+18:50:10 INFO Exp #20 (slot 1) saved to DB
+18:50:10 INFO 📉 Config 736700fb86a1 dominated (rank 4, SCI=0.002130)
+18:50:10 INFO Exp #19 (slot 9) saved to DB
+18:50:10 INFO 📉 Config f0661a052e8b dominated (rank 3, SCI=0.000479)
+18:50:10 INFO Exp #18 (slot 8) saved to DB
+18:50:11 INFO 📉 Config 8fe28be8b135 dominated (rank 6, SCI=0.002184)
+18:50:11 INFO Exp #15 (slot 0) saved to DB
+18:50:17 INFO 📉 Config 155f1927d189 dominated (rank 3, SCI=0.000340)
+18:50:17 INFO Exp #21 (slot 5) saved to DB
+18:50:19 WARNING Exp #23 (slot 7) discarded: thermal/throttle
+18:50:20 WARNING Exp #22 (slot 2) discarded: thermal/throttle
+18:50:21 WARNING Exp #30 (slot 7) discarded: Thermal abort! Max temp 87.5°C exceeds threshold 85.0°C
+18:50:21 WARNING 🌡️  Thermal cooldown triggered (gpu_hot=False, worker_abort=True) — pausing spawns for 53s
+18:50:21 WARNING Exp #31 (slot 2) discarded: Thermal abort! Max temp 85.6°C exceeds threshold 85.0°C
+18:50:47 WARNING Exp #25 (slot 1) discarded: thermal/throttle
+18:51:01 INFO Skipping evaluation for 9b31058c10c0 (status=failed)
+18:51:01 INFO Exp #16 (slot 3) saved to DB
+18:52:00 WARNING Exp #17 (slot 6) died silently (exit code -9)
+18:52:03 WARNING Exp #36 (slot 6) discarded: Thermal abort! Max temp 85.9°C exceeds threshold 85.0°C
+18:52:03 WARNING 🌡️  Thermal cooldown triggered (gpu_hot=False, worker_abort=True) — pausing spawns for 54s
+18:52:07 WARNING Exp #28 (slot 0) died silently (exit code -9)
+18:52:11 INFO Skipping evaluation for b3bc68f5cd99 (status=failed)
+18:52:11 INFO Exp #27 (slot 9) saved to DB
+18:52:16 INFO Skipping evaluation for 88b71e212347 (status=failed)
+18:52:16 INFO Exp #24 (slot 4) saved to DB
+18:52:16 INFO Skipping evaluation for b9e207d8c57a (status=failed)
+18:52:16 INFO Exp #26 (slot 8) saved to DB
+18:52:16 INFO Skipping evaluation for 32d640522ad5 (status=failed)
+18:52:16 INFO Exp #29 (slot 5) saved to DB
+18:52:27 INFO Skipping evaluation for 0da19c22576f (status=failed)
+18:52:27 INFO Exp #33 (slot 2) saved to DB
+18:52:38 INFO Skipping evaluation for 29df9b28c5da (status=failed)
+18:52:38 INFO Exp #32 (slot 1) saved to DB
+18:52:41 INFO Skipping evaluation for adbe04db2124 (status=failed)
+18:52:41 INFO Exp #35 (slot 7) saved to DB
+18:52:41 INFO Skipping evaluation for dc2215592149 (status=failed)
+18:52:41 INFO Exp #34 (slot 3) saved to DB
+18:53:43 WARNING Exp #38 (slot 1) discarded: thermal/throttle
+18:53:43 WARNING Exp #42 (slot 5) discarded: thermal/throttle
+18:53:43 WARNING Exp #37 (slot 0) discarded: thermal/throttle
+18:53:43 WARNING Exp #41 (slot 4) discarded: thermal/throttle
+18:53:45 WARNING Exp #47 (slot 0) discarded: Thermal abort! Max temp 86.5°C exceeds threshold 85.0°C
+18:53:45 WARNING Exp #48 (slot 1) discarded: Thermal abort! Max temp 86.5°C exceeds threshold 85.0°C
+18:53:45 WARNING Exp #49 (slot 4) discarded: Thermal abort! Max temp 86.5°C exceeds threshold 85.0°C
+18:53:45 WARNING Exp #50 (slot 5) discarded: Thermal abort! Max temp 86.4°C exceeds threshold 85.0°C
+18:53:45 WARNING 🌡️  Thermal cooldown triggered (gpu_hot=False, worker_abort=True) — pausing spawns for 37s
+18:54:23 INFO Skipping evaluation for 2b6fa52ba2d4 (status=failed)
+18:54:23 INFO Exp #46 (slot 9) saved to DB
+18:55:11 INFO 📉 Config 954aad3d32c2 dominated (rank 2, SCI=0.000082)
+18:55:11 INFO Exp #52 (slot 1) saved to DB
+18:55:17 INFO 📉 Config 858d6a189d2d dominated (rank 4, SCI=0.000291)
+18:55:17 INFO Exp #54 (slot 5) saved to DB
+18:55:17 WARNING Exp #44 (slot 7) died silently (exit code -9)
+18:55:24 WARNING Exp #40 (slot 3) died silently (exit code -9)
+18:55:30 INFO Skipping evaluation for 6ef64ccac411 (status=failed)
+18:55:30 INFO Exp #39 (slot 2) saved to DB
+18:55:30 INFO Skipping evaluation for 65335b7ca121 (status=failed)
+18:55:30 INFO Exp #43 (slot 6) saved to DB
+18:55:36 INFO Skipping evaluation for 05881f68c09d (status=failed)
+18:55:36 INFO Exp #45 (slot 8) saved to DB
+18:55:46 INFO Skipping evaluation for c24955a6791c (status=failed)
+18:55:46 INFO Exp #51 (slot 0) saved to DB
+18:56:05 INFO Skipping evaluation for 928aa521ef1a (status=failed)
+18:56:05 INFO Exp #53 (slot 4) saved to DB
+18:56:09 INFO Skipping evaluation for 4a4fa82b19ec (status=failed)
+18:56:09 INFO Exp #55 (slot 9) saved to DB
+18:56:11 WARNING Exp #64 (slot 4) discarded: Thermal abort! Max temp 87.1°C exceeds threshold 85.0°C
+18:56:11 WARNING 🌡️  Thermal cooldown triggered (gpu_hot=False, worker_abort=True) — pausing spawns for 50s
+18:56:11 WARNING Exp #65 (slot 9) discarded: Thermal abort! Max temp 88.5°C exceeds threshold 85.0°C
+18:56:19 WARNING Exp #60 (slot 2) discarded: thermal/throttle
+18:56:19 WARNING Exp #61 (slot 6) discarded: thermal/throttle
+18:56:55 INFO Skipping evaluation for 38af549f3fef (status=failed)
+18:56:55 INFO Exp #56 (slot 1) saved to DB
+18:56:58 INFO Skipping evaluation for 4d156c019102 (status=failed)
+18:56:58 INFO Exp #58 (slot 7) saved to DB
+18:57:06 INFO Skipping evaluation for 966d20108285 (status=failed)
+18:57:06 INFO Exp #62 (slot 8) saved to DB
+18:57:11 WARNING Exp #72 (slot 8) discarded: Thermal abort! Max temp 85.2°C exceeds threshold 85.0°C
+18:57:11 WARNING 🌡️  Thermal cooldown triggered (gpu_hot=False, worker_abort=True) — pausing spawns for 51s
+18:57:18 INFO Skipping evaluation for 9110560ed16c (status=failed)
+18:57:18 INFO Exp #63 (slot 0) saved to DB
+18:57:42 WARNING Exp #66 (slot 1) discarded: thermal/throttle
+18:57:43 WARNING Exp #70 (slot 7) discarded: thermal/throttle
+18:58:10 INFO Skipping evaluation for c7863eb6fe8f (status=failed)
+18:58:10 INFO Exp #76 (slot 8) saved to DB
+18:58:10 INFO Skipping evaluation for 27ec233e90bf (status=failed)
+18:58:10 INFO Exp #75 (slot 7) saved to DB
+18:58:19 INFO Skipping evaluation for 874907f84af0 (status=failed)
+18:58:19 INFO Exp #57 (slot 5) saved to DB
+18:58:19 INFO Skipping evaluation for 1fdc10ad2b3b (status=failed)
+18:58:19 INFO Exp #59 (slot 3) saved to DB
+18:58:31 INFO Skipping evaluation for c0b2866dece4 (status=failed)
+18:58:31 INFO Exp #80 (slot 5) saved to DB
+18:58:32 INFO Skipping evaluation for 219656a628df (status=failed)
+18:58:32 INFO Exp #71 (slot 9) saved to DB
+18:58:32 INFO Skipping evaluation for 5fa56afed1c2 (status=failed)
+18:58:32 INFO Exp #79 (slot 3) saved to DB
+18:58:36 INFO Skipping evaluation for f687dce0c93e (status=failed)
+18:58:36 INFO Exp #81 (slot 5) saved to DB
+18:58:40 INFO Skipping evaluation for 4e4e6d2fce51 (status=failed)
+18:58:40 INFO Exp #69 (slot 6) saved to DB
+18:58:44 INFO Skipping evaluation for cb2628550314 (status=failed)
+18:58:44 INFO Exp #67 (slot 2) saved to DB
+18:58:44 INFO Skipping evaluation for 597c4479e083 (status=failed)
+18:58:44 INFO Exp #68 (slot 4) saved to DB
+18:58:49 WARNING Exp #86 (slot 2) discarded: Thermal abort! Max temp 86.9°C exceeds threshold 85.0°C
+18:58:49 WARNING 🌡️  Thermal cooldown triggered (gpu_hot=False, worker_abort=True) — pausing spawns for 46s
+18:58:49 WARNING Exp #87 (slot 4) discarded: Thermal abort! Max temp 87.1°C exceeds threshold 85.0°C
+18:58:59 WARNING Exp #74 (slot 1) discarded: thermal/throttle
+18:59:36 WARNING Exp #89 (slot 2) discarded: Thermal abort! Max temp 85.0°C exceeds threshold 85.0°C
+18:59:36 WARNING 🌡️  Thermal cooldown triggered (gpu_hot=False, worker_abort=True) — pausing spawns for 54s
+18:59:39 INFO Skipping evaluation for 5dd0b6a515b2 (status=failed)
+18:59:39 INFO Exp #90 (slot 4) saved to DB
+19:00:28 WARNING Exp #73 (slot 0) died silently (exit code -9)
+19:00:39 WARNING Exp #77 (slot 7) died silently (exit code -9)
+19:00:43 INFO Skipping evaluation for 712b0e275771 (status=failed)
+19:00:43 INFO Exp #82 (slot 3) saved to DB
+19:00:43 INFO Skipping evaluation for d4e13a2b7331 (status=failed)
+19:00:43 INFO Exp #84 (slot 5) saved to DB
+19:00:48 INFO Skipping evaluation for ac3a7cba6495 (status=failed)
+19:00:48 INFO Exp #78 (slot 8) saved to DB
+19:00:48 INFO Skipping evaluation for e96d1a674888 (status=failed)
+19:00:48 INFO Exp #85 (slot 6) saved to DB
+19:00:48 INFO Skipping evaluation for e0cc23c52b58 (status=failed)
+19:00:48 INFO Exp #83 (slot 9) saved to DB
+19:01:19 WARNING Exp #91 (slot 0) discarded: thermal/throttle
+19:01:21 WARNING Exp #93 (slot 4) discarded: thermal/throttle
+19:01:22 WARNING Exp #100 (slot 0) discarded: Thermal abort! Max temp 88.2°C exceeds threshold 85.0°C
+19:01:22 WARNING 🌡️  Thermal cooldown triggered (gpu_hot=False, worker_abort=True) — pausing spawns for 49s
+19:01:22 WARNING Exp #101 (slot 4) discarded: Thermal abort! Max temp 87.7°C exceeds threshold 85.0°C
+19:01:29 INFO Skipping evaluation for 57b48f2ed1f8 (status=failed)
+19:01:29 INFO Exp #88 (slot 1) saved to DB
+19:01:35 WARNING Exp #96 (slot 5) discarded: thermal/throttle
+19:01:37 WARNING Exp #95 (slot 3) discarded: thermal/throttle
+19:01:40 INFO 📉 Config 6d523099d8c3 dominated (rank 3, SCI=0.000187)
+19:01:40 INFO Exp #98 (slot 8) saved to DB
+19:02:16 INFO Skipping evaluation for b7515108b77e (status=failed)
+19:02:16 INFO Exp #104 (slot 3) saved to DB
+19:02:16 INFO Skipping evaluation for c4c54f521da7 (status=failed)
+19:02:16 INFO Exp #107 (slot 8) saved to DB
+19:02:16 INFO Skipping evaluation for c0d94c9db0bf (status=failed)
+19:02:16 INFO Exp #103 (slot 1) saved to DB
+19:02:16 INFO Skipping evaluation for d43746e2b143 (status=failed)
+19:02:16 INFO Exp #105 (slot 4) saved to DB
+19:02:18 INFO Skipping evaluation for 181f2b9cd797 (status=failed)
+19:02:18 INFO Exp #99 (slot 9) saved to DB
+19:02:57 WARNING Exp #106 (slot 5) discarded: thermal/throttle
+19:03:00 WARNING Exp #113 (slot 5) discarded: Thermal abort! Max temp 86.5°C exceeds threshold 85.0°C
+19:03:00 WARNING 🌡️  Thermal cooldown triggered (gpu_hot=False, worker_abort=True) — pausing spawns for 35s
+19:03:01 WARNING Exp #111 (slot 8) discarded: thermal/throttle
+19:03:03 INFO 📉 Config 2523b144d77f dominated (rank 9, SCI=0.000774)
+19:03:03 INFO Exp #110 (slot 4) saved to DB
+19:03:03 INFO 📉 Config e72a4f9fc502 dominated (rank 3, SCI=0.000172)
+19:03:03 INFO Exp #112 (slot 9) saved to DB
+19:03:35 INFO Skipping evaluation for d3141981a065 (status=failed)
+19:03:35 INFO Exp #94 (slot 7) saved to DB
+19:03:41 INFO Skipping evaluation for 0fd9a401e05a (status=failed)
+19:03:41 INFO Exp #92 (slot 2) saved to DB
+19:03:45 INFO Skipping evaluation for 9f8117c782e4 (status=failed)
+19:03:45 INFO Exp #97 (slot 6) saved to DB
+19:03:49 INFO Skipping evaluation for 1c869fe44488 (status=failed)
+19:03:49 INFO Exp #116 (slot 7) saved to DB
+19:03:49 INFO Skipping evaluation for 545cadf25004 (status=failed)
+19:03:49 INFO Exp #119 (slot 2) saved to DB
+19:03:50 WARNING Exp #121 (slot 2) discarded: Thermal abort! Max temp 85.0°C exceeds threshold 85.0°C
+19:03:50 WARNING 🌡️  Thermal cooldown triggered (gpu_hot=False, worker_abort=True) — pausing spawns for 35s
+19:03:50 WARNING Exp #122 (slot 7) discarded: Thermal abort! Max temp 85.2°C exceeds threshold 85.0°C
+19:04:03 INFO Skipping evaluation for 43bf66d4b248 (status=failed)
+19:04:03 INFO Exp #109 (slot 1) saved to DB
+19:04:06 INFO Skipping evaluation for 244a44960e95 (status=failed)
+19:04:06 INFO Exp #102 (slot 0) saved to DB
+19:04:06 INFO Skipping evaluation for 147c4800903a (status=failed)
+19:04:06 INFO Exp #108 (slot 3) saved to DB
+19:04:23 INFO 📉 Config e3ddb8bb478e dominated (rank 4, SCI=0.000195)
+19:04:23 INFO Exp #115 (slot 5) saved to DB
+19:04:28 INFO 📉 Config ce88792017bf dominated (rank 3, SCI=0.000108)
+19:04:28 INFO Exp #120 (slot 6) saved to DB
+19:04:59 INFO Skipping evaluation for 99104bcf069b (status=failed)
+19:04:59 INFO Exp #117 (slot 8) saved to DB
+19:05:00 INFO Skipping evaluation for 3bd45f0f2fda (status=failed)
+19:05:00 INFO Exp #114 (slot 4) saved to DB
+19:05:01 WARNING Exp #130 (slot 8) discarded: Thermal abort! Max temp 89.8°C exceeds threshold 85.0°C
+19:05:01 WARNING 🌡️  Thermal cooldown triggered (gpu_hot=False, worker_abort=True) — pausing spawns for 57s
+19:05:02 WARNING Exp #131 (slot 4) discarded: Thermal abort! Max temp 89.8°C exceeds threshold 85.0°C
+19:05:10 WARNING Exp #129 (slot 6) discarded: thermal/throttle
+19:06:08 WARNING Exp #118 (slot 9) died silently (exit code -9)
+19:06:14 WARNING Exp #124 (slot 1) died silently (exit code -9)
+19:06:20 INFO Skipping evaluation for 300415424f34 (status=failed)
+19:06:20 INFO Exp #135 (slot 9) saved to DB
+19:06:22 WARNING Exp #128 (slot 7) died silently (exit code -9)
+19:06:30 INFO Skipping evaluation for d4342e8b0124 (status=failed)
+19:06:30 INFO Exp #123 (slot 0) saved to DB
+19:06:30 INFO Skipping evaluation for a5f742cb1a82 (status=failed)
+19:06:30 INFO Exp #127 (slot 5) saved to DB
+19:06:30 INFO Skipping evaluation for 36c294dd6504 (status=failed)
+19:06:30 INFO Exp #126 (slot 3) saved to DB
+19:06:30 INFO Skipping evaluation for ad4350deffb4 (status=failed)
+19:06:30 INFO Exp #125 (slot 2) saved to DB
+19:06:52 WARNING Exp #132 (slot 4) discarded: thermal/throttle
+19:06:54 WARNING Exp #143 (slot 4) discarded: Thermal abort! Max temp 89.3°C exceeds threshold 85.0°C
+19:06:54 WARNING 🌡️  Thermal cooldown triggered (gpu_hot=False, worker_abort=True) — pausing spawns for 50s
+19:06:59 WARNING Exp #136 (slot 1) discarded: thermal/throttle
+19:07:18 INFO Skipping evaluation for 5f23428d8770 (status=failed)
+19:07:18 INFO Exp #134 (slot 8) saved to DB
+19:07:20 INFO Skipping evaluation for a1327f94f743 (status=failed)
+19:07:20 INFO Exp #133 (slot 6) saved to DB
+19:07:20 INFO 📉 Config 60ab96a03797 dominated (rank 6, SCI=0.000250)
+19:07:20 INFO Exp #141 (slot 3) saved to DB
+19:07:47 INFO Skipping evaluation for 9bc2283d13d5 (status=failed)
+19:07:47 INFO Exp #138 (slot 7) saved to DB
+19:08:02 INFO Skipping evaluation for 33e31d2e7875 (status=failed)
+19:08:02 INFO Exp #139 (slot 0) saved to DB
+19:08:04 WARNING Exp #150 (slot 0) discarded: Thermal abort! Max temp 85.6°C exceeds threshold 85.0°C
+19:08:04 WARNING 🌡️  Thermal cooldown triggered (gpu_hot=False, worker_abort=True) — pausing spawns for 44s
+19:08:52 WARNING Exp #137 (slot 9) died silently (exit code -9)
+19:09:02 WARNING Exp #140 (slot 2) died silently (exit code -9)
+19:09:14 WARNING Exp #142 (slot 5) died silently (exit code -9)
+19:09:19 INFO Skipping evaluation for f6092b24a075 (status=failed)
+19:09:19 INFO Exp #153 (slot 2) saved to DB
+19:09:26 INFO Skipping evaluation for b10dd5ba9fc6 (status=failed)
+19:09:26 INFO Exp #154 (slot 5) saved to DB
+19:09:28 WARNING Exp #147 (slot 6) died silently (exit code -9)
+19:09:36 INFO Skipping evaluation for 92d5afcde06c (status=failed)
+19:09:36 INFO Exp #156 (slot 5) saved to DB
+19:09:36 INFO Skipping evaluation for 045351d68a63 (status=failed)
+19:09:36 INFO Exp #157 (slot 6) saved to DB
+19:09:36 INFO Skipping evaluation for 9cd3570f5503 (status=failed)
+19:09:36 INFO Exp #146 (slot 4) saved to DB
+19:09:36 INFO Skipping evaluation for 3894cf16f7aa (status=failed)
+19:09:36 INFO Exp #144 (slot 1) saved to DB
+19:09:52 WARNING Exp #152 (slot 9) discarded: thermal/throttle
+19:09:56 WARNING Exp #162 (slot 9) discarded: Thermal abort! Max temp 86.7°C exceeds threshold 85.0°C
+19:09:56 WARNING 🌡️  Thermal cooldown triggered (gpu_hot=False, worker_abort=True) — pausing spawns for 50s
+19:09:59 INFO Skipping evaluation for c6bf309e6299 (status=failed)
+19:09:59 INFO Exp #145 (slot 3) saved to DB
+19:10:04 INFO Skipping evaluation for 9dc40a065201 (status=failed)
+19:10:04 INFO Exp #149 (slot 7) saved to DB
+19:10:04 INFO Skipping evaluation for 25f3022aef3a (status=failed)
+19:10:04 INFO Exp #148 (slot 8) saved to DB
+19:10:14 WARNING Exp #155 (slot 2) discarded: thermal/throttle
+19:10:18 INFO Skipping evaluation for d08f4b639d03 (status=failed)
+19:10:18 INFO Exp #151 (slot 0) saved to DB
+19:10:51 INFO Skipping evaluation for 519e255d31a7 (status=failed)
+19:10:51 INFO Exp #167 (slot 8) saved to DB
+19:10:56 INFO Skipping evaluation for cef4c61fac18 (status=failed)
+19:10:56 INFO Exp #169 (slot 8) saved to DB
+19:10:57 WARNING Exp #170 (slot 8) discarded: Thermal abort! Max temp 86.7°C exceeds threshold 85.0°C
+19:10:57 WARNING 🌡️  Thermal cooldown triggered (gpu_hot=False, worker_abort=True) — pausing spawns for 51s
+19:11:12 INFO Skipping evaluation for 859d5ee61be8 (status=failed)
+19:11:12 INFO Exp #160 (slot 5) saved to DB
+19:11:13 INFO Skipping evaluation for 9f92e41212eb (status=failed)
+19:11:13 INFO Exp #158 (slot 1) saved to DB
+19:12:25 WARNING Exp #161 (slot 6) died silently (exit code -9)
+19:12:41 INFO Skipping evaluation for 6ab0390c4ad9 (status=failed)
+19:12:41 INFO Exp #174 (slot 6) saved to DB
+19:12:42 INFO Skipping evaluation for a03ecba610ca (status=failed)
+19:12:42 INFO Exp #159 (slot 4) saved to DB
+19:12:49 INFO 📉 Config 47f483bcf5e7 dominated (rank 9, SCI=0.000375)
+19:12:49 INFO Exp #171 (slot 1) saved to DB
+19:12:49 INFO 📉 Config d638a4ee8e6c dominated (rank 4, SCI=0.000136)
+19:12:49 INFO Exp #172 (slot 5) saved to DB
+19:12:50 WARNING Exp #178 (slot 5) discarded: Thermal abort! Max temp 85.2°C exceeds threshold 85.0°C
+19:12:50 WARNING 🌡️  Thermal cooldown triggered (gpu_hot=False, worker_abort=True) — pausing spawns for 36s
+19:12:54 INFO Skipping evaluation for ba0ce946c4a7 (status=failed)
+19:12:54 INFO Exp #176 (slot 4) saved to DB
+19:13:20 WARNING Exp #168 (slot 9) died silently (exit code -9)
+19:13:22 INFO Skipping evaluation for 32a2a33ad2da (status=failed)
+19:13:22 INFO Exp #163 (slot 0) saved to DB
+19:13:27 INFO Skipping evaluation for edb344fa74c7 (status=failed)
+19:13:27 INFO Exp #166 (slot 7) saved to DB
+19:13:27 INFO Skipping evaluation for 1289b9a742e6 (status=failed)
+19:13:27 INFO Exp #164 (slot 2) saved to DB
+19:13:27 INFO Skipping evaluation for d770df26d35e (status=failed)
+19:13:27 INFO Exp #165 (slot 3) saved to DB
+19:13:38 INFO 📉 Config 93d150fe3ea9 dominated (rank 7, SCI=0.000214)
+19:13:38 INFO Exp #175 (slot 6) saved to DB
+19:14:02 INFO Skipping evaluation for 827a52f6b2b9 (status=failed)
+19:14:02 INFO Exp #173 (slot 8) saved to DB
+19:14:04 WARNING Exp #187 (slot 8) discarded: Thermal abort! Max temp 88.6°C exceeds threshold 85.0°C
+19:14:05 WARNING 🌡️  Thermal cooldown triggered (gpu_hot=False, worker_abort=True) — pausing spawns for 56s
+19:14:13 WARNING Exp #181 (slot 5) discarded: thermal/throttle
+19:14:15 WARNING Exp #179 (slot 0) discarded: thermal/throttle
+19:14:16 WARNING Exp #185 (slot 7) discarded: thermal/throttle
+19:14:22 INFO Skipping evaluation for 4f43cd160f71 (status=failed)
+19:14:22 INFO Exp #177 (slot 1) saved to DB
+19:14:48 INFO Skipping evaluation for 3d15dd9bb0ea (status=failed)
+19:14:48 INFO Exp #182 (slot 9) saved to DB
+19:15:04 INFO Skipping evaluation for 6847f7c85a33 (status=failed)
+19:15:04 INFO Exp #186 (slot 6) saved to DB
+19:15:49 WARNING Exp #189 (slot 1) discarded: thermal/throttle
+19:15:49 WARNING Exp #193 (slot 9) discarded: thermal/throttle
+19:15:49 WARNING Exp #191 (slot 7) discarded: thermal/throttle
+19:15:52 WARNING Exp #197 (slot 9) discarded: Thermal abort! Max temp 85.8°C exceeds threshold 85.0°C
+19:15:52 WARNING Exp #196 (slot 7) discarded: Thermal abort! Max temp 85.9°C exceeds threshold 85.0°C
+19:15:52 WARNING Exp #195 (slot 1) discarded: Thermal abort! Max temp 85.9°C exceeds threshold 85.0°C
+19:15:53 WARNING 🌡️  Thermal cooldown triggered (gpu_hot=False, worker_abort=True) — pausing spawns for 52s

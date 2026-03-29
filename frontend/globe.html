@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Green LLM Bench — Inference Routing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" media="print" onload="this.media='all'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" /></noscript>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* Map styles.css vars to the names used by the globe components */
+    :root {
+      --color-background-primary:   var(--bg);
+      --color-background-secondary: var(--surface);
+      --color-text-primary:         var(--text);
+      --color-text-secondary:       var(--text-muted);
+      --color-text-tertiary:        var(--text-light);
+      --color-border-tertiary:      var(--border-light);
+      --border-radius-md:           var(--r);
+      --border-radius-lg:           8px;
+    }
+
+    #globe-root {
+      min-height: calc(100vh - 60px);
+    }
+  </style>
+</head>
+<body>
+
+<a href="/index.html#main-content" class="mta-skip">Skip to main content</a>
+
+<!-- ===== Navigation ===== -->
+<nav class="mta-nav" aria-label="Main navigation">
+  <div class="mta-nav__inner">
+    <a href="/index.html" class="mta-nav__brand">
+      <span class="mta-circle mta-circle--sm mta-circle--green">G</span>
+      Green LLM Bench
+    </a>
+    <ul class="mta-nav__links" id="nav-links" role="menubar">
+      <li role="none"><a class="mta-nav__link" href="/index.html" data-nav="dashboard" role="menuitem">
+        <span class="mta-circle mta-circle--sm mta-circle--lime">D</span> Dashboard</a></li>
+      <li role="none"><a class="mta-nav__link" href="/index.html#leaderboards" role="menuitem">
+        <span class="mta-circle mta-circle--sm mta-circle--blue">L</span> Leaderboards</a></li>
+      <li role="none"><a class="mta-nav__link" href="/index.html#calculator" role="menuitem">
+        <span class="mta-circle mta-circle--sm mta-circle--orange">C</span> Calculator</a></li>
+      <li role="none"><a class="mta-nav__link" href="/index.html#methodology" role="menuitem">
+        <span class="mta-circle mta-circle--sm mta-circle--purple">M</span> Methodology</a></li>
+      <li role="none"><a class="mta-nav__link is-active" href="globe.html" role="menuitem" aria-current="page">
+        <span class="mta-circle mta-circle--sm mta-circle--red">R</span> Routing</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main id="main-content">
+  <div id="globe-root"></div>
+</main>
+
+<script type="module" src="/src/globe-main.tsx"></script>
+</body>
+</html>

@@ -1,0 +1,197 @@
+🔬 Auto-Improving LLM Research Workbench
+Optimizing: SCI = (E x I) + M — gCO2 per token
+  Strategy: auto
+  Max iterations: 50
+  Total time: 600s
+  Per-experiment budget: 90s
+  Grid intensity (I): 400 gCO2/kWh (us_average)
+  Embodied (M): 0.00003 gCO2/tok
+  Database: /home/asus/yhackDGX/yhacktemp/autoresearch-yaledgx/runs/run_20260328_112945/results.db
+
+[11:35:22] INFO     🚀 Research loop starting — strategy=grid, max_iter=50, total_time=600s,       
+                    existing_results=0                                                             
+           INFO     🔄 Switching to Random strategy (0 completed results)                          
+           INFO     ━━━ Iteration 1/50 (600s remaining) ━━━ [random] Mistral-7B-v0.1 gptq-8bit     
+                    batch=1                                                                        
+           INFO     Executing experiment 902d2174eb1b                                              
+[11:35:23] INFO     Starting benchmark: mistralai/Mistral-7B-v0.1 [gptq-8bit, batch=1, seq=256] on 
+                    cuda (mem: 7.8/119.6 GB, load: 0.7)                                            
+           INFO     Power monitor started (interval=1.0s)                                          
+[11:35:24] INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/mistralai/Mistral-7B-v0.1/resolve/main/config.json      
+                    "HTTP/1.1 307 Temporary Redirect"                                              
+           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/api/resolve-cache/models/mistralai/Mistral-7B-v0.1/27d67
+                    f1b5f57dc0953326b2601d68371d40ea8da/config.json "HTTP/1.1 200 OK"              
+           INFO     HTTP Request: GET                                                              
+                    https://huggingface.co/api/resolve-cache/models/mistralai/Mistral-7B-v0.1/27d67
+                    f1b5f57dc0953326b2601d68371d40ea8da/config.json "HTTP/1.1 200 OK"              
+           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/mistralai/Mistral-7B-v0.1/resolve/main/tokenizer_config.
+                    json "HTTP/1.1 307 Temporary Redirect"                                         
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+           WARNING  Warning: You are sending unauthenticated requests to the HF Hub. Please set a  
+                    HF_TOKEN to enable higher rate limits and faster downloads.                    
+           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/api/resolve-cache/models/mistralai/Mistral-7B-v0.1/27d67
+                    f1b5f57dc0953326b2601d68371d40ea8da/tokenizer_config.json "HTTP/1.1 200 OK"    
+           INFO     HTTP Request: GET                                                              
+                    https://huggingface.co/api/resolve-cache/models/mistralai/Mistral-7B-v0.1/27d67
+                    f1b5f57dc0953326b2601d68371d40ea8da/tokenizer_config.json "HTTP/1.1 200 OK"    
+           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/mistralai/Mistral-7B-v0.1/resolve/main/tokenizer_config.
+                    json "HTTP/1.1 307 Temporary Redirect"                                         
+           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/api/resolve-cache/models/mistralai/Mistral-7B-v0.1/27d67
+                    f1b5f57dc0953326b2601d68371d40ea8da/tokenizer_config.json "HTTP/1.1 200 OK"    
+           INFO     HTTP Request: GET                                                              
+                    https://huggingface.co/api/models/mistralai/Mistral-7B-v0.1/tree/main/additiona
+                    l_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"         
+           INFO     HTTP Request: GET                                                              
+                    https://huggingface.co/api/models/mistralai/Mistral-7B-v0.1/tree/main?recursive
+                    =true&expand=false "HTTP/1.1 200 OK"                                           
+           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/mistralai/Mistral-7B-v0.1/resolve/main/tokenizer.json   
+                    "HTTP/1.1 307 Temporary Redirect"                                              
+           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/api/resolve-cache/models/mistralai/Mistral-7B-v0.1/27d67
+                    f1b5f57dc0953326b2601d68371d40ea8da/tokenizer.json "HTTP/1.1 200 OK"           
+           INFO     HTTP Request: GET                                                              
+                    https://huggingface.co/api/resolve-cache/models/mistralai/Mistral-7B-v0.1/27d67
+                    f1b5f57dc0953326b2601d68371d40ea8da/tokenizer.json "HTTP/1.1 200 OK"           
+[11:35:25] INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/mistralai/Mistral-7B-v0.1/resolve/main/tokenizer.model  
+                    "HTTP/1.1 302 Found"                                                           
+           INFO     HTTP Request: GET                                                              
+                    https://huggingface.co/api/models/mistralai/Mistral-7B-v0.1/xet-read-token/27d6
+                    7f1b5f57dc0953326b2601d68371d40ea8da "HTTP/1.1 200 OK"                         
+           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/mistralai/Mistral-7B-v0.1/resolve/main/added_tokens.json
+                    "HTTP/1.1 404 Not Found"                                                       
+[11:35:26] INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/mistralai/Mistral-7B-v0.1/resolve/main/special_tokens_ma
+                    p.json "HTTP/1.1 307 Temporary Redirect"                                       
+           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/api/resolve-cache/models/mistralai/Mistral-7B-v0.1/27d67
+                    f1b5f57dc0953326b2601d68371d40ea8da/special_tokens_map.json "HTTP/1.1 200 OK"  
+           INFO     HTTP Request: GET                                                              
+                    https://huggingface.co/api/resolve-cache/models/mistralai/Mistral-7B-v0.1/27d67
+                    f1b5f57dc0953326b2601d68371d40ea8da/special_tokens_map.json "HTTP/1.1 200 OK"  
+           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/mistralai/Mistral-7B-v0.1/resolve/main/chat_template.jin
+                    ja "HTTP/1.1 404 Not Found"                                                    
+           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/mistralai/Mistral-7B-v0.1/resolve/main/config.json      
+                    "HTTP/1.1 307 Temporary Redirect"                                              
+           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/api/resolve-cache/models/mistralai/Mistral-7B-v0.1/27d67
+                    f1b5f57dc0953326b2601d68371d40ea8da/config.json "HTTP/1.1 200 OK"              
+`torch_dtype` is deprecated! Use `dtype` instead!
+[11:35:27] INFO     Power monitor stopped: 4 samples, avg=4.1W, gpu_util=0%                        
+           ERROR    Unexpected error for 902d2174eb1b: Loading a GPTQ quantized model requires     
+                    optimum (`pip install optimum`)                                                
+                    Traceback (most recent call last):                                             
+                      File                                                                         
+                    "/home/asus/yhackDGX/yhacktemp/autoresearch-yaledgx/src/workbench/executor.py",
+                    line 43, in run                                                                
+                        metrics = run_benchmark(config)                                            
+                                  ^^^^^^^^^^^^^^^^^^^^^                                            
+                      File                                                                         
+                    "/home/asus/yhackDGX/yhacktemp/autoresearch-yaledgx/src/workbench/benchmark/har
+                    ness.py", line 197, in run_benchmark                                           
+                        model, tokenizer = _load_model_and_tokenizer(config, device)               
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^               
+                      File                                                                         
+                    "/home/asus/yhackDGX/yhacktemp/autoresearch-yaledgx/src/workbench/benchmark/har
+                    ness.py", line 95, in _load_model_and_tokenizer                                
+                        model = AutoModelForCausalLM.from_pretrained(**load_kwargs)                
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^                
+                      File                                                                         
+                    "/home/asus/yhackDGX/yhacktemp/autoresearch-yaledgx/.venv/lib/python3.12/site-p
+                    ackages/transformers/models/auto/auto_factory.py", line 381, in from_pretrained
+                        return model_class.from_pretrained(                                        
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^                                        
+                      File                                                                         
+                    "/home/asus/yhackDGX/yhacktemp/autoresearch-yaledgx/.venv/lib/python3.12/site-p
+                    ackages/transformers/modeling_utils.py", line 4029, in from_pretrained         
+                        hf_quantizer, config, device_map = get_hf_quantizer(                       
+                                                           ^^^^^^^^^^^^^^^^^                       
+                      File                                                                         
+                    "/home/asus/yhackDGX/yhacktemp/autoresearch-yaledgx/.venv/lib/python3.12/site-p
+                    ackages/transformers/quantizers/auto.py", line 334, in get_hf_quantizer        
+                        hf_quantizer = AutoHfQuantizer.from_config(                                
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^                                
+                      File                                                                         
+                    "/home/asus/yhackDGX/yhacktemp/autoresearch-yaledgx/.venv/lib/python3.12/site-p
+                    ackages/transformers/quantizers/auto.py", line 211, in from_config             
+                        return target_cls(quantization_config, **kwargs)                           
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^                           
+                      File                                                                         
+                    "/home/asus/yhackDGX/yhacktemp/autoresearch-yaledgx/.venv/lib/python3.12/site-p
+                    ackages/transformers/quantizers/quantizer_gptq.py", line 53, in __init__       
+                        raise ImportError("Loading a GPTQ quantized model requires optimum (`pip   
+                    install optimum`)")                                                            
+                    ImportError: Loading a GPTQ quantized model requires optimum (`pip install     
+                    optimum`)                                                                      
+                                                                                                   
+           INFO     Skipping evaluation for 902d2174eb1b (status=failed)                           
+           INFO     ━━━ Iteration 2/50 (596s remaining) ━━━ [random] Mistral-7B-v0.1 awq-4bit      
+                    batch=4                                                                        
+           INFO     Executing experiment b91b34ff9000                                              
+           INFO     Starting benchmark: mistralai/Mistral-7B-v0.1 [awq-4bit, batch=4, seq=512] on  
+                    cuda (mem: 8.1/119.6 GB, load: 0.7)                                            
+           INFO     Power monitor started (interval=1.0s)                                          
+           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/mistralai/Mistral-7B-v0.1/resolve/main/config.json      
+                    "HTTP/1.1 307 Temporary Redirect"                                              
+           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/api/resolve-cache/models/mistralai/Mistral-7B-v0.1/27d67
+                    f1b5f57dc0953326b2601d68371d40ea8da/config.json "HTTP/1.1 200 OK"              
+           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/mistralai/Mistral-7B-v0.1/resolve/main/tokenizer_config.
+                    json "HTTP/1.1 307 Temporary Redirect"                                         
+           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/api/resolve-cache/models/mistralai/Mistral-7B-v0.1/27d67
+                    f1b5f57dc0953326b2601d68371d40ea8da/tokenizer_config.json "HTTP/1.1 200 OK"    
+           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/mistralai/Mistral-7B-v0.1/resolve/main/tokenizer_config.
+                    json "HTTP/1.1 307 Temporary Redirect"                                         
+           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/api/resolve-cache/models/mistralai/Mistral-7B-v0.1/27d67
+                    f1b5f57dc0953326b2601d68371d40ea8da/tokenizer_config.json "HTTP/1.1 200 OK"    
+           INFO     HTTP Request: GET                                                              
+                    https://huggingface.co/api/models/mistralai/Mistral-7B-v0.1/tree/main/additiona
+                    l_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"         
+           INFO     HTTP Request: GET                                                              
+                    https://huggingface.co/api/models/mistralai/Mistral-7B-v0.1/tree/main?recursive
+                    =true&expand=false "HTTP/1.1 200 OK"                                           
+           WARNING  AWQ not available, falling back to native loading                              
+           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/mistralai/Mistral-7B-v0.1/resolve/main/config.json      
+                    "HTTP/1.1 307 Temporary Redirect"                                              
+[11:35:28] INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/api/resolve-cache/models/mistralai/Mistral-7B-v0.1/27d67
+                    f1b5f57dc0953326b2601d68371d40ea8da/config.json "HTTP/1.1 200 OK"              
+           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/mistralai/Mistral-7B-v0.1/resolve/main/model.safetensors
+                    "HTTP/1.1 404 Not Found"                                                       
+           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/mistralai/Mistral-7B-v0.1/resolve/main/model.safetensors
+                    .index.json "HTTP/1.1 307 Temporary Redirect"                                  
+           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/api/resolve-cache/models/mistralai/Mistral-7B-v0.1/27d67
+                    f1b5f57dc0953326b2601d68371d40ea8da/model.safetensors.index.json "HTTP/1.1 200 
+                    OK"                                                                            
+           INFO     HTTP Request: GET                                                              
+                    https://huggingface.co/api/resolve-cache/models/mistralai/Mistral-7B-v0.1/27d67
+                    f1b5f57dc0953326b2601d68371d40ea8da/model.safetensors.index.json "HTTP/1.1 200 
+                    OK"                                                                            
+           INFO     HTTP Request: GET                                                              
+                    https://huggingface.co/api/models/mistralai/Mistral-7B-v0.1/revision/main      
+                    "HTTP/1.1 200 OK"                                                              
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/mistralai/Mistral-7B-v0.1/resolve/27d67f1b5f57dc0953326b
+                    2601d68371d40ea8da/model-00001-of-00002.safetensors "HTTP/1.1 302 Found"       
+           INFO     HTTP Request: HEAD                                                             
+                    https://huggingface.co/mistralai/Mistral-7B-v0.1/resolve/27d67f1b5f57dc0953326b
+                    2601d68371d40ea8da/model-00002-of-00002.safetensors "HTTP/1.1 302 Found"       

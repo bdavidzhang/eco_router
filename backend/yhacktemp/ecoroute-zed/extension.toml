@@ -1,0 +1,12 @@
+id = "ecoroute"
+name = "EcoRoute"
+description = "Sustainability-optimized AI model recommendations — every tab-complete is a carbon decision"
+version = "0.1.0"
+schema_version = 1
+authors = ["YHack 2025 Team <yhack@example.com>"]
+repository = "https://github.com/yhack2025/ecoroute-zed"
+
+[slash_commands.eco]
+description = "Get a carbon-efficient model recommendation (optional: refactor|debug|chat|autocomplete|config)"
+requires_argument = false
+

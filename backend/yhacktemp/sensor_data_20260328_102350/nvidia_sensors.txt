@@ -1,0 +1,541 @@
+========================================
+NVIDIA GPU/Tegra Sensor Collector
+========================================
+Timestamp: Sat Mar 28 10:23:50 AM PDT 2026
+
+=== nvidia-smi Basic ===
+Sat Mar 28 10:23:50 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.126.09             Driver Version: 580.126.09     CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GB10                    On  |   0000000F:01:00.0 Off |                  N/A |
+| N/A   39C    P8              4W /  N/A  | Not Supported          |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|    0   N/A  N/A            3196      G   /usr/lib/xorg/Xorg                      117MiB |
+|    0   N/A  N/A            3333      G   /usr/bin/gnome-shell                    147MiB |
+|    0   N/A  N/A            4368      G   .../7965/usr/lib/firefox/firefox        313MiB |
+|    0   N/A  N/A            5491      G   /usr/bin/gnome-control-center            31MiB |
++-----------------------------------------------------------------------------------------+
+
+=== GPU Temperature ===
+temperature.gpu, temperature.memory
+39, N/A
+
+=== Power Usage ===
+power.draw [W], power.limit [W], power.default_limit [W]
+4.03 W, [N/A], [N/A]
+
+=== Clocks ===
+clocks.current.graphics [MHz], clocks.current.sm [MHz], clocks.current.memory [MHz], clocks.current.video [MHz]
+208 MHz, 208 MHz, [N/A], 598 MHz
+
+=== Utilization ===
+utilization.gpu [%], utilization.memory [%]
+0 %, 0 %
+
+=== Memory ===
+memory.total [MiB], memory.used [MiB], memory.free [MiB]
+[N/A], [N/A], [N/A]
+
+=== PCIe ===
+pcie.link.gen.current, pcie.link.width.current
+1, 1
+
+=== Processes ===
+# gpu         pid   type     sm    mem    enc    dec    jpg    ofa     fb   ccpm    command 
+# Idx           #    C/G      %      %      %      %      %      %     MB     MB    name 
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+# gpu         pid   type     sm    mem    enc    dec    jpg    ofa     fb   ccpm    command 
+# Idx           #    C/G      %      %      %      %      %      %     MB     MB    name 
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+# gpu         pid   type     sm    mem    enc    dec    jpg    ofa     fb   ccpm    command 
+# Idx           #    C/G      %      %      %      %      %      %     MB     MB    name 
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+# gpu         pid   type     sm    mem    enc    dec    jpg    ofa     fb   ccpm    command 
+# Idx           #    C/G      %      %      %      %      %      %     MB     MB    name 
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+# gpu         pid   type     sm    mem    enc    dec    jpg    ofa     fb   ccpm    command 
+# Idx           #    C/G      %      %      %      %      %      %     MB     MB    name 
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+# gpu         pid   type     sm    mem    enc    dec    jpg    ofa     fb   ccpm    command 
+# Idx           #    C/G      %      %      %      %      %      %     MB     MB    name 
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+# gpu         pid   type     sm    mem    enc    dec    jpg    ofa     fb   ccpm    command 
+# Idx           #    C/G      %      %      %      %      %      %     MB     MB    name 
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+# gpu         pid   type     sm    mem    enc    dec    jpg    ofa     fb   ccpm    command 
+# Idx           #    C/G      %      %      %      %      %      %     MB     MB    name 
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+# gpu         pid   type     sm    mem    enc    dec    jpg    ofa     fb   ccpm    command 
+# Idx           #    C/G      %      %      %      %      %      %     MB     MB    name 
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+# gpu         pid   type     sm    mem    enc    dec    jpg    ofa     fb   ccpm    command 
+# Idx           #    C/G      %      %      %      %      %      %     MB     MB    name 
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+# gpu         pid   type     sm    mem    enc    dec    jpg    ofa     fb   ccpm    command 
+# Idx           #    C/G      %      %      %      %      %      %     MB     MB    name 
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    313      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    317      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c
+    0       3196     G      -      -      -      -      -      -    117      0    Xorg           
+    0       3333     G      -      -      -      -      -      -    147      0    gnome-shell    
+    0       4368     G      -      -      -      -      -      -    317      0    firefox        
+    0       5491     G      -      -      -      -      -      -     31      0    gnome-control-c

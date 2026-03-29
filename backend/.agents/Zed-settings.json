@@ -1,0 +1,10 @@
+{
+  "context_servers": {
+    "ecoroute": {
+      "command": "/Users/zhangbocheng/code/projects/yhacktemp/yhacktemp/ecoroute-mcp/.venv/bin/python3",
+      "args": [
+        "/Users/zhangbocheng/code/projects/yhacktemp/yhacktemp/ecoroute-mcp/server.py"
+      ]
+    }
+  }
+}

@@ -1,0 +1,117 @@
+15:53:53 INFO 🚀 Research loop starting — strategy=grid, max_iter=50, existing_results=0
+15:53:53 INFO 📁 Results → /home/asus/yhackDGX/yhacktemp/autoresearch-yaledgx/runs/run_20260328_155349/results.db
+15:53:53 INFO 🔄 Switching to Random strategy (0 completed results)
+15:53:53 INFO ━━━ Iteration 1/50 ━━━ [random] Qwen3.5-9B none batch=32
+15:53:53 INFO Executing experiment 5d407ba02b15
+15:53:53 INFO Starting benchmark: Qwen/Qwen3.5-9B [none, batch=32, seq=1024] on cuda (mem: 57.8/119.6 GB, load: 70.4)
+15:53:53 INFO Power monitor started (interval=1.0s)
+15:53:55 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-9B/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+15:53:55 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-9B/c202236235762e1c871ad0ccb60c8ee5ba337b9a/config.json "HTTP/1.1 200 OK"
+15:53:55 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-9B/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+15:53:55 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-9B/c202236235762e1c871ad0ccb60c8ee5ba337b9a/tokenizer_config.json "HTTP/1.1 200 OK"
+15:53:55 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-9B/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+15:53:55 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-9B/c202236235762e1c871ad0ccb60c8ee5ba337b9a/tokenizer_config.json "HTTP/1.1 200 OK"
+15:53:55 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-9B/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+15:53:55 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-9B/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+15:53:56 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-9B "HTTP/1.1 200 OK"
+15:53:56 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-9B/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+15:53:56 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-9B/c202236235762e1c871ad0ccb60c8ee5ba337b9a/config.json "HTTP/1.1 200 OK"
+15:53:57 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-9B/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+15:53:57 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-9B/resolve/main/model.safetensors.index.json "HTTP/1.1 307 Temporary Redirect"
+15:53:57 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-9B/c202236235762e1c871ad0ccb60c8ee5ba337b9a/model.safetensors.index.json "HTTP/1.1 200 OK"
+15:53:57 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-9B/revision/main "HTTP/1.1 200 OK"
+15:53:57 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-9B/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+15:53:57 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-9B/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+15:53:57 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-9B/c202236235762e1c871ad0ccb60c8ee5ba337b9a/config.json "HTTP/1.1 200 OK"
+15:53:57 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-9B/resolve/main/custom_generate/generate.py "HTTP/1.1 404 Not Found"
+15:56:52 INFO 📦 Cached model: Qwen/Qwen3.5-9B|none|bfloat16
+15:56:53 INFO Power monitor stopped: 172 samples, avg=20.5W, gpu_util=48%
+15:56:53 ERROR Unexpected error for 5d407ba02b15: Hard deadline hit during model load
+Traceback (most recent call last):
+  File "/home/asus/yhackDGX/yhacktemp/autoresearch-yaledgx/src/workbench/executor.py", line 51, in run
+    metrics = run_benchmark(config, on_phase=on_phase)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asus/yhackDGX/yhacktemp/autoresearch-yaledgx/src/workbench/benchmark/harness.py", line 254, in run_benchmark
+    return _run_benchmark_inner(config, hard_deadline, _emit)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asus/yhackDGX/yhacktemp/autoresearch-yaledgx/src/workbench/benchmark/harness.py", line 298, in _run_benchmark_inner
+    raise TimeoutError("Hard deadline hit during model load")
+TimeoutError: Hard deadline hit during model load
+
+15:56:53 INFO Skipping evaluation for 5d407ba02b15 (status=failed)
+15:56:53 INFO ━━━ Iteration 2/50 ━━━ [random] Qwen3.5-4B none batch=8
+15:56:53 INFO Executing experiment 2663f906c6af
+15:56:53 INFO Starting benchmark: Qwen/Qwen3.5-4B [none, batch=8, seq=2048] on cuda (mem: 94.7/119.6 GB, load: 13.3)
+15:56:53 INFO Power monitor started (interval=1.0s)
+15:56:53 INFO Evicting cached model (new config: Qwen/Qwen3.5-4B|none|float16)
+15:56:53 INFO Model cache cleared.
+15:56:54 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-4B/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+15:56:54 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-4B/851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a/config.json "HTTP/1.1 200 OK"
+15:56:54 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-4B/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+15:56:54 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-4B/851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a/tokenizer_config.json "HTTP/1.1 200 OK"
+15:56:54 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-4B/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+15:56:54 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-4B/851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a/tokenizer_config.json "HTTP/1.1 200 OK"
+15:56:54 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-4B/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+15:56:54 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-4B/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+15:56:55 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-4B "HTTP/1.1 200 OK"
+15:56:55 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-4B/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+15:56:55 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-4B/851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a/config.json "HTTP/1.1 200 OK"
+15:56:55 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-4B/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+15:56:55 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-4B/resolve/main/model.safetensors.index.json "HTTP/1.1 307 Temporary Redirect"
+15:56:55 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-4B/851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a/model.safetensors.index.json "HTTP/1.1 200 OK"
+15:56:55 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3.5-4B/revision/main "HTTP/1.1 200 OK"
+15:56:55 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-4B/resolve/main/generation_config.json "HTTP/1.1 404 Not Found"
+15:56:55 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-4B/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+15:56:55 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3.5-4B/851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a/config.json "HTTP/1.1 200 OK"
+15:56:55 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3.5-4B/resolve/main/custom_generate/generate.py "HTTP/1.1 404 Not Found"
+15:58:27 INFO 📦 Cached model: Qwen/Qwen3.5-4B|none|float16
+15:58:28 INFO Power monitor stopped: 68 samples, avg=17.6W, gpu_util=29%
+15:58:28 ERROR Unexpected error for 2663f906c6af: Hard deadline hit during model load
+Traceback (most recent call last):
+  File "/home/asus/yhackDGX/yhacktemp/autoresearch-yaledgx/src/workbench/executor.py", line 51, in run
+    metrics = run_benchmark(config, on_phase=on_phase)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asus/yhackDGX/yhacktemp/autoresearch-yaledgx/src/workbench/benchmark/harness.py", line 254, in run_benchmark
+    return _run_benchmark_inner(config, hard_deadline, _emit)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/asus/yhackDGX/yhacktemp/autoresearch-yaledgx/src/workbench/benchmark/harness.py", line 298, in _run_benchmark_inner
+    raise TimeoutError("Hard deadline hit during model load")
+TimeoutError: Hard deadline hit during model load
+
+15:58:28 INFO Skipping evaluation for 2663f906c6af (status=failed)
+15:58:28 INFO ━━━ Iteration 3/50 ━━━ [random] Qwen3.5-4B none batch=1
+15:58:28 INFO Executing experiment 5a3fd03adc11
+15:58:28 INFO Starting benchmark: Qwen/Qwen3.5-4B [none, batch=1, seq=1024] on cuda (mem: 53.8/119.6 GB, load: 19.7)
+15:58:28 INFO Power monitor started (interval=1.0s)
+15:58:28 INFO ♻️  Reusing cached model for Qwen/Qwen3.5-4B
+15:58:50 INFO Quality eval: BPB=1.5657, PPL=2.96, tokens=124, time=1.3s
+15:58:51 INFO Power monitor stopped: 22 samples, avg=25.7W, gpu_util=92%
+15:58:51 INFO Benchmark complete: BPB=1.5657, 4.8 tok/s, 5.085 J/tok, 25.7W avg, GPU util=92%, mem=34.5 GB (23.2s wall)
+15:58:51 WARNING Experiment 5a3fd03adc11 completed but thermal throttled — results may be unreliable
+15:58:51 INFO Skipping evaluation for 5a3fd03adc11 (status=discarded)
+15:58:51 WARNING ⚠️  Thermal threshold exceeded — cooling down for 10s
+15:59:01 INFO ━━━ Iteration 4/50 ━━━ [random] Qwen3.5-4B none batch=32
+15:59:01 INFO Executing experiment 39b97d72018a
+15:59:01 INFO Starting benchmark: Qwen/Qwen3.5-4B [none, batch=32, seq=1024] on cuda (mem: 40.0/119.6 GB, load: 14.9)
+15:59:01 INFO Power monitor started (interval=1.0s)
+15:59:01 INFO ♻️  Reusing cached model for Qwen/Qwen3.5-4B
+15:59:25 INFO Quality eval: BPB=1.5657, PPL=2.96, tokens=124, time=1.3s
+15:59:26 INFO Power monitor stopped: 23 samples, avg=27.3W, gpu_util=88%
+15:59:26 INFO Benchmark complete: BPB=1.5657, 11.8 tok/s, 2.227 J/tok, 27.3W avg, GPU util=88%, mem=57.9 GB (24.4s wall)
+15:59:26 WARNING Experiment 39b97d72018a completed but thermal throttled — results may be unreliable
+15:59:26 INFO Skipping evaluation for 39b97d72018a (status=discarded)
+15:59:26 WARNING ⚠️  Thermal threshold exceeded — cooling down for 10s
+15:59:36 INFO ━━━ Iteration 5/50 ━━━ [random] Qwen3.5-4B none batch=8
+15:59:36 INFO Executing experiment f3668a1b532f
+15:59:36 INFO Starting benchmark: Qwen/Qwen3.5-4B [none, batch=8, seq=2048] on cuda (mem: 67.3/119.6 GB, load: 13.9)
+15:59:36 INFO Power monitor started (interval=1.0s)
+15:59:36 INFO ♻️  Reusing cached model for Qwen/Qwen3.5-4B
+15:59:58 INFO Quality eval: BPB=1.5657, PPL=2.96, tokens=124, time=0.8s
+15:59:58 INFO Power monitor stopped: 21 samples, avg=32.5W, gpu_util=85%
+15:59:58 INFO Benchmark complete: BPB=1.5657, 26.3 tok/s, 1.191 J/tok, 32.5W avg, GPU util=85%, mem=82.5 GB (22.5s wall)
+15:59:58 WARNING Experiment f3668a1b532f completed but thermal throttled — results may be unreliable
+15:59:58 INFO Skipping evaluation for f3668a1b532f (status=discarded)
+15:59:58 WARNING ⚠️  Thermal threshold exceeded — cooling down for 10s
+16:00:08 ERROR Still too hot after cooldown. Stopping loop.
+16:00:08 INFO ━━━ Research loop complete (375.1s elapsed) ━━━
+16:00:08 INFO 📁 Results → /home/asus/yhackDGX/yhacktemp/autoresearch-yaledgx/runs/run_20260328_155349/results.db

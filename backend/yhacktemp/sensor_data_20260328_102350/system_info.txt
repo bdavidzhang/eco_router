@@ -1,0 +1,83 @@
+Hostname: gx10-f443
+Date: Sat Mar 28 10:23:50 AM PDT 2026
+Uptime:  10:23:50 up 59 min,  3 users,  load average: 0.30, 0.25, 0.19
+Kernel: Linux gx10-f443 6.17.0-1008-nvidia #8-Ubuntu SMP PREEMPT_DYNAMIC Wed Jan 21 17:56:56 UTC 2026 aarch64 aarch64 aarch64 GNU/Linux
+
+=== /proc/cpuinfo ===
+processor	: 0
+BogoMIPS	: 2000.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 dgh bti ecv afp wfxt
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd87
+CPU revision	: 1
+
+processor	: 1
+BogoMIPS	: 2000.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 dgh bti ecv afp wfxt
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd87
+CPU revision	: 1
+
+processor	: 2
+BogoMIPS	: 2000.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 dgh bti ecv afp wfxt
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd87
+CPU revision	: 1
+
+processor	: 3
+BogoMIPS	: 2000.00
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 dgh bti ecv afp wfxt
+
+=== Memory ===
+               total        used        free      shared  buff/cache   available
+Mem:           119Gi       7.0Gi       109Gi       122Mi       3.8Gi       112Gi
+Swap:           15Gi          0B        15Gi
+
+=== Disk Usage ===
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs            12G  8.3M   12G   1% /run
+efivarfs        256K   37K  220K  15% /sys/firmware/efi/efivars
+/dev/nvme0n1p2  916G   34G  835G   4% /
+tmpfs            60G  4.0K   60G   1% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+/dev/nvme0n1p1  511M  6.4M  505M   2% /boot/efi
+tmpfs            12G  2.6M   12G   1% /run/user/1000
+
+=== Loaded Modules ===
+Module                  Size  Used by
+xt_connmark            12288  4
+xt_tcpudp              20480  0
+xt_mark                12288  2
+ib_srp                 73728  0
+scsi_transport_srp     28672  1 ib_srp
+xt_recent              24576  0
+rfcomm                102400  4
+snd_seq_dummy          12288  0
+snd_hrtimer            12288  1
+nvidia_uvm           1900544  0
+nvidia_drm            135168  16
+xt_conntrack           12288  5
+xt_MASQUERADE          16384  3
+bridge                405504  0
+stp                    12288  1 bridge
+llc                    16384  2 bridge,stp
+xfrm_user              61440  1
+xfrm_algo              20480  1 xfrm_user
+xt_set                 20480  0
+ip_set                 65536  1 xt_set
+nft_chain_nat          12288  6
+nf_nat                 65536  2 nft_chain_nat,xt_MASQUERADE
+nf_conntrack          200704  4 xt_conntrack,nf_nat,xt_connmark,xt_MASQUERADE
+nf_defrag_ipv6         24576  1 nf_conntrack
+nf_defrag_ipv4         12288  1 nf_conntrack
+xt_addrtype            12288  4
+nft_compat             24576  18
+nf_tables             352256  164 nft_compat,nft_chain_nat
+nvidia_modeset       1957888  19 nvidia_drm

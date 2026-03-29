@@ -1,0 +1,2626 @@
+18:09:02 INFO 🌟 Pareto-optimal! b43ded789327 — SCI=0.000760 gCO₂/tok, BPB=4.0656, 2.6 tok/s
+18:09:02 INFO Exp #1 (slot 0) saved to DB
+18:09:03 INFO 🌟 Pareto-optimal! 6617b262d8b6 — SCI=0.000106 gCO₂/tok, BPB=4.0656, 24.8 tok/s
+18:09:03 INFO Exp #7 (slot 6) saved to DB
+18:09:46 INFO 🌟 Pareto-optimal! 88a86bd1fdbc — SCI=0.000060 gCO₂/tok, BPB=4.0656, 74.8 tok/s
+18:09:46 INFO Exp #12 (slot 6) saved to DB
+18:09:46 INFO 📉 Config 6e3740dc5c09 dominated (rank 1, SCI=0.000117)
+18:09:46 INFO Exp #11 (slot 0) saved to DB
+18:10:13 WARNING Exp #3 (slot 2) died silently (exit code -9)
+18:10:19 WARNING Exp #4 (slot 3) died silently (exit code -9)
+18:10:26 WARNING Exp #2 (slot 1) died silently (exit code -9)
+18:10:35 WARNING Exp #5 (slot 4) died silently (exit code -9)
+18:10:38 INFO Skipping evaluation for 08ad5b7ee7fa (status=failed)
+18:10:38 INFO Exp #8 (slot 7) saved to DB
+18:10:43 INFO Skipping evaluation for cbc0378158bc (status=failed)
+18:10:43 INFO Exp #10 (slot 9) saved to DB
+18:10:43 INFO Skipping evaluation for a1ccedc24ce3 (status=failed)
+18:10:43 INFO Exp #6 (slot 5) saved to DB
+18:10:43 INFO Skipping evaluation for f3f098ef6295 (status=failed)
+18:10:43 INFO Exp #9 (slot 8) saved to DB
+18:10:46 INFO 📈 Frontier expanded by 1b2051f077e3 (rank -1, SCI=0.000000)
+18:10:46 INFO Exp #13 (slot 6) saved to DB
+18:10:46 INFO 📈 Frontier expanded by 13571137a6a2 (rank -1, SCI=0.000000)
+18:10:46 INFO Exp #14 (slot 0) saved to DB
+18:11:01 INFO Skipping evaluation for 89c931d058a1 (status=discarded)
+18:11:01 INFO Exp #15 (slot 2) saved to DB
+18:11:03 INFO Skipping evaluation for 580e690cc2ee (status=discarded)
+18:11:03 INFO Exp #17 (slot 1) saved to DB
+18:11:04 INFO Skipping evaluation for d7979f47f58c (status=discarded)
+18:11:04 INFO Exp #25 (slot 2) saved to DB
+18:11:05 INFO Skipping evaluation for af640ce8e0c1 (status=discarded)
+18:11:05 INFO Exp #26 (slot 1) saved to DB
+18:11:05 INFO Skipping evaluation for cd4c330817fe (status=discarded)
+18:11:05 INFO Exp #27 (slot 2) saved to DB
+18:11:06 INFO Skipping evaluation for 367f5cd2f964 (status=discarded)
+18:11:06 INFO Exp #28 (slot 1) saved to DB
+18:11:06 INFO Skipping evaluation for 71eb89ea5ee0 (status=discarded)
+18:11:06 INFO Exp #29 (slot 2) saved to DB
+18:11:07 INFO Skipping evaluation for cdfbff305d2b (status=discarded)
+18:11:07 INFO Exp #30 (slot 1) saved to DB
+18:11:08 INFO Skipping evaluation for a72cec2c5b01 (status=discarded)
+18:11:08 INFO Exp #31 (slot 2) saved to DB
+18:11:08 INFO Skipping evaluation for 5fc844167518 (status=discarded)
+18:11:08 INFO Exp #32 (slot 1) saved to DB
+18:11:09 INFO Skipping evaluation for 408c70a82454 (status=discarded)
+18:11:09 INFO Exp #33 (slot 2) saved to DB
+18:11:09 INFO Skipping evaluation for d12ccf6f5abe (status=discarded)
+18:11:09 INFO Exp #34 (slot 1) saved to DB
+18:11:10 INFO Skipping evaluation for ab97fda88bc7 (status=discarded)
+18:11:10 INFO Exp #35 (slot 2) saved to DB
+18:11:10 INFO Skipping evaluation for 33467197b231 (status=discarded)
+18:11:10 INFO Exp #36 (slot 1) saved to DB
+18:11:11 INFO Skipping evaluation for beaa3d91eaf4 (status=discarded)
+18:11:11 INFO Exp #37 (slot 2) saved to DB
+18:11:11 INFO Skipping evaluation for 4960760dfb20 (status=discarded)
+18:11:11 INFO Exp #38 (slot 1) saved to DB
+18:11:12 INFO Skipping evaluation for d85d88eabb87 (status=discarded)
+18:11:12 INFO Exp #39 (slot 2) saved to DB
+18:11:12 INFO Skipping evaluation for f46c5677e69d (status=discarded)
+18:11:12 INFO Exp #40 (slot 1) saved to DB
+18:11:13 INFO Skipping evaluation for bc38ce971b73 (status=discarded)
+18:11:13 INFO Exp #41 (slot 2) saved to DB
+18:11:13 INFO Skipping evaluation for 448ba7f7f3ef (status=discarded)
+18:11:13 INFO Exp #42 (slot 1) saved to DB
+18:11:14 INFO Skipping evaluation for 171882f839e1 (status=discarded)
+18:11:14 INFO Exp #43 (slot 2) saved to DB
+18:11:14 INFO Skipping evaluation for 0411c7a0bc6e (status=discarded)
+18:11:14 INFO Exp #44 (slot 1) saved to DB
+18:11:15 INFO Skipping evaluation for 19d64a19ee82 (status=discarded)
+18:11:15 INFO Exp #45 (slot 2) saved to DB
+18:11:15 INFO Skipping evaluation for bfd21cb41fcf (status=discarded)
+18:11:15 INFO Exp #46 (slot 1) saved to DB
+18:11:16 INFO Skipping evaluation for ebbcddeecd05 (status=discarded)
+18:11:16 INFO Exp #47 (slot 2) saved to DB
+18:11:16 INFO Skipping evaluation for d558ca58bcab (status=discarded)
+18:11:16 INFO Exp #48 (slot 1) saved to DB
+18:11:17 INFO Skipping evaluation for 053c9d75af79 (status=discarded)
+18:11:17 INFO Exp #49 (slot 2) saved to DB
+18:11:17 INFO Skipping evaluation for 98208fc5809e (status=discarded)
+18:11:17 INFO Exp #50 (slot 1) saved to DB
+18:11:17 INFO Skipping evaluation for 6936bc130ff9 (status=discarded)
+18:11:17 INFO Exp #51 (slot 2) saved to DB
+18:11:18 INFO Skipping evaluation for 4c6bbd49af6b (status=discarded)
+18:11:18 INFO Exp #18 (slot 4) saved to DB
+18:11:18 INFO Skipping evaluation for 531b7f251c2e (status=discarded)
+18:11:18 INFO Exp #52 (slot 1) saved to DB
+18:11:19 INFO Skipping evaluation for 688a281471ed (status=discarded)
+18:11:19 INFO Exp #53 (slot 2) saved to DB
+18:11:19 INFO Skipping evaluation for e9ec6a20a72a (status=discarded)
+18:11:19 INFO Exp #54 (slot 4) saved to DB
+18:11:19 INFO Skipping evaluation for d43182789abc (status=discarded)
+18:11:19 INFO Exp #55 (slot 1) saved to DB
+18:11:20 INFO Skipping evaluation for 4411f8656c9e (status=discarded)
+18:11:20 INFO Exp #56 (slot 2) saved to DB
+18:11:21 INFO Skipping evaluation for bc2f64da8013 (status=discarded)
+18:11:21 INFO Exp #57 (slot 4) saved to DB
+18:11:21 INFO Skipping evaluation for 96bc6cbc0db4 (status=discarded)
+18:11:21 INFO Exp #58 (slot 1) saved to DB
+18:11:21 INFO Skipping evaluation for e9bbe7e2d410 (status=discarded)
+18:11:21 INFO Exp #59 (slot 2) saved to DB
+18:11:21 INFO Skipping evaluation for 1444b33cd31f (status=discarded)
+18:11:21 INFO Exp #60 (slot 4) saved to DB
+18:11:22 INFO Skipping evaluation for e54067aa6b82 (status=discarded)
+18:11:22 INFO Exp #61 (slot 1) saved to DB
+18:11:22 INFO Skipping evaluation for f3a637fcb385 (status=discarded)
+18:11:22 INFO Exp #62 (slot 2) saved to DB
+18:11:22 INFO Skipping evaluation for 2f216d74bf64 (status=discarded)
+18:11:22 INFO Exp #63 (slot 4) saved to DB
+18:11:23 INFO Skipping evaluation for c684fe13f9ec (status=discarded)
+18:11:23 INFO Exp #64 (slot 1) saved to DB
+18:11:23 INFO Skipping evaluation for c814b8c9e6c4 (status=discarded)
+18:11:23 INFO Exp #65 (slot 2) saved to DB
+18:11:23 INFO Skipping evaluation for 535fad920b0a (status=discarded)
+18:11:23 INFO Exp #66 (slot 4) saved to DB
+18:11:24 INFO Skipping evaluation for 52da5221aca3 (status=discarded)
+18:11:24 INFO Exp #67 (slot 1) saved to DB
+18:11:24 INFO Skipping evaluation for 930d4368dc5c (status=discarded)
+18:11:24 INFO Exp #68 (slot 2) saved to DB
+18:11:24 INFO Skipping evaluation for cc040a0c240f (status=discarded)
+18:11:24 INFO Exp #69 (slot 4) saved to DB
+18:11:25 INFO Skipping evaluation for f9ddf8d07dbb (status=discarded)
+18:11:25 INFO Exp #70 (slot 1) saved to DB
+18:11:25 INFO Skipping evaluation for a5b44bb0a468 (status=discarded)
+18:11:25 INFO Exp #71 (slot 2) saved to DB
+18:11:25 INFO Skipping evaluation for fd3136ad7952 (status=discarded)
+18:11:25 INFO Exp #72 (slot 4) saved to DB
+18:11:26 INFO Skipping evaluation for 81f720e5f0cd (status=discarded)
+18:11:26 INFO Exp #73 (slot 1) saved to DB
+18:11:26 INFO Skipping evaluation for a86e696e633c (status=discarded)
+18:11:26 INFO Exp #74 (slot 2) saved to DB
+18:11:26 INFO Skipping evaluation for 28c214396fcd (status=discarded)
+18:11:26 INFO Exp #75 (slot 4) saved to DB
+18:11:27 INFO Skipping evaluation for be916a9e7889 (status=discarded)
+18:11:27 INFO Exp #76 (slot 1) saved to DB
+18:11:27 INFO Skipping evaluation for a98575a53e71 (status=discarded)
+18:11:27 INFO Exp #78 (slot 4) saved to DB
+18:11:27 INFO Skipping evaluation for a635c1dda568 (status=discarded)
+18:11:27 INFO Exp #77 (slot 2) saved to DB
+18:11:28 INFO Skipping evaluation for bbe3bbf1e320 (status=discarded)
+18:11:28 INFO Exp #20 (slot 9) saved to DB
+18:11:29 INFO Skipping evaluation for ab010467184f (status=discarded)
+18:11:29 INFO Exp #79 (slot 1) saved to DB
+18:11:29 INFO Skipping evaluation for 4437279149f7 (status=discarded)
+18:11:29 INFO Exp #81 (slot 2) saved to DB
+18:11:29 INFO Skipping evaluation for aab84acc811f (status=discarded)
+18:11:29 INFO Exp #80 (slot 4) saved to DB
+18:11:29 INFO Skipping evaluation for a838851e8ae0 (status=discarded)
+18:11:29 INFO Exp #21 (slot 5) saved to DB
+18:11:30 INFO Skipping evaluation for 0a5abb274b2a (status=discarded)
+18:11:30 INFO Exp #82 (slot 9) saved to DB
+18:11:30 INFO Skipping evaluation for b4517ef1b5f3 (status=failed)
+18:11:30 INFO Exp #16 (slot 3) saved to DB
+18:11:30 INFO Skipping evaluation for b54ed02f7576 (status=discarded)
+18:11:30 INFO Exp #83 (slot 1) saved to DB
+18:11:30 INFO Skipping evaluation for e885f6941578 (status=discarded)
+18:11:30 INFO Exp #85 (slot 4) saved to DB
+18:11:30 INFO Skipping evaluation for a1e54c81361c (status=discarded)
+18:11:30 INFO Exp #84 (slot 2) saved to DB
+18:11:31 INFO Skipping evaluation for 864b2bf14e08 (status=discarded)
+18:11:31 INFO Exp #86 (slot 5) saved to DB
+18:11:31 INFO Skipping evaluation for 50367b584bb7 (status=discarded)
+18:11:31 INFO Exp #90 (slot 4) saved to DB
+18:11:31 INFO Skipping evaluation for 19dc96419ff6 (status=discarded)
+18:11:31 INFO Exp #91 (slot 2) saved to DB
+18:11:31 INFO Skipping evaluation for d4954910eb28 (status=discarded)
+18:11:31 INFO Exp #87 (slot 9) saved to DB
+18:11:31 INFO Skipping evaluation for 35b9e6cdb88e (status=discarded)
+18:11:31 INFO Exp #89 (slot 1) saved to DB
+18:11:31 INFO Skipping evaluation for bba1873652fc (status=discarded)
+18:11:31 INFO Exp #88 (slot 3) saved to DB
+18:11:32 INFO Skipping evaluation for 631122bf167e (status=discarded)
+18:11:32 INFO Exp #23 (slot 6) saved to DB
+18:11:32 INFO Skipping evaluation for cb10e2bd9993 (status=discarded)
+18:11:32 INFO Exp #92 (slot 5) saved to DB
+18:11:33 INFO Skipping evaluation for 6549b43d0d7c (status=discarded)
+18:11:33 INFO Exp #97 (slot 3) saved to DB
+18:11:33 INFO Skipping evaluation for 1377bb48c170 (status=discarded)
+18:11:33 INFO Exp #95 (slot 9) saved to DB
+18:11:33 INFO Skipping evaluation for ce4ebc629f96 (status=discarded)
+18:11:33 INFO Exp #96 (slot 1) saved to DB
+18:11:33 INFO Skipping evaluation for 69997fc32f65 (status=discarded)
+18:11:33 INFO Exp #94 (slot 2) saved to DB
+18:11:33 INFO Skipping evaluation for 0071db5bebca (status=discarded)
+18:11:33 INFO Exp #93 (slot 4) saved to DB
+18:11:33 INFO Skipping evaluation for 2fbe5cb69cd0 (status=discarded)
+18:11:33 INFO Exp #98 (slot 6) saved to DB
+18:11:33 INFO Skipping evaluation for 54c56d5954a6 (status=discarded)
+18:11:33 INFO Exp #99 (slot 5) saved to DB
+18:11:34 INFO Skipping evaluation for 1e664f119afa (status=discarded)
+18:11:34 INFO Exp #104 (slot 4) saved to DB
+18:11:34 INFO Skipping evaluation for c80c37af54bd (status=discarded)
+18:11:34 INFO Exp #100 (slot 3) saved to DB
+18:11:34 INFO Skipping evaluation for f564f95954a1 (status=discarded)
+18:11:34 INFO Exp #101 (slot 9) saved to DB
+18:11:34 INFO Skipping evaluation for a24aa04495c1 (status=discarded)
+18:11:34 INFO Exp #103 (slot 2) saved to DB
+18:11:34 INFO Skipping evaluation for add792938de0 (status=discarded)
+18:11:34 INFO Exp #102 (slot 1) saved to DB
+18:11:34 INFO Skipping evaluation for 79bee1508b0e (status=discarded)
+18:11:34 INFO Exp #105 (slot 6) saved to DB
+18:11:34 INFO Skipping evaluation for 32d640522ad5 (status=discarded)
+18:11:34 INFO Exp #106 (slot 5) saved to DB
+18:11:35 INFO Skipping evaluation for b5c926e10411 (status=discarded)
+18:11:35 INFO Exp #107 (slot 4) saved to DB
+18:11:35 INFO Skipping evaluation for ef87e72f248e (status=discarded)
+18:11:35 INFO Exp #109 (slot 9) saved to DB
+18:11:35 INFO Skipping evaluation for 9cc2fb7927e6 (status=discarded)
+18:11:35 INFO Exp #110 (slot 2) saved to DB
+18:11:35 INFO Skipping evaluation for d2000e893557 (status=discarded)
+18:11:35 INFO Exp #111 (slot 1) saved to DB
+18:11:35 INFO Skipping evaluation for 0f492f1e0dee (status=discarded)
+18:11:35 INFO Exp #108 (slot 3) saved to DB
+18:11:35 INFO Skipping evaluation for e3ddb8bb478e (status=discarded)
+18:11:35 INFO Exp #112 (slot 6) saved to DB
+18:11:35 INFO Skipping evaluation for 8f9d91213bb8 (status=discarded)
+18:11:35 INFO Exp #113 (slot 5) saved to DB
+18:11:36 INFO Skipping evaluation for c79aadcfef78 (status=discarded)
+18:11:36 INFO Exp #114 (slot 4) saved to DB
+18:11:36 INFO Skipping evaluation for e2b65890972d (status=discarded)
+18:11:36 INFO Exp #117 (slot 1) saved to DB
+18:11:36 INFO Skipping evaluation for 746eb1d570ff (status=discarded)
+18:11:36 INFO Exp #118 (slot 3) saved to DB
+18:11:36 INFO Skipping evaluation for 6adc293e26c3 (status=discarded)
+18:11:36 INFO Exp #115 (slot 9) saved to DB
+18:11:36 INFO Skipping evaluation for 2783ad1d492b (status=discarded)
+18:11:36 INFO Exp #116 (slot 2) saved to DB
+18:11:36 INFO Skipping evaluation for b895f700d79f (status=discarded)
+18:11:36 INFO Exp #120 (slot 5) saved to DB
+18:11:36 INFO Skipping evaluation for 45506d778519 (status=discarded)
+18:11:36 INFO Exp #119 (slot 6) saved to DB
+18:11:37 INFO Skipping evaluation for 295f4c058927 (status=discarded)
+18:11:37 INFO Exp #122 (slot 1) saved to DB
+18:11:37 INFO Skipping evaluation for 0f7b84aa42cf (status=discarded)
+18:11:37 INFO Exp #121 (slot 4) saved to DB
+18:11:37 INFO Skipping evaluation for 41ab860e1c7a (status=discarded)
+18:11:37 INFO Exp #124 (slot 9) saved to DB
+18:11:37 INFO Skipping evaluation for 33ae4a666af5 (status=discarded)
+18:11:37 INFO Exp #123 (slot 3) saved to DB
+18:11:37 INFO Skipping evaluation for 296caf6796c9 (status=discarded)
+18:11:37 INFO Exp #125 (slot 2) saved to DB
+18:11:37 INFO Skipping evaluation for 291186482d62 (status=discarded)
+18:11:37 INFO Exp #126 (slot 5) saved to DB
+18:11:37 INFO Skipping evaluation for 5f23428d8770 (status=discarded)
+18:11:37 INFO Exp #127 (slot 6) saved to DB
+18:11:38 INFO Skipping evaluation for 081adf807c08 (status=discarded)
+18:11:38 INFO Exp #128 (slot 1) saved to DB
+18:11:38 INFO Skipping evaluation for 8b5579b686f5 (status=discarded)
+18:11:38 INFO Exp #131 (slot 3) saved to DB
+18:11:38 INFO Skipping evaluation for 0f79ee72733b (status=discarded)
+18:11:38 INFO Exp #129 (slot 4) saved to DB
+18:11:38 INFO Skipping evaluation for 0c08ba2babed (status=discarded)
+18:11:38 INFO Exp #130 (slot 9) saved to DB
+18:11:38 INFO Skipping evaluation for 8875ad8dc2e4 (status=discarded)
+18:11:38 INFO Exp #132 (slot 2) saved to DB
+18:11:38 INFO Skipping evaluation for ba04a2935397 (status=discarded)
+18:11:38 INFO Exp #133 (slot 5) saved to DB
+18:11:38 INFO Skipping evaluation for b5c4398e534c (status=discarded)
+18:11:38 INFO Exp #134 (slot 6) saved to DB
+18:11:39 INFO Skipping evaluation for c8368da682a7 (status=discarded)
+18:11:39 INFO Exp #135 (slot 1) saved to DB
+18:11:39 INFO Skipping evaluation for 6c59ab102a8a (status=discarded)
+18:11:39 INFO Exp #138 (slot 9) saved to DB
+18:11:39 INFO Skipping evaluation for ce72340dd863 (status=discarded)
+18:11:39 INFO Exp #137 (slot 4) saved to DB
+18:11:39 INFO Skipping evaluation for 136ea7469c7f (status=discarded)
+18:11:39 INFO Exp #139 (slot 2) saved to DB
+18:11:39 INFO Skipping evaluation for f967742f6c68 (status=discarded)
+18:11:39 INFO Exp #136 (slot 3) saved to DB
+18:11:40 INFO Skipping evaluation for 2f7286ac3215 (status=discarded)
+18:11:40 INFO Exp #140 (slot 5) saved to DB
+18:11:40 INFO Skipping evaluation for 1614fe032a62 (status=discarded)
+18:11:40 INFO Exp #141 (slot 6) saved to DB
+18:11:40 INFO Skipping evaluation for bf8f35301074 (status=discarded)
+18:11:40 INFO Exp #142 (slot 1) saved to DB
+18:11:40 INFO Skipping evaluation for 855c42b9e86b (status=discarded)
+18:11:40 INFO Exp #144 (slot 4) saved to DB
+18:11:40 INFO Skipping evaluation for 40e9364ffbb1 (status=discarded)
+18:11:40 INFO Exp #143 (slot 9) saved to DB
+18:11:40 INFO Skipping evaluation for 463ab44f2e15 (status=discarded)
+18:11:40 INFO Exp #145 (slot 2) saved to DB
+18:11:41 INFO Skipping evaluation for c4eee4093153 (status=discarded)
+18:11:41 INFO Exp #146 (slot 3) saved to DB
+18:11:41 INFO Skipping evaluation for 741236852884 (status=discarded)
+18:11:41 INFO Exp #147 (slot 5) saved to DB
+18:11:41 INFO Skipping evaluation for 9473dacd8d5e (status=discarded)
+18:11:41 INFO Exp #148 (slot 6) saved to DB
+18:11:41 INFO Skipping evaluation for 63aedfdcad41 (status=discarded)
+18:11:41 INFO Exp #149 (slot 1) saved to DB
+18:11:41 INFO Skipping evaluation for 1cbc2f3c9ecc (status=discarded)
+18:11:41 INFO Exp #152 (slot 2) saved to DB
+18:11:41 INFO Skipping evaluation for 4094d2b0dcd5 (status=discarded)
+18:11:41 INFO Exp #150 (slot 4) saved to DB
+18:11:41 INFO Skipping evaluation for 9cc944fc2fdc (status=discarded)
+18:11:41 INFO Exp #151 (slot 9) saved to DB
+18:11:42 INFO Skipping evaluation for e35358a1c9c5 (status=discarded)
+18:11:42 INFO Exp #153 (slot 3) saved to DB
+18:11:42 INFO Skipping evaluation for 4634fc6303f4 (status=discarded)
+18:11:42 INFO Exp #155 (slot 6) saved to DB
+18:11:42 INFO Skipping evaluation for 58feb137b2e5 (status=discarded)
+18:11:42 INFO Exp #154 (slot 5) saved to DB
+18:11:42 INFO Skipping evaluation for d955c1983e6d (status=discarded)
+18:11:42 INFO Exp #156 (slot 1) saved to DB
+18:11:42 INFO Skipping evaluation for 8fee4737378f (status=discarded)
+18:11:42 INFO Exp #159 (slot 9) saved to DB
+18:11:42 INFO Skipping evaluation for 75b3270049cf (status=discarded)
+18:11:42 INFO Exp #157 (slot 2) saved to DB
+18:11:43 INFO Skipping evaluation for 1ca8d6abe570 (status=discarded)
+18:11:43 INFO Exp #158 (slot 4) saved to DB
+18:11:43 INFO Skipping evaluation for dc6d63db791b (status=discarded)
+18:11:43 INFO Exp #161 (slot 6) saved to DB
+18:11:43 INFO Skipping evaluation for 3911cae20e75 (status=discarded)
+18:11:43 INFO Exp #160 (slot 3) saved to DB
+18:11:43 INFO Skipping evaluation for b5a039239e4d (status=discarded)
+18:11:43 INFO Exp #162 (slot 5) saved to DB
+18:11:43 INFO Skipping evaluation for 982bba3c056d (status=discarded)
+18:11:43 INFO Exp #163 (slot 1) saved to DB
+18:11:43 INFO Skipping evaluation for a887b035d0ab (status=discarded)
+18:11:43 INFO Exp #164 (slot 9) saved to DB
+18:11:44 INFO Skipping evaluation for da563b6f6218 (status=discarded)
+18:11:44 INFO Exp #165 (slot 2) saved to DB
+18:11:44 INFO Skipping evaluation for e04cf9d27ea6 (status=discarded)
+18:11:44 INFO Exp #167 (slot 6) saved to DB
+18:11:44 INFO Skipping evaluation for ed91cec071cc (status=discarded)
+18:11:44 INFO Exp #166 (slot 4) saved to DB
+18:11:44 INFO Skipping evaluation for b3b089de53c7 (status=discarded)
+18:11:44 INFO Exp #168 (slot 3) saved to DB
+18:11:44 INFO Skipping evaluation for 5c416b1e737f (status=discarded)
+18:11:44 INFO Exp #169 (slot 5) saved to DB
+18:11:44 INFO Skipping evaluation for 49ee00c27657 (status=discarded)
+18:11:44 INFO Exp #170 (slot 1) saved to DB
+18:11:44 INFO Skipping evaluation for 1362b2bf33d6 (status=discarded)
+18:11:44 INFO Exp #171 (slot 9) saved to DB
+18:11:45 INFO Skipping evaluation for 957a1fad3945 (status=discarded)
+18:11:45 INFO Exp #174 (slot 4) saved to DB
+18:11:45 INFO Skipping evaluation for 68fd8dd51cee (status=discarded)
+18:11:45 INFO Exp #173 (slot 6) saved to DB
+18:11:45 INFO Skipping evaluation for 33685e5f5cf2 (status=discarded)
+18:11:45 INFO Exp #172 (slot 2) saved to DB
+18:11:45 INFO Skipping evaluation for 73561f2b48e6 (status=discarded)
+18:11:45 INFO Exp #175 (slot 3) saved to DB
+18:11:45 INFO Skipping evaluation for 3fd4d15150a2 (status=discarded)
+18:11:45 INFO Exp #176 (slot 5) saved to DB
+18:11:45 INFO Skipping evaluation for fadb29fb90af (status=discarded)
+18:11:45 INFO Exp #177 (slot 1) saved to DB
+18:11:45 INFO Skipping evaluation for cb2e3c2488be (status=discarded)
+18:11:45 INFO Exp #178 (slot 9) saved to DB
+18:11:46 INFO Skipping evaluation for c5b1595ca510 (status=discarded)
+18:11:46 INFO Exp #180 (slot 6) saved to DB
+18:11:46 INFO Skipping evaluation for 0a43b7641561 (status=discarded)
+18:11:46 INFO Exp #179 (slot 4) saved to DB
+18:11:46 INFO Skipping evaluation for 130547289f11 (status=discarded)
+18:11:46 INFO Exp #181 (slot 2) saved to DB
+18:11:46 INFO Skipping evaluation for d3071942c63c (status=discarded)
+18:11:46 INFO Exp #182 (slot 3) saved to DB
+18:11:46 INFO Skipping evaluation for 09f27f6f47a1 (status=discarded)
+18:11:46 INFO Exp #183 (slot 5) saved to DB
+18:11:46 INFO Skipping evaluation for 64fe50df26b3 (status=discarded)
+18:11:46 INFO Exp #184 (slot 1) saved to DB
+18:11:46 INFO Skipping evaluation for 8b3281fb6f52 (status=discarded)
+18:11:46 INFO Exp #185 (slot 9) saved to DB
+18:11:47 INFO Skipping evaluation for d81018eaf0c5 (status=discarded)
+18:11:47 INFO Exp #186 (slot 6) saved to DB
+18:11:47 INFO Skipping evaluation for 19945f809f19 (status=discarded)
+18:11:47 INFO Exp #187 (slot 4) saved to DB
+18:11:47 INFO Skipping evaluation for ddb01936a75c (status=discarded)
+18:11:47 INFO Exp #188 (slot 2) saved to DB
+18:11:47 INFO Skipping evaluation for 5b65156282ea (status=discarded)
+18:11:47 INFO Exp #189 (slot 3) saved to DB
+18:11:47 INFO Skipping evaluation for f5244f593e25 (status=discarded)
+18:11:47 INFO Exp #190 (slot 5) saved to DB
+18:11:47 INFO Skipping evaluation for 897005057dbf (status=discarded)
+18:11:47 INFO Exp #191 (slot 1) saved to DB
+18:11:47 INFO Skipping evaluation for a49b5afaa800 (status=discarded)
+18:11:47 INFO Exp #192 (slot 9) saved to DB
+18:11:48 INFO Skipping evaluation for 5c0ce31ad72f (status=discarded)
+18:11:48 INFO Exp #193 (slot 6) saved to DB
+18:11:48 INFO Skipping evaluation for a9c80c4a25a4 (status=discarded)
+18:11:48 INFO Exp #194 (slot 4) saved to DB
+18:11:48 INFO Skipping evaluation for 7d50877257b4 (status=discarded)
+18:11:48 INFO Exp #195 (slot 2) saved to DB
+18:11:48 INFO Skipping evaluation for bfe0f7cddba2 (status=discarded)
+18:11:48 INFO Exp #196 (slot 3) saved to DB
+18:11:48 INFO Skipping evaluation for 1f20a93da809 (status=discarded)
+18:11:48 INFO Exp #197 (slot 5) saved to DB
+18:11:48 INFO Skipping evaluation for 68282953f226 (status=discarded)
+18:11:48 INFO Exp #198 (slot 1) saved to DB
+18:11:48 INFO Skipping evaluation for 118d48a5c6ee (status=discarded)
+18:11:48 INFO Exp #199 (slot 9) saved to DB
+18:11:49 INFO Skipping evaluation for a6efeed07478 (status=discarded)
+18:11:49 INFO Exp #201 (slot 4) saved to DB
+18:11:49 INFO Skipping evaluation for e6e978709444 (status=discarded)
+18:11:49 INFO Exp #200 (slot 6) saved to DB
+18:11:49 INFO Skipping evaluation for ac92793d38e3 (status=discarded)
+18:11:49 INFO Exp #202 (slot 2) saved to DB
+18:11:49 INFO Skipping evaluation for 0d0723174ea0 (status=discarded)
+18:11:49 INFO Exp #203 (slot 3) saved to DB
+18:11:49 INFO Skipping evaluation for 76a154d6d5ce (status=discarded)
+18:11:49 INFO Exp #204 (slot 5) saved to DB
+18:11:49 INFO Skipping evaluation for 117239bd458a (status=discarded)
+18:11:49 INFO Exp #205 (slot 1) saved to DB
+18:11:49 INFO Skipping evaluation for 87150169ca16 (status=discarded)
+18:11:49 INFO Exp #206 (slot 9) saved to DB
+18:11:50 INFO Skipping evaluation for e269945bdb06 (status=discarded)
+18:11:50 INFO Exp #208 (slot 6) saved to DB
+18:11:50 INFO Skipping evaluation for 1608b3609424 (status=discarded)
+18:11:50 INFO Exp #207 (slot 4) saved to DB
+18:11:50 INFO Skipping evaluation for 5352ffdb9a34 (status=discarded)
+18:11:50 INFO Exp #209 (slot 2) saved to DB
+18:11:50 INFO Skipping evaluation for bd35c4895949 (status=discarded)
+18:11:50 INFO Exp #210 (slot 3) saved to DB
+18:11:50 INFO Skipping evaluation for 310cacc3a715 (status=discarded)
+18:11:50 INFO Exp #211 (slot 5) saved to DB
+18:11:50 INFO Skipping evaluation for 008db81d8a63 (status=discarded)
+18:11:50 INFO Exp #212 (slot 1) saved to DB
+18:11:50 INFO Skipping evaluation for b483c90f3d91 (status=discarded)
+18:11:50 INFO Exp #213 (slot 9) saved to DB
+18:11:51 INFO Skipping evaluation for 5aeb676f947b (status=discarded)
+18:11:51 INFO Exp #215 (slot 4) saved to DB
+18:11:51 INFO Skipping evaluation for 10a69117ebeb (status=discarded)
+18:11:51 INFO Exp #214 (slot 6) saved to DB
+18:11:51 INFO Skipping evaluation for c7972ccb5394 (status=discarded)
+18:11:51 INFO Exp #216 (slot 2) saved to DB
+18:11:51 INFO Skipping evaluation for 1db9609f0149 (status=discarded)
+18:11:51 INFO Exp #217 (slot 3) saved to DB
+18:11:51 INFO Skipping evaluation for f5ebd19b3099 (status=discarded)
+18:11:51 INFO Exp #219 (slot 1) saved to DB
+18:11:51 INFO Skipping evaluation for 7e098fc4b380 (status=discarded)
+18:11:51 INFO Exp #218 (slot 5) saved to DB
+18:11:52 INFO Skipping evaluation for c05e65b7a0e1 (status=discarded)
+18:11:52 INFO Exp #220 (slot 9) saved to DB
+18:11:52 INFO Skipping evaluation for dc2215592149 (status=discarded)
+18:11:52 INFO Exp #221 (slot 4) saved to DB
+18:11:52 INFO Skipping evaluation for bf042675db9d (status=discarded)
+18:11:52 INFO Exp #222 (slot 6) saved to DB
+18:11:52 INFO Skipping evaluation for 87fd35ca616b (status=discarded)
+18:11:52 INFO Exp #223 (slot 2) saved to DB
+18:11:52 INFO Skipping evaluation for 3436363b5053 (status=discarded)
+18:11:52 INFO Exp #224 (slot 3) saved to DB
+18:11:52 INFO Skipping evaluation for 2b4cdbbce094 (status=discarded)
+18:11:52 INFO Exp #225 (slot 1) saved to DB
+18:11:52 INFO Skipping evaluation for 2e3690a9f2f9 (status=discarded)
+18:11:52 INFO Exp #226 (slot 5) saved to DB
+18:11:53 INFO Skipping evaluation for 376fc0057e46 (status=discarded)
+18:11:53 INFO Exp #227 (slot 9) saved to DB
+18:11:53 INFO Skipping evaluation for f231d1f02b4f (status=discarded)
+18:11:53 INFO Exp #230 (slot 2) saved to DB
+18:11:53 INFO Skipping evaluation for 83fa3f2e33b9 (status=discarded)
+18:11:53 INFO Exp #228 (slot 4) saved to DB
+18:11:53 INFO Skipping evaluation for 8951b1577726 (status=discarded)
+18:11:53 INFO Exp #229 (slot 6) saved to DB
+18:11:53 INFO Skipping evaluation for e2f5da021cc0 (status=discarded)
+18:11:53 INFO Exp #231 (slot 3) saved to DB
+18:11:53 INFO Skipping evaluation for 3283cd6c7be5 (status=discarded)
+18:11:53 INFO Exp #232 (slot 1) saved to DB
+18:11:53 INFO Skipping evaluation for c771f90cb4fd (status=discarded)
+18:11:53 INFO Exp #233 (slot 5) saved to DB
+18:11:54 INFO Skipping evaluation for c4be0e72fa06 (status=discarded)
+18:11:54 INFO Exp #235 (slot 2) saved to DB
+18:11:54 INFO Skipping evaluation for 922204b31ee3 (status=discarded)
+18:11:54 INFO Exp #234 (slot 9) saved to DB
+18:11:54 INFO Skipping evaluation for fd1148e2834a (status=discarded)
+18:11:54 INFO Exp #236 (slot 4) saved to DB
+18:11:54 INFO Skipping evaluation for 97037abd8f75 (status=discarded)
+18:11:54 INFO Exp #237 (slot 6) saved to DB
+18:11:54 INFO Skipping evaluation for 15150cff4bf4 (status=discarded)
+18:11:54 INFO Exp #238 (slot 3) saved to DB
+18:11:54 INFO Skipping evaluation for dcb0dd92ddc9 (status=discarded)
+18:11:54 INFO Exp #240 (slot 5) saved to DB
+18:11:54 INFO Skipping evaluation for e686c9517be6 (status=discarded)
+18:11:54 INFO Exp #239 (slot 1) saved to DB
+18:11:55 INFO Skipping evaluation for da66451b8898 (status=discarded)
+18:11:55 INFO Exp #242 (slot 9) saved to DB
+18:11:55 INFO Skipping evaluation for 19926a07bc09 (status=discarded)
+18:11:55 INFO Exp #241 (slot 2) saved to DB
+18:11:55 INFO Skipping evaluation for de9ea0e4113d (status=discarded)
+18:11:55 INFO Exp #243 (slot 4) saved to DB
+18:11:56 INFO Skipping evaluation for 842954460387 (status=discarded)
+18:11:56 INFO Exp #244 (slot 6) saved to DB
+18:11:56 INFO Skipping evaluation for d2392f8bc8ec (status=discarded)
+18:11:56 INFO Exp #245 (slot 3) saved to DB
+18:11:56 INFO Skipping evaluation for 091e27222a35 (status=discarded)
+18:11:56 INFO Exp #247 (slot 1) saved to DB
+18:11:56 INFO Skipping evaluation for 91de321c47e0 (status=discarded)
+18:11:56 INFO Exp #246 (slot 5) saved to DB
+18:11:56 INFO Skipping evaluation for f2185e01e31b (status=discarded)
+18:11:56 INFO Exp #248 (slot 9) saved to DB
+18:11:56 INFO Skipping evaluation for c11ff908cd9f (status=discarded)
+18:11:56 INFO Exp #249 (slot 2) saved to DB
+18:11:56 INFO Skipping evaluation for ac4379f486f7 (status=discarded)
+18:11:56 INFO Exp #250 (slot 4) saved to DB
+18:11:56 INFO Skipping evaluation for f902b74172b1 (status=discarded)
+18:11:56 INFO Exp #252 (slot 3) saved to DB
+18:11:57 INFO Skipping evaluation for 3d38fa417375 (status=discarded)
+18:11:57 INFO Exp #251 (slot 6) saved to DB
+18:11:57 INFO Skipping evaluation for 46674c9f59ba (status=discarded)
+18:11:57 INFO Exp #254 (slot 5) saved to DB
+18:11:57 INFO Skipping evaluation for 3f615fc9aeb4 (status=discarded)
+18:11:57 INFO Exp #253 (slot 1) saved to DB
+18:11:57 INFO Skipping evaluation for 3b888ae770dc (status=discarded)
+18:11:57 INFO Exp #255 (slot 9) saved to DB
+18:11:57 INFO Skipping evaluation for a8ea2d849360 (status=discarded)
+18:11:57 INFO Exp #256 (slot 2) saved to DB
+18:11:57 INFO Skipping evaluation for 1123a6048ab4 (status=discarded)
+18:11:57 INFO Exp #258 (slot 3) saved to DB
+18:11:57 INFO Skipping evaluation for a3e840ec2595 (status=discarded)
+18:11:57 INFO Exp #257 (slot 4) saved to DB
+18:11:58 INFO Skipping evaluation for 5c35fba0bc6b (status=discarded)
+18:11:58 INFO Exp #259 (slot 6) saved to DB
+18:11:58 INFO Skipping evaluation for 653e15c58fcc (status=discarded)
+18:11:58 INFO Exp #260 (slot 5) saved to DB
+18:11:58 INFO Skipping evaluation for df645a233bd4 (status=discarded)
+18:11:58 INFO Exp #261 (slot 1) saved to DB
+18:11:58 INFO Skipping evaluation for 644006b0eeea (status=discarded)
+18:11:58 INFO Exp #262 (slot 9) saved to DB
+18:11:58 INFO Skipping evaluation for 8fb467295224 (status=discarded)
+18:11:58 INFO Exp #263 (slot 2) saved to DB
+18:11:58 INFO Skipping evaluation for 510eb0c499a2 (status=discarded)
+18:11:58 INFO Exp #264 (slot 3) saved to DB
+18:11:58 INFO Skipping evaluation for 02f143e80bd0 (status=discarded)
+18:11:58 INFO Exp #265 (slot 4) saved to DB
+18:11:59 INFO Skipping evaluation for ad683c7e23e2 (status=discarded)
+18:11:59 INFO Exp #267 (slot 5) saved to DB
+18:11:59 INFO Skipping evaluation for 005e43be5748 (status=discarded)
+18:11:59 INFO Exp #266 (slot 6) saved to DB
+18:11:59 INFO Skipping evaluation for 2bcd49ae66d4 (status=discarded)
+18:11:59 INFO Exp #269 (slot 9) saved to DB
+18:11:59 INFO Skipping evaluation for 69d878af527e (status=discarded)
+18:11:59 INFO Exp #268 (slot 1) saved to DB
+18:11:59 INFO Skipping evaluation for dd045e98d5ac (status=discarded)
+18:11:59 INFO Exp #270 (slot 2) saved to DB
+18:11:59 INFO Skipping evaluation for d566092bbb3f (status=discarded)
+18:11:59 INFO Exp #271 (slot 3) saved to DB
+18:11:59 INFO Skipping evaluation for 1ff566dc65b9 (status=discarded)
+18:11:59 INFO Exp #272 (slot 4) saved to DB
+18:12:00 INFO Skipping evaluation for efbe1db2f5c3 (status=discarded)
+18:12:00 INFO Exp #273 (slot 5) saved to DB
+18:12:00 INFO Skipping evaluation for 45307488ff1b (status=discarded)
+18:12:00 INFO Exp #274 (slot 6) saved to DB
+18:12:00 INFO Skipping evaluation for 24b375cb537e (status=discarded)
+18:12:00 INFO Exp #275 (slot 9) saved to DB
+18:12:00 INFO Skipping evaluation for 2b7cadcfe86c (status=discarded)
+18:12:00 INFO Exp #276 (slot 1) saved to DB
+18:12:00 INFO Skipping evaluation for 1289b9a742e6 (status=discarded)
+18:12:00 INFO Exp #277 (slot 2) saved to DB
+18:12:00 INFO Skipping evaluation for 1c548f1f3da8 (status=discarded)
+18:12:00 INFO Exp #278 (slot 3) saved to DB
+18:12:00 INFO Skipping evaluation for 7bd4b5848c44 (status=discarded)
+18:12:00 INFO Exp #279 (slot 4) saved to DB
+18:12:01 INFO Skipping evaluation for 3839595e3bc4 (status=discarded)
+18:12:01 INFO Exp #281 (slot 6) saved to DB
+18:12:01 INFO Skipping evaluation for 7e0e7a4bc7da (status=discarded)
+18:12:01 INFO Exp #280 (slot 5) saved to DB
+18:12:01 INFO Skipping evaluation for 5906cd2caf1b (status=discarded)
+18:12:01 INFO Exp #284 (slot 2) saved to DB
+18:12:01 INFO Skipping evaluation for abf85c46d8c8 (status=discarded)
+18:12:01 INFO Exp #282 (slot 9) saved to DB
+18:12:01 INFO Skipping evaluation for 3533b551fb7f (status=discarded)
+18:12:01 INFO Exp #283 (slot 1) saved to DB
+18:12:01 INFO Skipping evaluation for 92cbe6c29fe5 (status=discarded)
+18:12:01 INFO Exp #286 (slot 4) saved to DB
+18:12:01 INFO Skipping evaluation for 46e61a112dd5 (status=discarded)
+18:12:01 INFO Exp #285 (slot 3) saved to DB
+18:12:02 INFO Skipping evaluation for d1da40ad537d (status=failed)
+18:12:02 INFO Exp #19 (slot 7) saved to DB
+18:12:02 INFO Skipping evaluation for 9dbe2ff4f1cb (status=discarded)
+18:12:02 INFO Exp #287 (slot 6) saved to DB
+18:12:03 INFO Skipping evaluation for c4486f60507c (status=discarded)
+18:12:03 INFO Exp #288 (slot 5) saved to DB
+18:12:03 INFO Skipping evaluation for 339b562d6510 (status=discarded)
+18:12:03 INFO Exp #289 (slot 2) saved to DB
+18:12:03 INFO Skipping evaluation for 50715461a19d (status=discarded)
+18:12:03 INFO Exp #291 (slot 1) saved to DB
+18:12:03 INFO Skipping evaluation for c4ebc1742c75 (status=discarded)
+18:12:03 INFO Exp #290 (slot 9) saved to DB
+18:12:03 INFO Skipping evaluation for 909fa3ab53c9 (status=discarded)
+18:12:03 INFO Exp #292 (slot 4) saved to DB
+18:12:03 INFO Skipping evaluation for 4416a068ab54 (status=discarded)
+18:12:03 INFO Exp #293 (slot 3) saved to DB
+18:12:03 INFO Skipping evaluation for c8e1f6f2132a (status=failed)
+18:12:03 INFO Exp #22 (slot 8) saved to DB
+18:12:03 INFO Skipping evaluation for 93b3d8b9dceb (status=discarded)
+18:12:03 INFO Exp #295 (slot 6) saved to DB
+18:12:03 INFO Skipping evaluation for 7b9d82a58502 (status=discarded)
+18:12:03 INFO Exp #294 (slot 7) saved to DB
+18:12:04 INFO Skipping evaluation for db481ab370f6 (status=discarded)
+18:12:04 INFO Exp #299 (slot 9) saved to DB
+18:12:04 INFO Skipping evaluation for 10d684046989 (status=discarded)
+18:12:04 INFO Exp #297 (slot 2) saved to DB
+18:12:04 INFO Skipping evaluation for 83759a0db986 (status=discarded)
+18:12:04 INFO Exp #301 (slot 3) saved to DB
+18:12:04 INFO Skipping evaluation for c3a4dbd34276 (status=discarded)
+18:12:04 INFO Exp #300 (slot 4) saved to DB
+18:12:04 INFO Skipping evaluation for 268b11f057a2 (status=discarded)
+18:12:04 INFO Exp #296 (slot 5) saved to DB
+18:12:04 INFO Skipping evaluation for 78f1f4680725 (status=discarded)
+18:12:04 INFO Exp #298 (slot 1) saved to DB
+18:12:05 INFO Skipping evaluation for 9ba8791e534e (status=discarded)
+18:12:05 INFO Exp #303 (slot 6) saved to DB
+18:12:05 INFO Skipping evaluation for a0f7b20ccb72 (status=discarded)
+18:12:05 INFO Exp #302 (slot 8) saved to DB
+18:12:05 INFO Skipping evaluation for d6f4bd545fd6 (status=discarded)
+18:12:05 INFO Exp #304 (slot 7) saved to DB
+18:12:05 INFO Skipping evaluation for c68cc4bfa484 (status=discarded)
+18:12:05 INFO Exp #307 (slot 3) saved to DB
+18:12:05 INFO Skipping evaluation for baaf794789cd (status=discarded)
+18:12:05 INFO Exp #310 (slot 1) saved to DB
+18:12:05 INFO Skipping evaluation for 926e3a31b495 (status=discarded)
+18:12:05 INFO Exp #308 (slot 4) saved to DB
+18:12:05 INFO Skipping evaluation for 954395ca09d2 (status=discarded)
+18:12:05 INFO Exp #309 (slot 5) saved to DB
+18:12:05 INFO Skipping evaluation for 6e84c9aad9cd (status=discarded)
+18:12:05 INFO Exp #306 (slot 2) saved to DB
+18:12:05 INFO Skipping evaluation for 284e03d3574c (status=discarded)
+18:12:05 INFO Exp #305 (slot 9) saved to DB
+18:12:06 INFO Skipping evaluation for c0d94c9db0bf (status=discarded)
+18:12:06 INFO Exp #313 (slot 7) saved to DB
+18:12:06 INFO Skipping evaluation for 168c9751298f (status=discarded)
+18:12:06 INFO Exp #316 (slot 4) saved to DB
+18:12:06 INFO Skipping evaluation for 38e9648fe56e (status=discarded)
+18:12:06 INFO Exp #318 (slot 2) saved to DB
+18:12:07 INFO Skipping evaluation for e6120ace6ee2 (status=discarded)
+18:12:07 INFO Exp #314 (slot 3) saved to DB
+18:12:07 INFO Skipping evaluation for 60c69804cd7e (status=discarded)
+18:12:07 INFO Exp #317 (slot 5) saved to DB
+18:12:07 INFO Skipping evaluation for d56db585eb3f (status=discarded)
+18:12:07 INFO Exp #319 (slot 9) saved to DB
+18:12:07 INFO Skipping evaluation for ed906748afc7 (status=discarded)
+18:12:07 INFO Exp #315 (slot 1) saved to DB
+18:12:08 INFO Skipping evaluation for 74d51ce8ef96 (status=discarded)
+18:12:08 INFO Exp #322 (slot 2) saved to DB
+18:12:08 INFO Skipping evaluation for db1575728f7d (status=discarded)
+18:12:08 INFO Exp #326 (slot 1) saved to DB
+18:12:08 INFO Skipping evaluation for 809dde48a315 (status=discarded)
+18:12:08 INFO Exp #323 (slot 3) saved to DB
+18:12:08 INFO Skipping evaluation for 57ceee30d0c4 (status=discarded)
+18:12:08 INFO Exp #325 (slot 9) saved to DB
+18:12:08 INFO Skipping evaluation for 2663f906c6af (status=discarded)
+18:12:08 INFO Exp #324 (slot 5) saved to DB
+18:12:09 INFO Skipping evaluation for f753b78c5ccd (status=discarded)
+18:12:09 INFO Exp #327 (slot 2) saved to DB
+18:12:09 INFO Skipping evaluation for 55e116995e0c (status=discarded)
+18:12:09 INFO Exp #330 (slot 9) saved to DB
+18:12:09 INFO Skipping evaluation for 13fd329960a4 (status=discarded)
+18:12:09 INFO Exp #329 (slot 3) saved to DB
+18:12:09 INFO Skipping evaluation for d3a6cde715a8 (status=discarded)
+18:12:09 INFO Exp #328 (slot 1) saved to DB
+18:12:09 INFO Skipping evaluation for a73eb69be681 (status=discarded)
+18:12:09 INFO Exp #331 (slot 5) saved to DB
+18:12:10 INFO Skipping evaluation for 234a4fd570a8 (status=discarded)
+18:12:10 INFO Exp #332 (slot 2) saved to DB
+18:12:10 INFO Skipping evaluation for a38cdf8d01f8 (status=discarded)
+18:12:10 INFO Exp #335 (slot 1) saved to DB
+18:12:10 INFO Skipping evaluation for 5cb79d0670bf (status=discarded)
+18:12:10 INFO Exp #333 (slot 9) saved to DB
+18:12:10 INFO Skipping evaluation for c2aa22c14d01 (status=discarded)
+18:12:10 INFO Exp #334 (slot 3) saved to DB
+18:12:10 INFO Skipping evaluation for 3c44a4edd5a1 (status=discarded)
+18:12:10 INFO Exp #336 (slot 5) saved to DB
+18:12:10 INFO Skipping evaluation for 319cb40a6608 (status=discarded)
+18:12:10 INFO Exp #337 (slot 2) saved to DB
+18:12:11 INFO Skipping evaluation for 95e83afd8d8d (status=discarded)
+18:12:11 INFO Exp #338 (slot 1) saved to DB
+18:12:11 INFO Skipping evaluation for 2519f8d7088b (status=discarded)
+18:12:11 INFO Exp #341 (slot 5) saved to DB
+18:12:11 INFO Skipping evaluation for 598dd6e871c7 (status=discarded)
+18:12:11 INFO Exp #340 (slot 3) saved to DB
+18:12:12 INFO Skipping evaluation for 63b85fb82559 (status=discarded)
+18:12:12 INFO Exp #339 (slot 9) saved to DB
+18:12:12 INFO Skipping evaluation for d4f3329460f2 (status=discarded)
+18:12:12 INFO Exp #342 (slot 2) saved to DB
+18:12:12 INFO Skipping evaluation for 35884d5eb217 (status=discarded)
+18:12:12 INFO Exp #343 (slot 1) saved to DB
+18:12:13 INFO Skipping evaluation for f4f577a78eff (status=discarded)
+18:12:13 INFO Exp #344 (slot 5) saved to DB
+18:12:13 INFO Skipping evaluation for 890f3ad6c492 (status=discarded)
+18:12:13 INFO Exp #345 (slot 3) saved to DB
+18:12:13 INFO Skipping evaluation for 7777309afe6d (status=discarded)
+18:12:13 INFO Exp #347 (slot 2) saved to DB
+18:12:13 INFO Skipping evaluation for 2737a27b5b74 (status=discarded)
+18:12:13 INFO Exp #346 (slot 9) saved to DB
+18:12:13 INFO Skipping evaluation for fb1b7c1596f9 (status=discarded)
+18:12:13 INFO Exp #348 (slot 1) saved to DB
+18:12:13 INFO Skipping evaluation for 617eef4fb73c (status=discarded)
+18:12:14 INFO Exp #350 (slot 3) saved to DB
+18:12:14 INFO Skipping evaluation for 3e054c1a9009 (status=discarded)
+18:12:14 INFO Exp #349 (slot 5) saved to DB
+18:12:14 INFO Skipping evaluation for 435168fa311b (status=discarded)
+18:12:14 INFO Exp #351 (slot 2) saved to DB
+18:12:14 INFO Skipping evaluation for 2cfb6a58d7c0 (status=discarded)
+18:12:14 INFO Exp #352 (slot 9) saved to DB
+18:12:14 INFO Skipping evaluation for c2194a373fac (status=discarded)
+18:12:14 INFO Exp #353 (slot 1) saved to DB
+18:12:14 INFO Skipping evaluation for 02c4271501f6 (status=discarded)
+18:12:14 INFO Exp #355 (slot 5) saved to DB
+18:12:14 INFO Skipping evaluation for c44b420710af (status=discarded)
+18:12:14 INFO Exp #356 (slot 2) saved to DB
+18:12:14 INFO Skipping evaluation for 4db812a54cab (status=discarded)
+18:12:14 INFO Exp #357 (slot 9) saved to DB
+18:12:14 INFO Skipping evaluation for 48e178064746 (status=discarded)
+18:12:14 INFO Exp #354 (slot 3) saved to DB
+18:12:15 INFO Skipping evaluation for fe8a0d5fdde7 (status=discarded)
+18:12:15 INFO Exp #358 (slot 1) saved to DB
+18:12:15 INFO Skipping evaluation for 7260c4b085ed (status=discarded)
+18:12:15 INFO Exp #359 (slot 5) saved to DB
+18:12:15 INFO Skipping evaluation for 88aff4c341b0 (status=discarded)
+18:12:15 INFO Exp #362 (slot 3) saved to DB
+18:12:15 INFO Skipping evaluation for c703656937a3 (status=discarded)
+18:12:15 INFO Exp #361 (slot 9) saved to DB
+18:12:15 INFO Skipping evaluation for 082a91213a08 (status=discarded)
+18:12:15 INFO Exp #360 (slot 2) saved to DB
+18:12:16 INFO Skipping evaluation for 7fdaa5725240 (status=discarded)
+18:12:16 INFO Exp #363 (slot 1) saved to DB
+18:12:16 INFO Skipping evaluation for a84ca1aa3202 (status=discarded)
+18:12:16 INFO Exp #364 (slot 5) saved to DB
+18:12:16 INFO Skipping evaluation for b4b798dd56b4 (status=discarded)
+18:12:16 INFO Exp #366 (slot 9) saved to DB
+18:12:16 INFO Skipping evaluation for dd4e5dcd28c9 (status=discarded)
+18:12:16 INFO Exp #367 (slot 2) saved to DB
+18:12:16 INFO Skipping evaluation for 121cb3ddf69d (status=discarded)
+18:12:16 INFO Exp #365 (slot 3) saved to DB
+18:12:17 INFO Skipping evaluation for 53b93aab0ac0 (status=discarded)
+18:12:17 INFO Exp #368 (slot 1) saved to DB
+18:12:17 INFO Skipping evaluation for e6ac7afd7076 (status=discarded)
+18:12:17 INFO Exp #369 (slot 5) saved to DB
+18:12:18 INFO Skipping evaluation for 156e52f91d88 (status=discarded)
+18:12:18 INFO Exp #372 (slot 3) saved to DB
+18:12:18 INFO Skipping evaluation for 07b85df4d5b1 (status=discarded)
+18:12:18 INFO Exp #370 (slot 9) saved to DB
+18:12:18 INFO Skipping evaluation for aeeb29369f5e (status=discarded)
+18:12:18 INFO Exp #371 (slot 2) saved to DB
+18:12:18 INFO Skipping evaluation for e3939aeff0c8 (status=discarded)
+18:12:18 INFO Exp #374 (slot 5) saved to DB
+18:12:18 INFO Skipping evaluation for 1419287eab5b (status=discarded)
+18:12:18 INFO Exp #373 (slot 1) saved to DB
+18:12:19 INFO Skipping evaluation for 7b211ce10a9f (status=discarded)
+18:12:19 INFO Exp #376 (slot 9) saved to DB
+18:12:19 INFO Skipping evaluation for 27380572cc7b (status=discarded)
+18:12:19 INFO Exp #375 (slot 3) saved to DB
+18:12:19 INFO Skipping evaluation for b5022e5a9c92 (status=discarded)
+18:12:19 INFO Exp #377 (slot 2) saved to DB
+18:12:19 INFO Skipping evaluation for 10fe502712ae (status=discarded)
+18:12:19 INFO Exp #379 (slot 1) saved to DB
+18:12:19 INFO Skipping evaluation for 88b71e212347 (status=discarded)
+18:12:19 INFO Exp #378 (slot 5) saved to DB
+18:12:20 INFO Skipping evaluation for 830b356fdb76 (status=discarded)
+18:12:20 INFO Exp #382 (slot 2) saved to DB
+18:12:20 INFO Skipping evaluation for 3efba1bb47db (status=discarded)
+18:12:20 INFO Exp #380 (slot 9) saved to DB
+18:12:20 INFO Skipping evaluation for 4302ba228145 (status=discarded)
+18:12:20 INFO Exp #381 (slot 3) saved to DB
+18:12:20 INFO Skipping evaluation for 7a45da9491f2 (status=discarded)
+18:12:20 INFO Exp #383 (slot 1) saved to DB
+18:12:21 INFO Skipping evaluation for ff745a0ff2b0 (status=discarded)
+18:12:21 INFO Exp #384 (slot 5) saved to DB
+18:12:21 INFO Skipping evaluation for cbc48c2f2090 (status=discarded)
+18:12:21 INFO Exp #386 (slot 9) saved to DB
+18:12:21 INFO Skipping evaluation for 020e44814538 (status=discarded)
+18:12:21 INFO Exp #387 (slot 3) saved to DB
+18:12:21 INFO Skipping evaluation for e3410d1be066 (status=discarded)
+18:12:21 INFO Exp #385 (slot 2) saved to DB
+18:12:21 INFO Skipping evaluation for dfeeec479a9b (status=discarded)
+18:12:21 INFO Exp #388 (slot 1) saved to DB
+18:12:22 INFO Skipping evaluation for b76531ed7954 (status=discarded)
+18:12:22 INFO Exp #390 (slot 9) saved to DB
+18:12:22 INFO Skipping evaluation for 258c51b802f5 (status=discarded)
+18:12:22 INFO Exp #389 (slot 5) saved to DB
+18:12:22 INFO Skipping evaluation for 2c63280f4d03 (status=discarded)
+18:12:22 INFO Exp #392 (slot 2) saved to DB
+18:12:22 INFO Skipping evaluation for bc8e1bf6176f (status=discarded)
+18:12:22 INFO Exp #391 (slot 3) saved to DB
+18:12:23 INFO Skipping evaluation for 7709e4f5424f (status=discarded)
+18:12:23 INFO Exp #393 (slot 1) saved to DB
+18:12:23 INFO Skipping evaluation for 8fc53da52d2e (status=discarded)
+18:12:23 INFO Exp #394 (slot 9) saved to DB
+18:12:23 INFO Skipping evaluation for dd8e4058cd46 (status=discarded)
+18:12:23 INFO Exp #395 (slot 5) saved to DB
+18:12:23 INFO Skipping evaluation for 42efc24d622d (status=discarded)
+18:12:23 INFO Exp #397 (slot 3) saved to DB
+18:12:23 INFO Skipping evaluation for 57a5a42a5d6f (status=discarded)
+18:12:23 INFO Exp #396 (slot 2) saved to DB
+18:12:24 INFO Skipping evaluation for 2d869e2be371 (status=discarded)
+18:12:24 INFO Exp #399 (slot 9) saved to DB
+18:12:24 INFO Skipping evaluation for 75df1a5f062b (status=discarded)
+18:12:24 INFO Exp #398 (slot 1) saved to DB
+18:12:24 INFO Skipping evaluation for 725cba11eb87 (status=discarded)
+18:12:24 INFO Exp #400 (slot 5) saved to DB
+18:12:24 INFO Skipping evaluation for 062059566228 (status=discarded)
+18:12:24 INFO Exp #402 (slot 2) saved to DB
+18:12:24 INFO Skipping evaluation for e79814880afb (status=discarded)
+18:12:24 INFO Exp #401 (slot 3) saved to DB
+18:12:25 INFO Skipping evaluation for 172d7352c53d (status=discarded)
+18:12:25 INFO Exp #403 (slot 9) saved to DB
+18:12:25 INFO Skipping evaluation for 1475b9389c8f (status=discarded)
+18:12:25 INFO Exp #404 (slot 1) saved to DB
+18:12:25 INFO Skipping evaluation for 4d03d692362f (status=discarded)
+18:12:25 INFO Exp #405 (slot 5) saved to DB
+18:12:25 INFO Skipping evaluation for 5390255100ab (status=discarded)
+18:12:25 INFO Exp #407 (slot 3) saved to DB
+18:12:26 INFO Skipping evaluation for bbbfec152cca (status=discarded)
+18:12:26 INFO Exp #406 (slot 2) saved to DB
+18:12:26 INFO Skipping evaluation for 4b571a68c971 (status=discarded)
+18:12:26 INFO Exp #408 (slot 9) saved to DB
+18:12:26 INFO Skipping evaluation for 7ed31f6d4247 (status=discarded)
+18:12:26 INFO Exp #410 (slot 5) saved to DB
+18:12:26 INFO Skipping evaluation for 597a07e9a085 (status=discarded)
+18:12:26 INFO Exp #409 (slot 1) saved to DB
+18:12:27 INFO Skipping evaluation for 3fdda6f0ad72 (status=discarded)
+18:12:27 INFO Exp #411 (slot 3) saved to DB
+18:12:27 INFO Skipping evaluation for 0d1cc27875b5 (status=discarded)
+18:12:27 INFO Exp #412 (slot 2) saved to DB
+18:12:27 INFO Skipping evaluation for 5e0c4d44a71a (status=discarded)
+18:12:27 INFO Exp #413 (slot 9) saved to DB
+18:12:27 INFO Skipping evaluation for e8a73856a9eb (status=discarded)
+18:12:27 INFO Exp #415 (slot 1) saved to DB
+18:12:27 INFO Skipping evaluation for daf8b40d0ecb (status=discarded)
+18:12:27 INFO Exp #414 (slot 5) saved to DB
+18:12:28 INFO Skipping evaluation for 28c0264fd40a (status=discarded)
+18:12:28 INFO Exp #416 (slot 3) saved to DB
+18:12:28 INFO Skipping evaluation for 728355729f55 (status=discarded)
+18:12:28 INFO Exp #418 (slot 9) saved to DB
+18:12:29 INFO Skipping evaluation for 0363f4523d6f (status=discarded)
+18:12:29 INFO Exp #417 (slot 2) saved to DB
+18:12:29 INFO Skipping evaluation for 6d8b81d90046 (status=discarded)
+18:12:29 INFO Exp #419 (slot 1) saved to DB
+18:12:29 INFO Skipping evaluation for c57a25de2b66 (status=discarded)
+18:12:29 INFO Exp #420 (slot 5) saved to DB
+18:12:29 INFO Skipping evaluation for bd3e0346e3fa (status=discarded)
+18:12:29 INFO Exp #421 (slot 3) saved to DB
+18:12:29 INFO Skipping evaluation for b78d6f28f891 (status=discarded)
+18:12:29 INFO Exp #422 (slot 9) saved to DB
+18:12:30 INFO Skipping evaluation for 95cf133e28f0 (status=discarded)
+18:12:30 INFO Exp #423 (slot 2) saved to DB
+18:12:30 INFO Skipping evaluation for 1bbab4a20edc (status=discarded)
+18:12:30 INFO Exp #424 (slot 1) saved to DB
+18:12:30 INFO Skipping evaluation for 7a10af102458 (status=discarded)
+18:12:30 INFO Exp #425 (slot 5) saved to DB
+18:12:30 INFO Skipping evaluation for 4910e105d79a (status=discarded)
+18:12:30 INFO Exp #426 (slot 3) saved to DB
+18:12:30 INFO Skipping evaluation for 80a2e41ee42d (status=discarded)
+18:12:30 INFO Exp #427 (slot 9) saved to DB
+18:12:31 INFO Skipping evaluation for 0132bcdc32ac (status=discarded)
+18:12:31 INFO Exp #429 (slot 1) saved to DB
+18:12:31 INFO Skipping evaluation for 7a77b23c15eb (status=discarded)
+18:12:31 INFO Exp #428 (slot 2) saved to DB
+18:12:31 INFO Skipping evaluation for fec72f7e06c8 (status=discarded)
+18:12:32 INFO Exp #430 (slot 5) saved to DB
+18:12:32 INFO Skipping evaluation for 2d3a0c7f05cc (status=discarded)
+18:12:32 INFO Exp #431 (slot 3) saved to DB
+18:12:32 INFO Skipping evaluation for c0966d716762 (status=discarded)
+18:12:32 INFO Exp #432 (slot 9) saved to DB
+18:12:32 INFO Skipping evaluation for effe1db179de (status=discarded)
+18:12:32 INFO Exp #433 (slot 1) saved to DB
+18:12:32 INFO Skipping evaluation for c5ae9dadffd6 (status=discarded)
+18:12:32 INFO Exp #434 (slot 2) saved to DB
+18:12:33 INFO Skipping evaluation for 20be95ba9c26 (status=discarded)
+18:12:33 INFO Exp #435 (slot 5) saved to DB
+18:12:33 INFO Skipping evaluation for cf376a2fc961 (status=discarded)
+18:12:33 INFO Exp #436 (slot 3) saved to DB
+18:12:33 INFO Skipping evaluation for 03e2bbbc891f (status=discarded)
+18:12:33 INFO Exp #437 (slot 9) saved to DB
+18:12:33 INFO Skipping evaluation for cd2b6b2db4cb (status=discarded)
+18:12:33 INFO Exp #438 (slot 1) saved to DB
+18:12:34 INFO Skipping evaluation for 0b5539e74998 (status=discarded)
+18:12:34 INFO Exp #439 (slot 2) saved to DB
+18:12:34 INFO Skipping evaluation for 579557be0518 (status=discarded)
+18:12:34 INFO Exp #440 (slot 5) saved to DB
+18:12:34 INFO Skipping evaluation for 89806a968548 (status=discarded)
+18:12:34 INFO Exp #441 (slot 3) saved to DB
+18:12:34 INFO Skipping evaluation for f168ac4508b7 (status=discarded)
+18:12:34 INFO Exp #442 (slot 9) saved to DB
+18:12:35 INFO Skipping evaluation for 9f6b06d3538c (status=discarded)
+18:12:35 INFO Exp #443 (slot 1) saved to DB
+18:12:35 INFO Skipping evaluation for 2af5308062e3 (status=discarded)
+18:12:35 INFO Exp #444 (slot 2) saved to DB
+18:12:35 INFO Skipping evaluation for f7a02689c8a0 (status=discarded)
+18:12:35 INFO Exp #445 (slot 5) saved to DB
+18:12:35 INFO Skipping evaluation for c363d893d2cc (status=discarded)
+18:12:35 INFO Exp #446 (slot 3) saved to DB
+18:12:35 INFO Skipping evaluation for ec8cce896897 (status=discarded)
+18:12:35 INFO Exp #447 (slot 9) saved to DB
+18:12:36 INFO Skipping evaluation for 0563387b58f0 (status=discarded)
+18:12:36 INFO Exp #448 (slot 1) saved to DB
+18:12:36 INFO Skipping evaluation for e8e974851bfe (status=discarded)
+18:12:36 INFO Exp #449 (slot 2) saved to DB
+18:12:37 INFO Skipping evaluation for 0a3b5af06e27 (status=discarded)
+18:12:37 INFO Exp #450 (slot 5) saved to DB
+18:12:37 INFO Skipping evaluation for 37ec42ffcae7 (status=discarded)
+18:12:37 INFO Exp #451 (slot 3) saved to DB
+18:12:37 INFO Skipping evaluation for 567d0456e9d8 (status=discarded)
+18:12:37 INFO Exp #452 (slot 9) saved to DB
+18:12:37 INFO Skipping evaluation for 17241c5ca67a (status=discarded)
+18:12:37 INFO Exp #453 (slot 1) saved to DB
+18:12:37 INFO Skipping evaluation for 184fb00c426e (status=discarded)
+18:12:37 INFO Exp #454 (slot 2) saved to DB
+18:12:38 INFO Skipping evaluation for 2b5b5fa4ad4c (status=discarded)
+18:12:38 INFO Exp #455 (slot 5) saved to DB
+18:12:38 INFO Skipping evaluation for 40c95602179b (status=discarded)
+18:12:38 INFO Exp #456 (slot 3) saved to DB
+18:12:38 INFO Skipping evaluation for c19f7da12248 (status=discarded)
+18:12:38 INFO Exp #457 (slot 9) saved to DB
+18:12:39 INFO Skipping evaluation for bedfd214ce30 (status=discarded)
+18:12:39 INFO Exp #458 (slot 1) saved to DB
+18:12:39 INFO Skipping evaluation for f0dec76a395c (status=discarded)
+18:12:39 INFO Exp #459 (slot 2) saved to DB
+18:12:39 INFO Skipping evaluation for b0a518b08574 (status=discarded)
+18:12:39 INFO Exp #461 (slot 3) saved to DB
+18:12:39 INFO Skipping evaluation for 119458f5c6d1 (status=discarded)
+18:12:39 INFO Exp #460 (slot 5) saved to DB
+18:12:39 INFO Skipping evaluation for d7215b4b8c51 (status=discarded)
+18:12:39 INFO Exp #462 (slot 9) saved to DB
+18:12:39 INFO Skipping evaluation for 3c9193fe3943 (status=discarded)
+18:12:39 INFO Exp #463 (slot 1) saved to DB
+18:12:40 INFO Skipping evaluation for 4b8c931e3b24 (status=discarded)
+18:12:40 INFO Exp #464 (slot 2) saved to DB
+18:12:40 INFO Skipping evaluation for 5b0133ca402f (status=discarded)
+18:12:40 INFO Exp #465 (slot 3) saved to DB
+18:12:40 INFO Skipping evaluation for bde7dd25949d (status=discarded)
+18:12:40 INFO Exp #466 (slot 5) saved to DB
+18:12:41 INFO Skipping evaluation for 6256d61c29f4 (status=discarded)
+18:12:41 INFO Exp #467 (slot 9) saved to DB
+18:12:41 INFO Skipping evaluation for c6afda6cb01b (status=discarded)
+18:12:41 INFO Exp #468 (slot 1) saved to DB
+18:12:41 INFO Skipping evaluation for 5fff41c863c2 (status=discarded)
+18:12:41 INFO Exp #470 (slot 3) saved to DB
+18:12:42 INFO Skipping evaluation for eff9e8c0bff3 (status=discarded)
+18:12:42 INFO Exp #469 (slot 2) saved to DB
+18:12:42 INFO Skipping evaluation for 90ed0d66cbb0 (status=discarded)
+18:12:42 INFO Exp #471 (slot 5) saved to DB
+18:12:42 INFO Skipping evaluation for 084f701ae929 (status=discarded)
+18:12:42 INFO Exp #472 (slot 9) saved to DB
+18:12:42 INFO Skipping evaluation for 8a804d885619 (status=discarded)
+18:12:42 INFO Exp #473 (slot 1) saved to DB
+18:12:42 INFO Skipping evaluation for 4232d9c8afc2 (status=discarded)
+18:12:42 INFO Exp #474 (slot 3) saved to DB
+18:12:43 INFO Skipping evaluation for 4f496ce2287e (status=discarded)
+18:12:43 INFO Exp #476 (slot 5) saved to DB
+18:12:43 INFO Skipping evaluation for 10e751831cba (status=discarded)
+18:12:43 INFO Exp #475 (slot 2) saved to DB
+18:12:43 INFO Skipping evaluation for b02f28d214cf (status=discarded)
+18:12:43 INFO Exp #477 (slot 9) saved to DB
+18:12:43 INFO Skipping evaluation for 719ed1bbfafa (status=discarded)
+18:12:43 INFO Exp #478 (slot 1) saved to DB
+18:12:44 INFO Skipping evaluation for 435b5906d44d (status=discarded)
+18:12:44 INFO Exp #479 (slot 3) saved to DB
+18:12:44 INFO Skipping evaluation for bd5f9286a815 (status=discarded)
+18:12:44 INFO Exp #480 (slot 5) saved to DB
+18:12:44 INFO Skipping evaluation for a967a10f9e24 (status=discarded)
+18:12:44 INFO Exp #482 (slot 9) saved to DB
+18:12:44 INFO Skipping evaluation for 80e9d54658e9 (status=discarded)
+18:12:44 INFO Exp #481 (slot 2) saved to DB
+18:12:44 INFO Skipping evaluation for 6d0599a4055c (status=discarded)
+18:12:44 INFO Exp #483 (slot 1) saved to DB
+18:12:45 INFO Skipping evaluation for 1ce9f9fdb1ca (status=discarded)
+18:12:45 INFO Exp #484 (slot 3) saved to DB
+18:12:45 INFO Skipping evaluation for 4c83f0ddfacb (status=discarded)
+18:12:45 INFO Exp #485 (slot 5) saved to DB
+18:12:45 INFO Skipping evaluation for 58cc7ed51ea3 (status=discarded)
+18:12:45 INFO Exp #487 (slot 2) saved to DB
+18:12:45 INFO Skipping evaluation for e818ede568ac (status=discarded)
+18:12:45 INFO Exp #486 (slot 9) saved to DB
+18:12:45 INFO Skipping evaluation for 0046cea0c12d (status=discarded)
+18:12:45 INFO Exp #488 (slot 1) saved to DB
+18:12:46 INFO Skipping evaluation for c7863eb6fe8f (status=discarded)
+18:12:46 INFO Exp #321 (slot 4) saved to DB
+18:12:46 INFO Skipping evaluation for 70595259eb7f (status=discarded)
+18:12:46 INFO Exp #489 (slot 3) saved to DB
+18:12:47 INFO Skipping evaluation for acc766d39d18 (status=discarded)
+18:12:47 INFO Exp #490 (slot 5) saved to DB
+18:12:47 INFO Skipping evaluation for 3859cf403d06 (status=discarded)
+18:12:47 INFO Exp #491 (slot 2) saved to DB
+18:12:47 INFO Skipping evaluation for 57b25ff4bce1 (status=discarded)
+18:12:47 INFO Exp #492 (slot 9) saved to DB
+18:12:47 INFO Skipping evaluation for db9acfb38a23 (status=discarded)
+18:12:47 INFO Exp #493 (slot 1) saved to DB
+18:12:47 INFO Skipping evaluation for 0524068a8f53 (status=discarded)
+18:12:47 INFO Exp #494 (slot 4) saved to DB
+18:12:47 INFO Skipping evaluation for 652a5611e8f5 (status=discarded)
+18:12:47 INFO Exp #495 (slot 3) saved to DB
+18:12:48 INFO Skipping evaluation for 1ab9435087db (status=discarded)
+18:12:48 INFO Exp #496 (slot 5) saved to DB
+18:12:48 INFO Skipping evaluation for dd0541c742b8 (status=discarded)
+18:12:48 INFO Exp #498 (slot 9) saved to DB
+18:12:48 INFO Skipping evaluation for 1b861525ae5f (status=discarded)
+18:12:48 INFO Exp #499 (slot 1) saved to DB
+18:12:48 INFO Skipping evaluation for e13f948630c4 (status=discarded)
+18:12:48 INFO Exp #497 (slot 2) saved to DB
+18:12:48 INFO Skipping evaluation for 2a64e838451b (status=discarded)
+18:12:48 INFO Exp #500 (slot 4) saved to DB
+18:12:49 INFO Skipping evaluation for d521695fdd2b (status=discarded)
+18:12:49 INFO Exp #501 (slot 3) saved to DB
+18:12:49 INFO Skipping evaluation for a593ea388d6f (status=discarded)
+18:12:49 INFO Exp #504 (slot 1) saved to DB
+18:12:49 INFO Skipping evaluation for 777449c8c12d (status=discarded)
+18:12:49 INFO Exp #505 (slot 2) saved to DB
+18:12:49 INFO Skipping evaluation for 482aec1b089a (status=discarded)
+18:12:49 INFO Exp #503 (slot 9) saved to DB
+18:12:49 INFO Skipping evaluation for dda789d49cf5 (status=discarded)
+18:12:49 INFO Exp #502 (slot 5) saved to DB
+18:12:49 INFO Skipping evaluation for 309d959374c6 (status=discarded)
+18:12:49 INFO Exp #506 (slot 4) saved to DB
+18:12:50 INFO Skipping evaluation for ce54c3801320 (status=discarded)
+18:12:50 INFO Exp #507 (slot 3) saved to DB
+18:12:50 INFO Skipping evaluation for e9960894d28b (status=discarded)
+18:12:50 INFO Exp #508 (slot 1) saved to DB
+18:12:50 INFO Skipping evaluation for 375d0e85c58f (status=discarded)
+18:12:50 INFO Exp #509 (slot 2) saved to DB
+18:12:50 INFO Skipping evaluation for a29ab162c52f (status=discarded)
+18:12:50 INFO Exp #511 (slot 5) saved to DB
+18:12:50 INFO Skipping evaluation for 8dee70b79eff (status=discarded)
+18:12:50 INFO Exp #510 (slot 9) saved to DB
+18:12:50 INFO Skipping evaluation for 087c605be7fa (status=discarded)
+18:12:50 INFO Exp #512 (slot 4) saved to DB
+18:12:51 INFO Skipping evaluation for 4cbcbe2dc1c7 (status=discarded)
+18:12:51 INFO Exp #514 (slot 1) saved to DB
+18:12:51 INFO Skipping evaluation for 4ae59c804f6c (status=discarded)
+18:12:51 INFO Exp #513 (slot 3) saved to DB
+18:12:51 INFO Skipping evaluation for ae83f59d788a (status=discarded)
+18:12:51 INFO Exp #516 (slot 5) saved to DB
+18:12:51 INFO Skipping evaluation for e840e5fdf3f0 (status=discarded)
+18:12:51 INFO Exp #515 (slot 2) saved to DB
+18:12:51 INFO Skipping evaluation for f24764ce20a5 (status=discarded)
+18:12:51 INFO Exp #517 (slot 9) saved to DB
+18:12:51 INFO Skipping evaluation for 2e4cd5a095bf (status=discarded)
+18:12:51 INFO Exp #518 (slot 4) saved to DB
+18:12:52 INFO Skipping evaluation for 294256d53478 (status=discarded)
+18:12:52 INFO Exp #519 (slot 1) saved to DB
+18:12:52 INFO Skipping evaluation for 1501b31df664 (status=discarded)
+18:12:52 INFO Exp #520 (slot 3) saved to DB
+18:12:52 INFO Skipping evaluation for 91df73363d08 (status=discarded)
+18:12:52 INFO Exp #521 (slot 5) saved to DB
+18:12:52 INFO Skipping evaluation for aeea291347fd (status=discarded)
+18:12:52 INFO Exp #523 (slot 9) saved to DB
+18:12:52 INFO Skipping evaluation for 572e37040d4f (status=discarded)
+18:12:52 INFO Exp #522 (slot 2) saved to DB
+18:12:52 INFO Skipping evaluation for 3119bf0aba19 (status=discarded)
+18:12:52 INFO Exp #524 (slot 4) saved to DB
+18:12:53 INFO Skipping evaluation for 37cb6997f6d3 (status=discarded)
+18:12:53 INFO Exp #525 (slot 1) saved to DB
+18:12:53 INFO Skipping evaluation for 363d7d32e07b (status=discarded)
+18:12:53 INFO Exp #526 (slot 3) saved to DB
+18:12:53 INFO Skipping evaluation for 2b70333bf2b2 (status=discarded)
+18:12:53 INFO Exp #528 (slot 9) saved to DB
+18:12:53 INFO Skipping evaluation for 3969cd3c483d (status=discarded)
+18:12:53 INFO Exp #527 (slot 5) saved to DB
+18:12:53 INFO Skipping evaluation for 79ca32afd9cf (status=discarded)
+18:12:53 INFO Exp #530 (slot 4) saved to DB
+18:12:53 INFO Skipping evaluation for 705915e1bc41 (status=discarded)
+18:12:53 INFO Exp #529 (slot 2) saved to DB
+18:12:54 INFO Skipping evaluation for 3a02d1cdef98 (status=discarded)
+18:12:54 INFO Exp #531 (slot 1) saved to DB
+18:12:54 INFO Skipping evaluation for 122b033499a0 (status=discarded)
+18:12:54 INFO Exp #532 (slot 3) saved to DB
+18:12:54 INFO Skipping evaluation for 6c50de6f859b (status=discarded)
+18:12:54 INFO Exp #534 (slot 5) saved to DB
+18:12:54 INFO Skipping evaluation for cc0ef36b8571 (status=discarded)
+18:12:54 INFO Exp #533 (slot 9) saved to DB
+18:12:54 INFO Skipping evaluation for d1a447240a35 (status=discarded)
+18:12:54 INFO Exp #536 (slot 2) saved to DB
+18:12:54 INFO Skipping evaluation for 0db4fae15f26 (status=discarded)
+18:12:54 INFO Exp #535 (slot 4) saved to DB
+18:12:55 INFO Skipping evaluation for 72813b5f982f (status=discarded)
+18:12:55 INFO Exp #537 (slot 1) saved to DB
+18:12:55 INFO Skipping evaluation for a3b5b2b263ff (status=discarded)
+18:12:55 INFO Exp #538 (slot 3) saved to DB
+18:12:55 INFO Skipping evaluation for 5b94c24af61f (status=discarded)
+18:12:55 INFO Exp #540 (slot 9) saved to DB
+18:12:55 INFO Skipping evaluation for babc6bbfe5c8 (status=discarded)
+18:12:55 INFO Exp #539 (slot 5) saved to DB
+18:12:55 INFO Skipping evaluation for 8cbdaa614d14 (status=discarded)
+18:12:55 INFO Exp #542 (slot 4) saved to DB
+18:12:55 INFO Skipping evaluation for cba570e91c91 (status=discarded)
+18:12:55 INFO Exp #541 (slot 2) saved to DB
+18:12:56 INFO Skipping evaluation for 50b7f07aa84e (status=discarded)
+18:12:56 INFO Exp #543 (slot 1) saved to DB
+18:12:56 INFO Skipping evaluation for da59b1f756c8 (status=discarded)
+18:12:56 INFO Exp #544 (slot 3) saved to DB
+18:12:56 INFO Skipping evaluation for 2f7afa6cbb77 (status=discarded)
+18:12:56 INFO Exp #548 (slot 2) saved to DB
+18:12:57 INFO Skipping evaluation for 02cd6d28ca80 (status=discarded)
+18:12:57 INFO Exp #545 (slot 9) saved to DB
+18:12:57 INFO Skipping evaluation for bc86160ea770 (status=discarded)
+18:12:57 INFO Exp #547 (slot 4) saved to DB
+18:12:57 INFO Skipping evaluation for f56e365bed67 (status=discarded)
+18:12:57 INFO Exp #546 (slot 5) saved to DB
+18:12:57 INFO Skipping evaluation for 474795bac09b (status=discarded)
+18:12:57 INFO Exp #549 (slot 1) saved to DB
+18:12:57 INFO Skipping evaluation for 16b964940b5f (status=discarded)
+18:12:57 INFO Exp #550 (slot 3) saved to DB
+18:12:57 INFO Skipping evaluation for 5f95acbcbfa4 (status=discarded)
+18:12:57 INFO Exp #551 (slot 2) saved to DB
+18:12:57 INFO Skipping evaluation for 08b6ef905d9a (status=discarded)
+18:12:57 INFO Exp #552 (slot 9) saved to DB
+18:12:58 INFO Skipping evaluation for ab32b1b20dac (status=discarded)
+18:12:58 INFO Exp #553 (slot 4) saved to DB
+18:12:58 INFO Skipping evaluation for b33ca6e76839 (status=discarded)
+18:12:58 INFO Exp #554 (slot 5) saved to DB
+18:12:58 INFO Skipping evaluation for c79214c467c5 (status=discarded)
+18:12:58 INFO Exp #555 (slot 1) saved to DB
+18:12:58 INFO Skipping evaluation for 332aad04d21d (status=discarded)
+18:12:58 INFO Exp #556 (slot 3) saved to DB
+18:12:58 INFO Skipping evaluation for f1e7208acd98 (status=discarded)
+18:12:58 INFO Exp #558 (slot 9) saved to DB
+18:12:58 INFO Skipping evaluation for 990b64ceab92 (status=discarded)
+18:12:58 INFO Exp #557 (slot 2) saved to DB
+18:12:59 INFO Skipping evaluation for 2da01490decf (status=discarded)
+18:12:59 INFO Exp #559 (slot 4) saved to DB
+18:12:59 INFO Skipping evaluation for 47a3547560fa (status=discarded)
+18:12:59 INFO Exp #560 (slot 5) saved to DB
+18:12:59 INFO Skipping evaluation for 0ff89bff5ff8 (status=discarded)
+18:12:59 INFO Exp #561 (slot 1) saved to DB
+18:12:59 INFO Skipping evaluation for 402ce3b19410 (status=discarded)
+18:12:59 INFO Exp #562 (slot 3) saved to DB
+18:13:00 INFO Skipping evaluation for f5d9b9421f72 (status=discarded)
+18:13:00 INFO Exp #563 (slot 9) saved to DB
+18:13:00 INFO Skipping evaluation for 14869d26dc1d (status=discarded)
+18:13:00 INFO Exp #564 (slot 2) saved to DB
+18:13:00 INFO Skipping evaluation for 0368935a7d14 (status=discarded)
+18:13:00 INFO Exp #565 (slot 4) saved to DB
+18:13:00 INFO Skipping evaluation for b36fef4a0cf3 (status=discarded)
+18:13:00 INFO Exp #566 (slot 5) saved to DB
+18:13:00 INFO Skipping evaluation for 4da4945227fe (status=discarded)
+18:13:00 INFO Exp #568 (slot 3) saved to DB
+18:13:00 INFO Skipping evaluation for 3b636081a1a9 (status=discarded)
+18:13:00 INFO Exp #567 (slot 1) saved to DB
+18:13:01 INFO Skipping evaluation for 20f7fec47a3e (status=discarded)
+18:13:01 INFO Exp #569 (slot 9) saved to DB
+18:13:01 INFO Skipping evaluation for ff9039c2af60 (status=discarded)
+18:13:01 INFO Exp #570 (slot 2) saved to DB
+18:13:01 INFO Skipping evaluation for 426ed2146155 (status=discarded)
+18:13:01 INFO Exp #571 (slot 4) saved to DB
+18:13:01 INFO Skipping evaluation for a448a15429b1 (status=discarded)
+18:13:01 INFO Exp #572 (slot 5) saved to DB
+18:13:01 INFO Skipping evaluation for 6c11ffea2bc1 (status=discarded)
+18:13:01 INFO Exp #573 (slot 3) saved to DB
+18:13:01 INFO Skipping evaluation for 4cb3730a4487 (status=discarded)
+18:13:01 INFO Exp #574 (slot 1) saved to DB
+18:13:02 INFO Skipping evaluation for 81a0c485d838 (status=discarded)
+18:13:02 INFO Exp #576 (slot 2) saved to DB
+18:13:02 INFO Skipping evaluation for 7f42d8825188 (status=discarded)
+18:13:02 INFO Exp #575 (slot 9) saved to DB
+18:13:02 INFO Skipping evaluation for ef07f5776f2e (status=discarded)
+18:13:02 INFO Exp #577 (slot 4) saved to DB
+18:13:02 INFO Skipping evaluation for de43f2afb4a3 (status=discarded)
+18:13:02 INFO Exp #579 (slot 3) saved to DB
+18:13:02 INFO Skipping evaluation for 52ee04390119 (status=discarded)
+18:13:02 INFO Exp #580 (slot 1) saved to DB
+18:13:02 INFO Skipping evaluation for f8ec58a5c44e (status=discarded)
+18:13:02 INFO Exp #578 (slot 5) saved to DB
+18:13:03 INFO Skipping evaluation for 39de6ee121ab (status=discarded)
+18:13:03 INFO Exp #581 (slot 2) saved to DB
+18:13:03 INFO Skipping evaluation for 2d775271749d (status=discarded)
+18:13:03 INFO Exp #585 (slot 1) saved to DB
+18:13:03 INFO Skipping evaluation for fcb4410e76bd (status=discarded)
+18:13:03 INFO Exp #586 (slot 5) saved to DB
+18:13:03 INFO Skipping evaluation for 6d523099d8c3 (status=discarded)
+18:13:03 INFO Exp #582 (slot 9) saved to DB
+18:13:03 INFO Skipping evaluation for 87477dce901e (status=discarded)
+18:13:03 INFO Exp #584 (slot 3) saved to DB
+18:13:03 INFO Skipping evaluation for 1d798b076cfd (status=discarded)
+18:13:03 INFO Exp #583 (slot 4) saved to DB
+18:13:04 INFO Skipping evaluation for f009cac5c5db (status=discarded)
+18:13:04 INFO Exp #587 (slot 2) saved to DB
+18:13:04 INFO Skipping evaluation for e0659f505d0a (status=discarded)
+18:13:04 INFO Exp #591 (slot 3) saved to DB
+18:13:04 INFO Skipping evaluation for 97c439a15425 (status=discarded)
+18:13:04 INFO Exp #589 (slot 5) saved to DB
+18:13:04 INFO Skipping evaluation for 56e17e130a97 (status=discarded)
+18:13:04 INFO Exp #588 (slot 1) saved to DB
+18:13:04 INFO Skipping evaluation for 5b6c54c3232f (status=discarded)
+18:13:04 INFO Exp #590 (slot 9) saved to DB
+18:13:04 INFO Skipping evaluation for e863fd72a81c (status=discarded)
+18:13:04 INFO Exp #592 (slot 4) saved to DB
+18:13:05 INFO Skipping evaluation for f2d421d6ff70 (status=discarded)
+18:13:05 INFO Exp #593 (slot 2) saved to DB
+18:13:05 INFO Skipping evaluation for f2874d6f013e (status=discarded)
+18:13:05 INFO Exp #595 (slot 5) saved to DB
+18:13:05 INFO Skipping evaluation for 1a0a0d8de787 (status=discarded)
+18:13:05 INFO Exp #594 (slot 3) saved to DB
+18:13:05 INFO Skipping evaluation for f7ef8f23e74c (status=discarded)
+18:13:05 INFO Exp #596 (slot 1) saved to DB
+18:13:05 INFO Skipping evaluation for e3b60f0ffd54 (status=discarded)
+18:13:05 INFO Exp #598 (slot 4) saved to DB
+18:13:05 INFO Skipping evaluation for ff402e3d697b (status=discarded)
+18:13:05 INFO Exp #597 (slot 9) saved to DB
+18:13:06 INFO Skipping evaluation for 47af2a02ca0b (status=discarded)
+18:13:06 INFO Exp #599 (slot 2) saved to DB
+18:13:06 INFO Skipping evaluation for 49f0cfb59da2 (status=discarded)
+18:13:06 INFO Exp #600 (slot 5) saved to DB
+18:13:06 INFO Skipping evaluation for 563b3c274fd8 (status=discarded)
+18:13:06 INFO Exp #601 (slot 3) saved to DB
+18:13:06 INFO Skipping evaluation for bc4ca6de4c28 (status=discarded)
+18:13:06 INFO Exp #604 (slot 9) saved to DB
+18:13:06 INFO Skipping evaluation for 6a190d47d2a7 (status=discarded)
+18:13:06 INFO Exp #602 (slot 1) saved to DB
+18:13:06 INFO Skipping evaluation for 3e7e803c84e0 (status=discarded)
+18:13:06 INFO Exp #603 (slot 4) saved to DB
+18:13:07 INFO Skipping evaluation for d460d49524e7 (status=discarded)
+18:13:07 INFO Exp #605 (slot 2) saved to DB
+18:13:07 INFO Skipping evaluation for a3fe8b1a5d5c (status=discarded)
+18:13:07 INFO Exp #606 (slot 5) saved to DB
+18:13:08 INFO Skipping evaluation for a33f1368aedd (status=discarded)
+18:13:08 INFO Exp #608 (slot 9) saved to DB
+18:13:08 INFO Skipping evaluation for 2ed0351ab307 (status=discarded)
+18:13:08 INFO Exp #607 (slot 3) saved to DB
+18:13:08 INFO Skipping evaluation for 5197fb3d42f5 (status=discarded)
+18:13:08 INFO Exp #610 (slot 4) saved to DB
+18:13:08 INFO Skipping evaluation for 010ed6568bd9 (status=discarded)
+18:13:08 INFO Exp #609 (slot 1) saved to DB
+18:13:08 INFO Skipping evaluation for 0ad9ab352213 (status=discarded)
+18:13:08 INFO Exp #612 (slot 5) saved to DB
+18:13:08 INFO Skipping evaluation for fad9d21e1a9e (status=discarded)
+18:13:08 INFO Exp #611 (slot 2) saved to DB
+18:13:09 INFO Skipping evaluation for e07c611a4363 (status=discarded)
+18:13:09 INFO Exp #616 (slot 1) saved to DB
+18:13:09 INFO Skipping evaluation for fcc0c9285e74 (status=discarded)
+18:13:09 INFO Exp #615 (slot 4) saved to DB
+18:13:09 INFO Skipping evaluation for 9e052e600e69 (status=discarded)
+18:13:09 INFO Exp #613 (slot 9) saved to DB
+18:13:09 INFO Skipping evaluation for 699e83abb6c2 (status=discarded)
+18:13:09 INFO Exp #614 (slot 3) saved to DB
+18:13:09 INFO Skipping evaluation for e51067ad9bcd (status=discarded)
+18:13:09 INFO Exp #617 (slot 5) saved to DB
+18:13:10 INFO Skipping evaluation for cdca1119d71a (status=discarded)
+18:13:10 INFO Exp #618 (slot 2) saved to DB
+18:13:10 INFO Skipping evaluation for 23accaeda59c (status=discarded)
+18:13:10 INFO Exp #622 (slot 3) saved to DB
+18:13:10 INFO Skipping evaluation for 218145f71c12 (status=discarded)
+18:13:10 INFO Exp #619 (slot 1) saved to DB
+18:13:10 INFO Skipping evaluation for 027861a5286e (status=discarded)
+18:13:10 INFO Exp #620 (slot 4) saved to DB
+18:13:10 INFO Skipping evaluation for ca9cc935eaaf (status=discarded)
+18:13:10 INFO Exp #621 (slot 9) saved to DB
+18:13:10 INFO Skipping evaluation for 584dbc489688 (status=discarded)
+18:13:10 INFO Exp #623 (slot 5) saved to DB
+18:13:11 INFO Skipping evaluation for 001d9ed0087e (status=discarded)
+18:13:11 INFO Exp #625 (slot 3) saved to DB
+18:13:11 INFO Skipping evaluation for 9fa5eaa9a6f2 (status=discarded)
+18:13:11 INFO Exp #624 (slot 2) saved to DB
+18:13:11 INFO Skipping evaluation for be78e7c599d6 (status=discarded)
+18:13:11 INFO Exp #626 (slot 1) saved to DB
+18:13:11 INFO Skipping evaluation for 043797c88deb (status=discarded)
+18:13:11 INFO Exp #627 (slot 4) saved to DB
+18:13:11 INFO Skipping evaluation for 0d843b61f4fb (status=discarded)
+18:13:11 INFO Exp #628 (slot 9) saved to DB
+18:13:11 INFO Skipping evaluation for 64190d7ed2a9 (status=discarded)
+18:13:11 INFO Exp #629 (slot 5) saved to DB
+18:13:12 INFO Skipping evaluation for 138a006465f6 (status=discarded)
+18:13:12 INFO Exp #630 (slot 3) saved to DB
+18:13:12 INFO Skipping evaluation for 0e0b20e8d0ac (status=discarded)
+18:13:12 INFO Exp #631 (slot 2) saved to DB
+18:13:12 INFO Skipping evaluation for 3fcadd3e18e2 (status=discarded)
+18:13:12 INFO Exp #632 (slot 1) saved to DB
+18:13:12 INFO Skipping evaluation for 2bb417605d06 (status=discarded)
+18:13:12 INFO Exp #633 (slot 4) saved to DB
+18:13:12 INFO Skipping evaluation for 3506b8580788 (status=discarded)
+18:13:12 INFO Exp #634 (slot 9) saved to DB
+18:13:12 INFO Skipping evaluation for f12edfb2e0e4 (status=discarded)
+18:13:12 INFO Exp #635 (slot 5) saved to DB
+18:13:13 INFO Skipping evaluation for bc7aa63ebefa (status=discarded)
+18:13:13 INFO Exp #638 (slot 1) saved to DB
+18:13:13 INFO Skipping evaluation for 54d5825c0558 (status=discarded)
+18:13:13 INFO Exp #636 (slot 3) saved to DB
+18:13:13 INFO Skipping evaluation for ffeb4208d55d (status=discarded)
+18:13:13 INFO Exp #637 (slot 2) saved to DB
+18:13:13 INFO Skipping evaluation for 507762eebe2b (status=discarded)
+18:13:13 INFO Exp #639 (slot 4) saved to DB
+18:13:13 INFO Skipping evaluation for 54ac41c8b8af (status=discarded)
+18:13:13 INFO Exp #640 (slot 9) saved to DB
+18:13:14 INFO Skipping evaluation for 0166d438c6a0 (status=discarded)
+18:13:14 INFO Exp #641 (slot 5) saved to DB
+18:13:14 INFO Skipping evaluation for acac233534e6 (status=discarded)
+18:13:14 INFO Exp #644 (slot 2) saved to DB
+18:13:14 INFO Skipping evaluation for 6a5dc0ca0d40 (status=discarded)
+18:13:14 INFO Exp #643 (slot 3) saved to DB
+18:13:14 INFO Skipping evaluation for 6f60d31c10b1 (status=discarded)
+18:13:14 INFO Exp #642 (slot 1) saved to DB
+18:13:14 INFO Skipping evaluation for 71202b1b5946 (status=discarded)
+18:13:14 INFO Exp #645 (slot 4) saved to DB
+18:13:14 INFO Skipping evaluation for fdcb1d431e9f (status=discarded)
+18:13:14 INFO Exp #646 (slot 9) saved to DB
+18:13:15 INFO Skipping evaluation for cbba9cbac5f6 (status=discarded)
+18:13:15 INFO Exp #647 (slot 5) saved to DB
+18:13:15 INFO Skipping evaluation for 820e649a8d0c (status=discarded)
+18:13:15 INFO Exp #648 (slot 2) saved to DB
+18:13:15 INFO Skipping evaluation for 7e44084a5daf (status=discarded)
+18:13:15 INFO Exp #650 (slot 1) saved to DB
+18:13:15 INFO Skipping evaluation for 0fc7b41b6bed (status=discarded)
+18:13:15 INFO Exp #651 (slot 4) saved to DB
+18:13:15 INFO Skipping evaluation for eb2bd6015328 (status=discarded)
+18:13:15 INFO Exp #649 (slot 3) saved to DB
+18:13:15 INFO Skipping evaluation for abe14df25a5f (status=discarded)
+18:13:15 INFO Exp #652 (slot 9) saved to DB
+18:13:15 INFO Skipping evaluation for d9108b44085e (status=discarded)
+18:13:15 INFO Exp #653 (slot 5) saved to DB
+18:13:16 INFO Skipping evaluation for 9cd3570f5503 (status=discarded)
+18:13:16 INFO Exp #654 (slot 2) saved to DB
+18:13:16 INFO Skipping evaluation for 00745ff6a6d0 (status=discarded)
+18:13:16 INFO Exp #655 (slot 1) saved to DB
+18:13:16 INFO Skipping evaluation for ebae02a69f1d (status=discarded)
+18:13:16 INFO Exp #656 (slot 4) saved to DB
+18:13:16 INFO Skipping evaluation for 358563b5a282 (status=discarded)
+18:13:16 INFO Exp #657 (slot 3) saved to DB
+18:13:16 INFO Skipping evaluation for 7925a2a944e8 (status=discarded)
+18:13:16 INFO Exp #658 (slot 9) saved to DB
+18:13:16 INFO Skipping evaluation for e3c8a78cb04a (status=discarded)
+18:13:17 INFO Exp #659 (slot 5) saved to DB
+18:13:17 INFO Skipping evaluation for e29c796b5673 (status=discarded)
+18:13:17 INFO Exp #661 (slot 1) saved to DB
+18:13:17 INFO Skipping evaluation for c8358c46cd54 (status=discarded)
+18:13:17 INFO Exp #660 (slot 2) saved to DB
+18:13:17 INFO Skipping evaluation for d1289b06995a (status=discarded)
+18:13:17 INFO Exp #662 (slot 4) saved to DB
+18:13:17 INFO Skipping evaluation for 946751ec5180 (status=discarded)
+18:13:17 INFO Exp #663 (slot 3) saved to DB
+18:13:18 INFO Skipping evaluation for bd6bc3fe6994 (status=discarded)
+18:13:18 INFO Exp #664 (slot 9) saved to DB
+18:13:18 INFO Skipping evaluation for 3f30c013f99c (status=discarded)
+18:13:18 INFO Exp #665 (slot 5) saved to DB
+18:13:18 INFO Skipping evaluation for fa394672c66a (status=discarded)
+18:13:18 INFO Exp #666 (slot 1) saved to DB
+18:13:18 INFO Skipping evaluation for 9a19266341b5 (status=discarded)
+18:13:18 INFO Exp #668 (slot 4) saved to DB
+18:13:18 INFO Skipping evaluation for 72369ad843cc (status=discarded)
+18:13:18 INFO Exp #667 (slot 2) saved to DB
+18:13:18 INFO Skipping evaluation for 3d5b017e1a0f (status=discarded)
+18:13:18 INFO Exp #669 (slot 3) saved to DB
+18:13:18 INFO Skipping evaluation for c69345227d85 (status=discarded)
+18:13:18 INFO Exp #670 (slot 9) saved to DB
+18:13:19 INFO Skipping evaluation for ced880f04bd3 (status=discarded)
+18:13:19 INFO Exp #671 (slot 5) saved to DB
+18:13:19 INFO Skipping evaluation for a47154c1aa44 (status=discarded)
+18:13:19 INFO Exp #672 (slot 1) saved to DB
+18:13:19 INFO Skipping evaluation for 56eb233550e7 (status=discarded)
+18:13:19 INFO Exp #675 (slot 3) saved to DB
+18:13:19 INFO Skipping evaluation for d798dfba9315 (status=discarded)
+18:13:19 INFO Exp #674 (slot 2) saved to DB
+18:13:19 INFO Skipping evaluation for 515239e870a9 (status=discarded)
+18:13:19 INFO Exp #676 (slot 9) saved to DB
+18:13:19 INFO Skipping evaluation for 31a8cfc25d29 (status=discarded)
+18:13:19 INFO Exp #673 (slot 4) saved to DB
+18:13:20 INFO Skipping evaluation for d4a197dda24e (status=discarded)
+18:13:20 INFO Exp #677 (slot 5) saved to DB
+18:13:20 INFO Skipping evaluation for 82112075366f (status=discarded)
+18:13:20 INFO Exp #680 (slot 2) saved to DB
+18:13:20 INFO Skipping evaluation for 9e3e4ea5939c (status=discarded)
+18:13:20 INFO Exp #679 (slot 3) saved to DB
+18:13:21 INFO Skipping evaluation for fc934693c64f (status=discarded)
+18:13:21 INFO Exp #678 (slot 1) saved to DB
+18:13:21 INFO Skipping evaluation for d81ef67edc16 (status=discarded)
+18:13:21 INFO Exp #681 (slot 9) saved to DB
+18:13:21 INFO Skipping evaluation for 81493a70e120 (status=discarded)
+18:13:21 INFO Exp #682 (slot 4) saved to DB
+18:13:21 INFO Skipping evaluation for 61554deb5120 (status=discarded)
+18:13:21 INFO Exp #683 (slot 5) saved to DB
+18:13:21 INFO Skipping evaluation for 59791f565d62 (status=discarded)
+18:13:21 INFO Exp #685 (slot 3) saved to DB
+18:13:21 INFO Skipping evaluation for a5f1c8c503b5 (status=discarded)
+18:13:21 INFO Exp #684 (slot 2) saved to DB
+18:13:22 INFO Skipping evaluation for c44f2fb6a671 (status=discarded)
+18:13:22 INFO Exp #687 (slot 9) saved to DB
+18:13:22 INFO Skipping evaluation for 0db779b5316b (status=discarded)
+18:13:22 INFO Exp #686 (slot 1) saved to DB
+18:13:22 INFO Skipping evaluation for bd81c476c5dd (status=discarded)
+18:13:22 INFO Exp #688 (slot 4) saved to DB
+18:13:22 INFO Skipping evaluation for 70359b8fc5f2 (status=discarded)
+18:13:22 INFO Exp #689 (slot 5) saved to DB
+18:13:22 INFO Skipping evaluation for c901417ceef0 (status=discarded)
+18:13:22 INFO Exp #690 (slot 3) saved to DB
+18:13:23 INFO Skipping evaluation for 827a52f6b2b9 (status=discarded)
+18:13:23 INFO Exp #691 (slot 2) saved to DB
+18:13:23 INFO Skipping evaluation for e96d1a674888 (status=discarded)
+18:13:23 INFO Exp #693 (slot 1) saved to DB
+18:13:23 INFO Skipping evaluation for a0225517c25e (status=discarded)
+18:13:23 INFO Exp #694 (slot 4) saved to DB
+18:13:23 INFO Skipping evaluation for 887936eccdb5 (status=discarded)
+18:13:23 INFO Exp #692 (slot 9) saved to DB
+18:13:23 INFO Skipping evaluation for 14e40cbe7bbb (status=discarded)
+18:13:23 INFO Exp #695 (slot 5) saved to DB
+18:13:23 INFO Skipping evaluation for 32db64333cd9 (status=discarded)
+18:13:23 INFO Exp #696 (slot 3) saved to DB
+18:13:24 INFO Skipping evaluation for a024fe8abfa7 (status=failed)
+18:13:24 INFO Exp #311 (slot 6) saved to DB
+18:13:24 INFO Skipping evaluation for 0c88cf32a4b3 (status=discarded)
+18:13:24 INFO Exp #698 (slot 1) saved to DB
+18:13:24 INFO Skipping evaluation for e0dc3b39c306 (status=discarded)
+18:13:24 INFO Exp #697 (slot 2) saved to DB
+18:13:24 INFO Skipping evaluation for 42313cbf30b4 (status=failed)
+18:13:24 INFO Exp #312 (slot 8) saved to DB
+18:13:24 INFO Skipping evaluation for 743ab05e80f2 (status=discarded)
+18:13:24 INFO Exp #701 (slot 5) saved to DB
+18:13:24 INFO Skipping evaluation for 775fe80c3053 (status=discarded)
+18:13:24 INFO Exp #699 (slot 4) saved to DB
+18:13:24 INFO Skipping evaluation for 6e09bd557179 (status=discarded)
+18:13:24 INFO Exp #700 (slot 9) saved to DB
+18:13:25 INFO Skipping evaluation for e3e3d260de24 (status=discarded)
+18:13:25 INFO Exp #702 (slot 3) saved to DB
+18:13:25 INFO Skipping evaluation for 0e0136ffd2a1 (status=discarded)
+18:13:25 INFO Exp #703 (slot 6) saved to DB
+18:13:25 INFO Skipping evaluation for 233b44f39927 (status=discarded)
+18:13:25 INFO Exp #705 (slot 2) saved to DB
+18:13:25 INFO Skipping evaluation for a8f3bb627670 (status=discarded)
+18:13:25 INFO Exp #704 (slot 1) saved to DB
+18:13:26 INFO Skipping evaluation for 81d959c512f0 (status=discarded)
+18:13:26 INFO Exp #707 (slot 5) saved to DB
+18:13:26 INFO Skipping evaluation for 38dd1d58f4f4 (status=discarded)
+18:13:26 INFO Exp #708 (slot 4) saved to DB
+18:13:26 INFO Skipping evaluation for 612b66f6c020 (status=failed)
+18:13:26 INFO Exp #24 (slot 0) saved to DB
+18:13:26 INFO Skipping evaluation for cbd4c5ed0ead (status=discarded)
+18:13:26 INFO Exp #709 (slot 9) saved to DB
+18:13:26 INFO Skipping evaluation for be9cb14ad3fb (status=discarded)
+18:13:26 INFO Exp #706 (slot 8) saved to DB
+18:13:27 INFO Skipping evaluation for 388452bc6523 (status=discarded)
+18:13:27 INFO Exp #710 (slot 3) saved to DB
+18:13:27 INFO Skipping evaluation for d49f2d4b44d0 (status=discarded)
+18:13:27 INFO Exp #711 (slot 6) saved to DB
+18:13:27 INFO Skipping evaluation for b8ed2ba09a3b (status=discarded)
+18:13:27 INFO Exp #712 (slot 2) saved to DB
+18:13:27 INFO Skipping evaluation for 178860604be8 (status=discarded)
+18:13:27 INFO Exp #713 (slot 1) saved to DB
+18:13:27 INFO Skipping evaluation for 141f562239cf (status=discarded)
+18:13:27 INFO Exp #715 (slot 4) saved to DB
+18:13:27 INFO Skipping evaluation for f0982976baba (status=discarded)
+18:13:27 INFO Exp #714 (slot 5) saved to DB
+18:13:27 INFO Skipping evaluation for 177edb02f536 (status=discarded)
+18:13:27 INFO Exp #717 (slot 9) saved to DB
+18:13:28 INFO Skipping evaluation for 25bbca3a13b6 (status=discarded)
+18:13:28 INFO Exp #716 (slot 0) saved to DB
+18:13:28 INFO Skipping evaluation for e929900c595e (status=discarded)
+18:13:28 INFO Exp #718 (slot 8) saved to DB
+18:13:28 INFO Skipping evaluation for e2817f393a67 (status=discarded)
+18:13:28 INFO Exp #721 (slot 2) saved to DB
+18:13:28 INFO Skipping evaluation for aaef4562aeaa (status=discarded)
+18:13:28 INFO Exp #719 (slot 3) saved to DB
+18:13:28 INFO Skipping evaluation for edda41006d2a (status=discarded)
+18:13:28 INFO Exp #720 (slot 6) saved to DB
+18:13:28 INFO Skipping evaluation for 2816aa917ac6 (status=discarded)
+18:13:28 INFO Exp #722 (slot 1) saved to DB
+18:13:28 INFO Skipping evaluation for 213e9f0e8ebd (status=discarded)
+18:13:28 INFO Exp #724 (slot 5) saved to DB
+18:13:28 INFO Skipping evaluation for 4224ff9040bc (status=discarded)
+18:13:28 INFO Exp #723 (slot 4) saved to DB
+18:13:29 INFO Skipping evaluation for ea19acdae152 (status=discarded)
+18:13:29 INFO Exp #725 (slot 9) saved to DB
+18:13:29 INFO Skipping evaluation for 3ba598127c56 (status=discarded)
+18:13:29 INFO Exp #726 (slot 0) saved to DB
+18:13:29 INFO Skipping evaluation for 3f6408f3d012 (status=discarded)
+18:13:29 INFO Exp #729 (slot 3) saved to DB
+18:13:29 INFO Skipping evaluation for 2ec8dd4550aa (status=discarded)
+18:13:29 INFO Exp #727 (slot 8) saved to DB
+18:13:29 INFO Skipping evaluation for b185a75c1a86 (status=discarded)
+18:13:29 INFO Exp #731 (slot 1) saved to DB
+18:13:29 INFO Skipping evaluation for 3891c6144a1c (status=discarded)
+18:13:29 INFO Exp #732 (slot 5) saved to DB
+18:13:29 INFO Skipping evaluation for d0ca81f1a556 (status=discarded)
+18:13:29 INFO Exp #730 (slot 6) saved to DB
+18:13:29 INFO Skipping evaluation for bb8653b9de49 (status=discarded)
+18:13:29 INFO Exp #728 (slot 2) saved to DB
+18:13:29 INFO Skipping evaluation for b1df460d4f61 (status=discarded)
+18:13:29 INFO Exp #733 (slot 4) saved to DB
+18:13:30 INFO Skipping evaluation for b2dbae0781a4 (status=discarded)
+18:13:30 INFO Exp #734 (slot 9) saved to DB
+18:13:30 INFO Skipping evaluation for 7896cd733a39 (status=discarded)
+18:13:30 INFO Exp #735 (slot 0) saved to DB
+18:13:30 INFO Skipping evaluation for 81cb46a89a1a (status=discarded)
+18:13:30 INFO Exp #737 (slot 8) saved to DB
+18:13:30 INFO Skipping evaluation for af04d7623f8e (status=discarded)
+18:13:30 INFO Exp #736 (slot 3) saved to DB
+18:13:30 INFO Skipping evaluation for 7df88518d3af (status=discarded)
+18:13:30 INFO Exp #739 (slot 5) saved to DB
+18:13:30 INFO Skipping evaluation for 7ff8628c2b9a (status=discarded)
+18:13:30 INFO Exp #740 (slot 6) saved to DB
+18:13:30 INFO Skipping evaluation for 1970a5fa4074 (status=discarded)
+18:13:30 INFO Exp #738 (slot 1) saved to DB
+18:13:30 INFO Skipping evaluation for 8b9bf0b65a3b (status=discarded)
+18:13:30 INFO Exp #742 (slot 4) saved to DB
+18:13:30 INFO Skipping evaluation for 66b8c41352fa (status=discarded)
+18:13:30 INFO Exp #741 (slot 2) saved to DB
+18:13:31 INFO Skipping evaluation for 9b5e653852e1 (status=discarded)
+18:13:31 INFO Exp #743 (slot 9) saved to DB
+18:13:31 INFO Skipping evaluation for db00470fb127 (status=discarded)
+18:13:31 INFO Exp #744 (slot 0) saved to DB
+18:13:31 INFO Skipping evaluation for 4cac2c876481 (status=discarded)
+18:13:31 INFO Exp #746 (slot 3) saved to DB
+18:13:31 INFO Skipping evaluation for 0fcaf50046f2 (status=discarded)
+18:13:31 INFO Exp #748 (slot 6) saved to DB
+18:13:31 INFO Skipping evaluation for a5bf89f3d556 (status=discarded)
+18:13:31 INFO Exp #745 (slot 8) saved to DB
+18:13:31 INFO Skipping evaluation for c0628d96e406 (status=discarded)
+18:13:31 INFO Exp #747 (slot 5) saved to DB
+18:13:31 INFO Skipping evaluation for 22105f3d4fbb (status=discarded)
+18:13:31 INFO Exp #750 (slot 4) saved to DB
+18:13:31 INFO Skipping evaluation for 1e894a566447 (status=discarded)
+18:13:31 INFO Exp #751 (slot 2) saved to DB
+18:13:31 INFO Skipping evaluation for ffd8a5b1aedf (status=discarded)
+18:13:31 INFO Exp #749 (slot 1) saved to DB
+18:13:32 INFO Skipping evaluation for e9059b21635f (status=discarded)
+18:13:32 INFO Exp #752 (slot 9) saved to DB
+18:13:32 INFO Skipping evaluation for fc3e4053967b (status=discarded)
+18:13:32 INFO Exp #755 (slot 6) saved to DB
+18:13:32 INFO Skipping evaluation for ead0d6bb310d (status=discarded)
+18:13:32 INFO Exp #754 (slot 3) saved to DB
+18:13:32 INFO Skipping evaluation for 01d0265acd1b (status=discarded)
+18:13:32 INFO Exp #753 (slot 0) saved to DB
+18:13:33 INFO Skipping evaluation for a87faa7f9b7d (status=discarded)
+18:13:33 INFO Exp #756 (slot 8) saved to DB
+18:13:33 INFO Skipping evaluation for b5b1f11eff06 (status=discarded)
+18:13:33 INFO Exp #759 (slot 2) saved to DB
+18:13:33 INFO Skipping evaluation for c0a65fdf33d6 (status=discarded)
+18:13:33 INFO Exp #757 (slot 5) saved to DB
+18:13:33 INFO Skipping evaluation for 865ddd904f62 (status=discarded)
+18:13:33 INFO Exp #758 (slot 4) saved to DB
+18:13:33 INFO Skipping evaluation for 4f5a413b3d67 (status=discarded)
+18:13:33 INFO Exp #760 (slot 1) saved to DB
+18:13:33 INFO Skipping evaluation for f37585339675 (status=discarded)
+18:13:33 INFO Exp #762 (slot 6) saved to DB
+18:13:33 INFO Skipping evaluation for d5bf8af960ad (status=discarded)
+18:13:33 INFO Exp #761 (slot 9) saved to DB
+18:13:33 INFO Skipping evaluation for 80b6d6868965 (status=discarded)
+18:13:33 INFO Exp #763 (slot 3) saved to DB
+18:13:33 INFO Skipping evaluation for 4c8141159f31 (status=discarded)
+18:13:33 INFO Exp #764 (slot 0) saved to DB
+18:13:34 INFO Skipping evaluation for ec70df27f858 (status=discarded)
+18:13:34 INFO Exp #765 (slot 8) saved to DB
+18:13:34 INFO Skipping evaluation for affa44113c8f (status=discarded)
+18:13:34 INFO Exp #766 (slot 2) saved to DB
+18:13:34 INFO Skipping evaluation for bd7edb9c7ca7 (status=discarded)
+18:13:34 INFO Exp #767 (slot 5) saved to DB
+18:13:34 INFO Skipping evaluation for 065c3b24e323 (status=discarded)
+18:13:34 INFO Exp #769 (slot 1) saved to DB
+18:13:34 INFO Skipping evaluation for 1f11643f5115 (status=discarded)
+18:13:34 INFO Exp #768 (slot 4) saved to DB
+18:13:34 INFO Skipping evaluation for 025d26b7f51e (status=discarded)
+18:13:34 INFO Exp #770 (slot 6) saved to DB
+18:13:34 INFO Skipping evaluation for 859fc5a98c88 (status=discarded)
+18:13:34 INFO Exp #771 (slot 9) saved to DB
+18:13:34 INFO Skipping evaluation for a4aada75bd30 (status=discarded)
+18:13:34 INFO Exp #773 (slot 0) saved to DB
+18:13:34 INFO Skipping evaluation for e394f05bcc6b (status=discarded)
+18:13:34 INFO Exp #772 (slot 3) saved to DB
+18:13:35 INFO Skipping evaluation for cdae54a5768a (status=discarded)
+18:13:35 INFO Exp #774 (slot 8) saved to DB
+18:13:35 INFO Skipping evaluation for edbca27a6d2c (status=discarded)
+18:13:35 INFO Exp #775 (slot 2) saved to DB
+18:13:35 INFO Skipping evaluation for 6a66b28b3b2e (status=discarded)
+18:13:35 INFO Exp #776 (slot 5) saved to DB
+18:13:35 INFO Skipping evaluation for 860f3a05b661 (status=discarded)
+18:13:35 INFO Exp #777 (slot 1) saved to DB
+18:13:35 INFO Skipping evaluation for 490b7343d32e (status=discarded)
+18:13:35 INFO Exp #778 (slot 4) saved to DB
+18:13:35 INFO Skipping evaluation for 620a297ec521 (status=discarded)
+18:13:35 INFO Exp #779 (slot 6) saved to DB
+18:13:35 INFO Skipping evaluation for 349c23a76adf (status=discarded)
+18:13:35 INFO Exp #780 (slot 9) saved to DB
+18:13:35 INFO Skipping evaluation for b86025428aa8 (status=discarded)
+18:13:35 INFO Exp #781 (slot 0) saved to DB
+18:13:35 INFO Skipping evaluation for 18ec97f3cf91 (status=discarded)
+18:13:35 INFO Exp #782 (slot 3) saved to DB
+18:13:36 INFO Skipping evaluation for 809e453edd80 (status=discarded)
+18:13:36 INFO Exp #783 (slot 8) saved to DB
+18:13:36 INFO Skipping evaluation for 2fe572d99993 (status=discarded)
+18:13:36 INFO Exp #784 (slot 2) saved to DB
+18:13:36 INFO Skipping evaluation for f501c81504d9 (status=discarded)
+18:13:36 INFO Exp #785 (slot 5) saved to DB
+18:13:36 INFO Skipping evaluation for 4c66ba243de7 (status=discarded)
+18:13:36 INFO Exp #786 (slot 1) saved to DB
+18:13:36 INFO Skipping evaluation for 8a4dd3e97b46 (status=discarded)
+18:13:36 INFO Exp #787 (slot 4) saved to DB
+18:13:37 INFO Skipping evaluation for 5edbd57339a7 (status=discarded)
+18:13:37 INFO Exp #790 (slot 0) saved to DB
+18:13:37 INFO Skipping evaluation for 8e325c359f8b (status=discarded)
+18:13:37 INFO Exp #789 (slot 9) saved to DB
+18:13:37 INFO Skipping evaluation for 08955971d259 (status=discarded)
+18:13:37 INFO Exp #788 (slot 6) saved to DB
+18:13:37 INFO Skipping evaluation for 10a6048c4347 (status=discarded)
+18:13:37 INFO Exp #791 (slot 3) saved to DB
+18:13:37 INFO Skipping evaluation for 09946e196051 (status=discarded)
+18:13:37 INFO Exp #793 (slot 2) saved to DB
+18:13:37 INFO Skipping evaluation for 57645ed3dbb6 (status=discarded)
+18:13:37 INFO Exp #792 (slot 8) saved to DB
+18:13:37 INFO Skipping evaluation for 31c1b29605d6 (status=discarded)
+18:13:37 INFO Exp #794 (slot 5) saved to DB
+18:13:37 INFO Skipping evaluation for 45256e14e3c0 (status=discarded)
+18:13:37 INFO Exp #796 (slot 4) saved to DB
+18:13:37 INFO Skipping evaluation for 3ebeb1b1558e (status=discarded)
+18:13:37 INFO Exp #795 (slot 1) saved to DB
+18:13:38 INFO Skipping evaluation for e183ac8186b5 (status=discarded)
+18:13:38 INFO Exp #798 (slot 9) saved to DB
+18:13:38 INFO Skipping evaluation for 8b21efbbd3f3 (status=discarded)
+18:13:38 INFO Exp #799 (slot 6) saved to DB
+18:13:38 INFO Skipping evaluation for b43e39b8ec14 (status=discarded)
+18:13:38 INFO Exp #797 (slot 0) saved to DB
+18:13:38 INFO Skipping evaluation for ee24264e5c5e (status=discarded)
+18:13:38 INFO Exp #800 (slot 3) saved to DB
+18:13:38 INFO Skipping evaluation for f920fc4f78e9 (status=discarded)
+18:13:38 INFO Exp #803 (slot 5) saved to DB
+18:13:38 INFO Skipping evaluation for b1aea88b514c (status=discarded)
+18:13:38 INFO Exp #801 (slot 2) saved to DB
+18:13:38 INFO Skipping evaluation for 3417cd2f1802 (status=discarded)
+18:13:38 INFO Exp #802 (slot 8) saved to DB
+18:13:38 INFO Skipping evaluation for 4edf0399987a (status=discarded)
+18:13:38 INFO Exp #805 (slot 1) saved to DB
+18:13:38 INFO Skipping evaluation for 714aa12cc891 (status=discarded)
+18:13:38 INFO Exp #804 (slot 4) saved to DB
+18:13:39 INFO Skipping evaluation for d2168a5f626f (status=discarded)
+18:13:39 INFO Exp #806 (slot 9) saved to DB
+18:13:39 INFO Skipping evaluation for f73d299f3249 (status=discarded)
+18:13:39 INFO Exp #807 (slot 6) saved to DB
+18:13:39 INFO Skipping evaluation for ba415863db92 (status=discarded)
+18:13:39 INFO Exp #808 (slot 0) saved to DB
+18:13:39 INFO Skipping evaluation for 9e45796f2503 (status=discarded)
+18:13:39 INFO Exp #809 (slot 3) saved to DB
+18:13:39 INFO Skipping evaluation for 1bdeb7f7ece4 (status=discarded)
+18:13:39 INFO Exp #812 (slot 8) saved to DB
+18:13:39 INFO Skipping evaluation for 5445b623e8a2 (status=discarded)
+18:13:39 INFO Exp #811 (slot 2) saved to DB
+18:13:39 INFO Skipping evaluation for e3a5d44fa83b (status=discarded)
+18:13:39 INFO Exp #810 (slot 5) saved to DB
+18:13:40 INFO Skipping evaluation for f49d41fec480 (status=discarded)
+18:13:40 INFO Exp #813 (slot 1) saved to DB
+18:13:40 INFO Skipping evaluation for 3eb27162d15c (status=discarded)
+18:13:40 INFO Exp #814 (slot 4) saved to DB
+18:13:40 INFO Skipping evaluation for 6705c8af0499 (status=discarded)
+18:13:40 INFO Exp #815 (slot 9) saved to DB
+18:13:40 INFO Skipping evaluation for 614e45a18e46 (status=discarded)
+18:13:40 INFO Exp #816 (slot 6) saved to DB
+18:13:40 INFO Skipping evaluation for 6888f63d9220 (status=discarded)
+18:13:40 INFO Exp #817 (slot 0) saved to DB
+18:13:40 INFO Skipping evaluation for 52ca8224a1d5 (status=discarded)
+18:13:40 INFO Exp #818 (slot 3) saved to DB
+18:13:40 INFO Skipping evaluation for 5cbbf81174f3 (status=discarded)
+18:13:40 INFO Exp #819 (slot 8) saved to DB
+18:13:41 INFO Skipping evaluation for e73263147d84 (status=discarded)
+18:13:41 INFO Exp #821 (slot 5) saved to DB
+18:13:41 INFO Skipping evaluation for 50c5a5a7083d (status=discarded)
+18:13:41 INFO Exp #820 (slot 2) saved to DB
+18:13:41 INFO Skipping evaluation for 0a333e7ca799 (status=discarded)
+18:13:41 INFO Exp #824 (slot 9) saved to DB
+18:13:41 INFO Skipping evaluation for eafaa58a2082 (status=discarded)
+18:13:41 INFO Exp #822 (slot 1) saved to DB
+18:13:41 INFO Skipping evaluation for dfe9ae9bea45 (status=discarded)
+18:13:41 INFO Exp #827 (slot 3) saved to DB
+18:13:41 INFO Skipping evaluation for 2026e4e747d8 (status=discarded)
+18:13:41 INFO Exp #825 (slot 6) saved to DB
+18:13:41 INFO Skipping evaluation for dbc4edb3dc5d (status=discarded)
+18:13:41 INFO Exp #823 (slot 4) saved to DB
+18:13:41 INFO Skipping evaluation for 244ba6bd0770 (status=discarded)
+18:13:41 INFO Exp #826 (slot 0) saved to DB
+18:13:42 INFO Skipping evaluation for b0ce92960211 (status=discarded)
+18:13:42 INFO Exp #828 (slot 8) saved to DB
+18:13:42 INFO Skipping evaluation for 5fcc4ac52f12 (status=discarded)
+18:13:42 INFO Exp #831 (slot 9) saved to DB
+18:13:42 INFO Skipping evaluation for a2569e7db9ce (status=discarded)
+18:13:42 INFO Exp #829 (slot 5) saved to DB
+18:13:42 INFO Skipping evaluation for 3bb80dd84425 (status=discarded)
+18:13:42 INFO Exp #830 (slot 2) saved to DB
+18:13:42 INFO Skipping evaluation for 1dfda65f4341 (status=discarded)
+18:13:42 INFO Exp #832 (slot 1) saved to DB
+18:13:42 INFO Skipping evaluation for 4e546c6140b6 (status=discarded)
+18:13:42 INFO Exp #833 (slot 3) saved to DB
+18:13:42 INFO Skipping evaluation for 30f158498614 (status=discarded)
+18:13:42 INFO Exp #835 (slot 4) saved to DB
+18:13:43 INFO Skipping evaluation for 03020a3ce761 (status=discarded)
+18:13:43 INFO Exp #834 (slot 6) saved to DB
+18:13:43 INFO Skipping evaluation for 5a0e898f6947 (status=discarded)
+18:13:43 INFO Exp #836 (slot 0) saved to DB
+18:13:43 INFO Skipping evaluation for 895172f39916 (status=discarded)
+18:13:43 INFO Exp #837 (slot 8) saved to DB
+18:13:43 INFO Skipping evaluation for 005bb40c0e1d (status=discarded)
+18:13:43 INFO Exp #838 (slot 9) saved to DB
+18:13:43 INFO Skipping evaluation for 14ddb8d14d4f (status=discarded)
+18:13:43 INFO Exp #839 (slot 5) saved to DB
+18:13:43 INFO Skipping evaluation for 448be1822577 (status=discarded)
+18:13:43 INFO Exp #841 (slot 1) saved to DB
+18:13:43 INFO Skipping evaluation for add9bd3c2be7 (status=discarded)
+18:13:43 INFO Exp #840 (slot 2) saved to DB
+18:13:43 INFO Skipping evaluation for 519475798920 (status=discarded)
+18:13:43 INFO Exp #843 (slot 4) saved to DB
+18:13:43 INFO Skipping evaluation for 3c69a76029d9 (status=discarded)
+18:13:43 INFO Exp #842 (slot 3) saved to DB
+18:13:44 INFO Skipping evaluation for f2e7b6e2c136 (status=discarded)
+18:13:44 INFO Exp #845 (slot 0) saved to DB
+18:13:44 INFO Skipping evaluation for 0ba48c2a4677 (status=discarded)
+18:13:44 INFO Exp #844 (slot 6) saved to DB
+18:13:44 INFO Skipping evaluation for b19d4d77af85 (status=discarded)
+18:13:44 INFO Exp #846 (slot 8) saved to DB
+18:13:44 INFO Skipping evaluation for e5877265821f (status=discarded)
+18:13:44 INFO Exp #847 (slot 9) saved to DB
+18:13:44 INFO Skipping evaluation for 0a0f1a112e79 (status=discarded)
+18:13:44 INFO Exp #850 (slot 2) saved to DB
+18:13:44 INFO Skipping evaluation for 57060efe3dd1 (status=discarded)
+18:13:44 INFO Exp #848 (slot 5) saved to DB
+18:13:44 INFO Skipping evaluation for a10eb6eb2ee9 (status=discarded)
+18:13:44 INFO Exp #849 (slot 1) saved to DB
+18:13:44 INFO Skipping evaluation for 83a690c35c4a (status=discarded)
+18:13:44 INFO Exp #852 (slot 3) saved to DB
+18:13:44 INFO Skipping evaluation for 5aaec0a9a255 (status=discarded)
+18:13:44 INFO Exp #851 (slot 4) saved to DB
+18:13:45 INFO Skipping evaluation for 27d5e4159aea (status=discarded)
+18:13:45 INFO Exp #854 (slot 6) saved to DB
+18:13:45 INFO Skipping evaluation for acd568d2e768 (status=discarded)
+18:13:45 INFO Exp #855 (slot 8) saved to DB
+18:13:45 INFO Skipping evaluation for ae3bc0a243b1 (status=discarded)
+18:13:45 INFO Exp #853 (slot 0) saved to DB
+18:13:45 INFO Skipping evaluation for 276ff3c22823 (status=discarded)
+18:13:45 INFO Exp #859 (slot 1) saved to DB
+18:13:45 INFO Skipping evaluation for d6e3752389f1 (status=discarded)
+18:13:45 INFO Exp #858 (slot 5) saved to DB
+18:13:45 INFO Skipping evaluation for a1a7e9fa034b (status=discarded)
+18:13:45 INFO Exp #857 (slot 2) saved to DB
+18:13:46 INFO Skipping evaluation for 27c372f071e4 (status=discarded)
+18:13:46 INFO Exp #856 (slot 9) saved to DB
+18:13:46 INFO Skipping evaluation for 63d15e2f8c98 (status=discarded)
+18:13:46 INFO Exp #861 (slot 4) saved to DB
+18:13:46 INFO Skipping evaluation for ebaf9b4fe55f (status=discarded)
+18:13:46 INFO Exp #860 (slot 3) saved to DB
+18:13:46 INFO Skipping evaluation for 6d874cf275a8 (status=discarded)
+18:13:46 INFO Exp #863 (slot 8) saved to DB
+18:13:46 INFO Skipping evaluation for c7e527ca429d (status=discarded)
+18:13:46 INFO Exp #864 (slot 0) saved to DB
+18:13:46 INFO Skipping evaluation for 607efa8363ec (status=discarded)
+18:13:46 INFO Exp #862 (slot 6) saved to DB
+18:13:46 INFO Skipping evaluation for f5b2349edb62 (status=discarded)
+18:13:46 INFO Exp #866 (slot 5) saved to DB
+18:13:46 INFO Skipping evaluation for 4c43af8d6f97 (status=discarded)
+18:13:46 INFO Exp #865 (slot 1) saved to DB
+18:13:46 INFO Skipping evaluation for 4f71f69a5607 (status=discarded)
+18:13:46 INFO Exp #867 (slot 2) saved to DB
+18:13:47 INFO Skipping evaluation for 3dfa903708c8 (status=discarded)
+18:13:47 INFO Exp #868 (slot 9) saved to DB
+18:13:47 INFO Skipping evaluation for 1ea250559be6 (status=discarded)
+18:13:47 INFO Exp #870 (slot 3) saved to DB
+18:13:47 INFO Skipping evaluation for d92f17101e97 (status=discarded)
+18:13:47 INFO Exp #869 (slot 4) saved to DB
+18:13:47 INFO Skipping evaluation for 5c0738180d3d (status=discarded)
+18:13:47 INFO Exp #871 (slot 8) saved to DB
+18:13:47 INFO Skipping evaluation for 201847762c93 (status=discarded)
+18:13:47 INFO Exp #872 (slot 0) saved to DB
+18:13:47 INFO Skipping evaluation for 2a97820e7cd9 (status=discarded)
+18:13:47 INFO Exp #873 (slot 6) saved to DB
+18:13:47 INFO Skipping evaluation for f4d759ff56b0 (status=discarded)
+18:13:47 INFO Exp #874 (slot 5) saved to DB
+18:13:47 INFO Skipping evaluation for d7c52935114f (status=discarded)
+18:13:47 INFO Exp #876 (slot 2) saved to DB
+18:13:47 INFO Skipping evaluation for 1233992fec99 (status=discarded)
+18:13:47 INFO Exp #875 (slot 1) saved to DB
+18:13:48 INFO Skipping evaluation for 79c2e2a52b83 (status=discarded)
+18:13:48 INFO Exp #877 (slot 9) saved to DB
+18:13:48 INFO Skipping evaluation for 1ba847f47f72 (status=discarded)
+18:13:48 INFO Exp #882 (slot 6) saved to DB
+18:13:48 INFO Skipping evaluation for d4e04b6dbe8e (status=discarded)
+18:13:48 INFO Exp #879 (slot 4) saved to DB
+18:13:48 INFO Skipping evaluation for b73a92ba4fae (status=discarded)
+18:13:48 INFO Exp #881 (slot 0) saved to DB
+18:13:48 INFO Skipping evaluation for c809516794cb (status=discarded)
+18:13:48 INFO Exp #880 (slot 8) saved to DB
+18:13:48 INFO Skipping evaluation for 0ca16839dfcd (status=discarded)
+18:13:48 INFO Exp #878 (slot 3) saved to DB
+18:13:48 INFO Skipping evaluation for a01283ad705d (status=discarded)
+18:13:48 INFO Exp #883 (slot 5) saved to DB
+18:13:48 INFO Skipping evaluation for 60ddc9e43c91 (status=discarded)
+18:13:48 INFO Exp #884 (slot 2) saved to DB
+18:13:49 INFO Skipping evaluation for 100bc60e24e3 (status=discarded)
+18:13:49 INFO Exp #885 (slot 1) saved to DB
+18:13:49 INFO Skipping evaluation for b4ddc959be8f (status=discarded)
+18:13:49 INFO Exp #886 (slot 9) saved to DB
+18:13:49 INFO Skipping evaluation for 7c7ed7db5490 (status=discarded)
+18:13:49 INFO Exp #888 (slot 4) saved to DB
+18:13:49 INFO Skipping evaluation for 739899e1ec41 (status=discarded)
+18:13:49 INFO Exp #889 (slot 0) saved to DB
+18:13:49 INFO Skipping evaluation for ac289257a2c6 (status=discarded)
+18:13:49 INFO Exp #887 (slot 6) saved to DB
+18:13:49 INFO Skipping evaluation for 3b0636d3925e (status=discarded)
+18:13:49 INFO Exp #892 (slot 5) saved to DB
+18:13:49 INFO Skipping evaluation for 22bddfe6f214 (status=discarded)
+18:13:49 INFO Exp #891 (slot 3) saved to DB
+18:13:49 INFO Skipping evaluation for 03dae317f6ed (status=discarded)
+18:13:49 INFO Exp #893 (slot 2) saved to DB
+18:13:49 INFO Skipping evaluation for f71adef1b345 (status=discarded)
+18:13:49 INFO Exp #890 (slot 8) saved to DB
+18:13:50 INFO Skipping evaluation for fecfd6dd17a7 (status=discarded)
+18:13:50 INFO Exp #894 (slot 1) saved to DB
+18:13:50 INFO Skipping evaluation for 604a4eeecd05 (status=discarded)
+18:13:50 INFO Exp #896 (slot 4) saved to DB
+18:13:50 INFO Skipping evaluation for 16dcf521c712 (status=discarded)
+18:13:50 INFO Exp #895 (slot 9) saved to DB
+18:13:50 INFO Skipping evaluation for 017675e05214 (status=discarded)
+18:13:50 INFO Exp #897 (slot 0) saved to DB
+18:13:50 INFO Skipping evaluation for 3daf19dda0d6 (status=discarded)
+18:13:50 INFO Exp #898 (slot 6) saved to DB
+18:13:50 INFO Skipping evaluation for 8d24752387e5 (status=discarded)
+18:13:50 INFO Exp #899 (slot 5) saved to DB
+18:13:50 INFO Skipping evaluation for cf1978f97dc5 (status=discarded)
+18:13:50 INFO Exp #900 (slot 3) saved to DB
+18:13:51 INFO Skipping evaluation for ee53b0c218e5 (status=discarded)
+18:13:51 INFO Exp #902 (slot 8) saved to DB
+18:13:51 INFO Skipping evaluation for da24edd6d06c (status=discarded)
+18:13:51 INFO Exp #901 (slot 2) saved to DB
+18:13:51 INFO Skipping evaluation for 7d464e40b91f (status=discarded)
+18:13:51 INFO Exp #903 (slot 1) saved to DB
+18:13:51 INFO Skipping evaluation for 6b816cf91dbc (status=discarded)
+18:13:51 INFO Exp #904 (slot 4) saved to DB
+18:13:51 INFO Skipping evaluation for 8e62f220a875 (status=discarded)
+18:13:51 INFO Exp #905 (slot 9) saved to DB
+18:13:51 INFO Skipping evaluation for 24f29dbc8d29 (status=discarded)
+18:13:51 INFO Exp #907 (slot 6) saved to DB
+18:13:51 INFO Skipping evaluation for 27f297731c03 (status=discarded)
+18:13:51 INFO Exp #906 (slot 0) saved to DB
+18:13:51 INFO Skipping evaluation for 8a73e4049a2d (status=discarded)
+18:13:51 INFO Exp #909 (slot 3) saved to DB
+18:13:51 INFO Skipping evaluation for b88ba32e98da (status=discarded)
+18:13:51 INFO Exp #908 (slot 5) saved to DB
+18:13:52 INFO Skipping evaluation for 1d3d5abcfc3e (status=discarded)
+18:13:52 INFO Exp #910 (slot 8) saved to DB
+18:13:52 INFO Skipping evaluation for 54f589e8c62c (status=discarded)
+18:13:52 INFO Exp #911 (slot 2) saved to DB
+18:13:52 INFO Skipping evaluation for 7369a8e5ffe6 (status=discarded)
+18:13:52 INFO Exp #913 (slot 4) saved to DB
+18:13:52 INFO Skipping evaluation for 330f49588f97 (status=discarded)
+18:13:52 INFO Exp #912 (slot 1) saved to DB
+18:13:52 INFO Skipping evaluation for 0e168b2bf7ad (status=discarded)
+18:13:52 INFO Exp #914 (slot 9) saved to DB
+18:13:53 INFO Skipping evaluation for bc7819339b62 (status=discarded)
+18:13:53 INFO Exp #916 (slot 0) saved to DB
+18:13:53 INFO Skipping evaluation for b0ecb188dcec (status=discarded)
+18:13:53 INFO Exp #915 (slot 6) saved to DB
+18:13:53 INFO Skipping evaluation for 7b3c0a2ebb73 (status=discarded)
+18:13:53 INFO Exp #918 (slot 5) saved to DB
+18:13:53 INFO Skipping evaluation for 9bb8ca1600a5 (status=discarded)
+18:13:53 INFO Exp #917 (slot 3) saved to DB
+18:13:53 INFO Skipping evaluation for cd9cd4b6e686 (status=discarded)
+18:13:53 INFO Exp #919 (slot 8) saved to DB
+18:13:53 INFO Skipping evaluation for 7711fc315d6e (status=discarded)
+18:13:53 INFO Exp #921 (slot 4) saved to DB
+18:13:53 INFO Skipping evaluation for bc16738978fd (status=discarded)
+18:13:53 INFO Exp #922 (slot 1) saved to DB
+18:13:54 INFO Skipping evaluation for 0acb8c5d949a (status=discarded)
+18:13:54 INFO Exp #923 (slot 9) saved to DB
+18:13:54 INFO Skipping evaluation for c19b299a0d9f (status=discarded)
+18:13:54 INFO Exp #920 (slot 2) saved to DB
+18:13:54 INFO Skipping evaluation for a48603017df7 (status=discarded)
+18:13:54 INFO Exp #924 (slot 0) saved to DB
+18:13:54 INFO Skipping evaluation for cbcf1782f63c (status=discarded)
+18:13:54 INFO Exp #925 (slot 6) saved to DB
+18:13:54 INFO Skipping evaluation for 27a43e8ad3f6 (status=discarded)
+18:13:54 INFO Exp #926 (slot 5) saved to DB
+18:13:54 INFO Skipping evaluation for 07dbc32ecb8d (status=discarded)
+18:13:54 INFO Exp #927 (slot 3) saved to DB
+18:13:54 INFO Skipping evaluation for 87a99dca7646 (status=discarded)
+18:13:54 INFO Exp #929 (slot 4) saved to DB
+18:13:54 INFO Skipping evaluation for 864662237916 (status=discarded)
+18:13:54 INFO Exp #928 (slot 8) saved to DB
+18:13:54 INFO Skipping evaluation for 5ba26c593148 (status=discarded)
+18:13:54 INFO Exp #930 (slot 1) saved to DB
+18:13:55 INFO Skipping evaluation for de0fa6790063 (status=discarded)
+18:13:55 INFO Exp #931 (slot 9) saved to DB
+18:13:55 INFO Skipping evaluation for 02105b1b20bb (status=discarded)
+18:13:55 INFO Exp #932 (slot 2) saved to DB
+18:13:55 INFO Skipping evaluation for 2361bfd6a197 (status=discarded)
+18:13:55 INFO Exp #933 (slot 0) saved to DB
+18:13:55 INFO Skipping evaluation for 49a18040627c (status=discarded)
+18:13:55 INFO Exp #934 (slot 6) saved to DB
+18:13:55 INFO Skipping evaluation for 2aa35481664b (status=discarded)
+18:13:55 INFO Exp #935 (slot 5) saved to DB
+18:13:55 INFO Skipping evaluation for 07cf163fc5d0 (status=discarded)
+18:13:55 INFO Exp #936 (slot 3) saved to DB
+18:13:55 INFO Skipping evaluation for e043afd4100f (status=discarded)
+18:13:55 INFO Exp #937 (slot 4) saved to DB
+18:13:55 INFO Skipping evaluation for 333d8d2b31e3 (status=discarded)
+18:13:55 INFO Exp #938 (slot 8) saved to DB
+18:13:56 INFO Skipping evaluation for 4edcc92f705d (status=discarded)
+18:13:56 INFO Exp #939 (slot 1) saved to DB
+18:13:56 INFO Skipping evaluation for f6739ad03a1d (status=discarded)
+18:13:56 INFO Exp #940 (slot 9) saved to DB
+18:13:56 INFO Skipping evaluation for 8367ce46bc21 (status=discarded)
+18:13:56 INFO Exp #944 (slot 5) saved to DB
+18:13:56 INFO Skipping evaluation for a29fa750cbf9 (status=discarded)
+18:13:56 INFO Exp #942 (slot 0) saved to DB
+18:13:56 INFO Skipping evaluation for 05df0b313d32 (status=discarded)
+18:13:56 INFO Exp #943 (slot 6) saved to DB
+18:13:56 INFO Skipping evaluation for 7f02bd8ff261 (status=discarded)
+18:13:56 INFO Exp #941 (slot 2) saved to DB
+18:13:56 INFO Skipping evaluation for 87f7ed17ba49 (status=discarded)
+18:13:56 INFO Exp #945 (slot 3) saved to DB
+18:13:56 INFO Skipping evaluation for 70adf81904a0 (status=discarded)
+18:13:56 INFO Exp #946 (slot 4) saved to DB
+18:13:56 INFO Skipping evaluation for 9abd5c73f803 (status=discarded)
+18:13:56 INFO Exp #947 (slot 8) saved to DB
+18:13:57 INFO Skipping evaluation for a1014b0b5846 (status=discarded)
+18:13:57 INFO Exp #950 (slot 5) saved to DB
+18:13:57 INFO Skipping evaluation for 02a44dc73d53 (status=discarded)
+18:13:57 INFO Exp #948 (slot 1) saved to DB
+18:13:57 INFO Skipping evaluation for e74bc78c72e6 (status=discarded)
+18:13:57 INFO Exp #949 (slot 9) saved to DB
+18:13:57 INFO Skipping evaluation for ed75235485f8 (status=discarded)
+18:13:57 INFO Exp #952 (slot 6) saved to DB
+18:13:57 INFO Skipping evaluation for 9e88275bddd4 (status=discarded)
+18:13:57 INFO Exp #953 (slot 2) saved to DB
+18:13:57 INFO Skipping evaluation for 902dd6e11319 (status=discarded)
+18:13:57 INFO Exp #951 (slot 0) saved to DB
+18:13:57 INFO Skipping evaluation for 0954d30fdf20 (status=discarded)
+18:13:57 INFO Exp #955 (slot 4) saved to DB
+18:13:57 INFO Skipping evaluation for 2e8047d2186f (status=discarded)
+18:13:57 INFO Exp #954 (slot 3) saved to DB
+18:13:58 INFO Skipping evaluation for 4b413fd5ee7b (status=discarded)
+18:13:58 INFO Exp #956 (slot 8) saved to DB
+18:13:58 INFO Skipping evaluation for c081fc2dc2cc (status=discarded)
+18:13:58 INFO Exp #957 (slot 5) saved to DB
+18:13:58 INFO Skipping evaluation for ab3501c0a2cf (status=discarded)
+18:13:58 INFO Exp #961 (slot 2) saved to DB
+18:13:58 INFO Skipping evaluation for af6d2224d831 (status=discarded)
+18:13:58 INFO Exp #958 (slot 1) saved to DB
+18:13:58 INFO Skipping evaluation for 4a996a6a2a1c (status=discarded)
+18:13:58 INFO Exp #959 (slot 9) saved to DB
+18:13:58 INFO Skipping evaluation for 1770cf93053f (status=discarded)
+18:13:58 INFO Exp #960 (slot 6) saved to DB
+18:13:58 INFO Skipping evaluation for 6355ae64bfbc (status=discarded)
+18:13:58 INFO Exp #962 (slot 0) saved to DB
+18:13:58 INFO Skipping evaluation for 63671275cdd0 (status=discarded)
+18:13:58 INFO Exp #964 (slot 3) saved to DB
+18:13:58 INFO Skipping evaluation for 3b0d43b3bbc0 (status=discarded)
+18:13:58 INFO Exp #963 (slot 4) saved to DB
+18:13:59 INFO Skipping evaluation for 562c73a834e8 (status=discarded)
+18:13:59 INFO Exp #965 (slot 8) saved to DB
+18:13:59 INFO Skipping evaluation for 95196de26e1e (status=discarded)
+18:13:59 INFO Exp #969 (slot 9) saved to DB
+18:13:59 INFO Skipping evaluation for 16fcd180de79 (status=discarded)
+18:13:59 INFO Exp #968 (slot 1) saved to DB
+18:13:59 INFO Skipping evaluation for d691e39c30de (status=discarded)
+18:13:59 INFO Exp #966 (slot 5) saved to DB
+18:13:59 INFO Skipping evaluation for 7a3c7b5dc229 (status=discarded)
+18:13:59 INFO Exp #967 (slot 2) saved to DB
+18:13:59 INFO Skipping evaluation for 82bfb49747d5 (status=discarded)
+18:13:59 INFO Exp #971 (slot 0) saved to DB
+18:13:59 INFO Skipping evaluation for 4d1795945dcc (status=discarded)
+18:13:59 INFO Exp #970 (slot 6) saved to DB
+18:13:59 INFO Skipping evaluation for 24adc01d35d5 (status=discarded)
+18:13:59 INFO Exp #972 (slot 3) saved to DB
+18:13:59 INFO Skipping evaluation for a2b0ce96f4d5 (status=discarded)
+18:13:59 INFO Exp #973 (slot 4) saved to DB
+18:14:00 INFO Skipping evaluation for abdc05d3bc35 (status=discarded)
+18:14:00 INFO Exp #975 (slot 9) saved to DB
+18:14:00 INFO Skipping evaluation for 302a63197f60 (status=discarded)
+18:14:00 INFO Exp #976 (slot 1) saved to DB
+18:14:00 INFO Skipping evaluation for c0da0ab3e0cd (status=discarded)
+18:14:00 INFO Exp #978 (slot 2) saved to DB
+18:14:00 INFO Skipping evaluation for 75b3a2923b5f (status=discarded)
+18:14:00 INFO Exp #977 (slot 5) saved to DB
+18:14:00 INFO Skipping evaluation for be46a202fbf3 (status=discarded)
+18:14:00 INFO Exp #974 (slot 8) saved to DB
+18:14:01 INFO Skipping evaluation for bd765e4ed024 (status=discarded)
+18:14:01 INFO Exp #981 (slot 3) saved to DB
+18:14:01 INFO Skipping evaluation for 7a6de4bec7fa (status=discarded)
+18:14:01 INFO Exp #979 (slot 0) saved to DB
+18:14:01 INFO Skipping evaluation for 3a93f54d4f89 (status=discarded)
+18:14:01 INFO Exp #982 (slot 4) saved to DB
+18:14:01 INFO Skipping evaluation for 8b1122db55ff (status=discarded)
+18:14:01 INFO Exp #980 (slot 6) saved to DB
+18:14:01 INFO Skipping evaluation for eaec6f4f80b6 (status=discarded)
+18:14:01 INFO Exp #983 (slot 9) saved to DB
+18:14:01 INFO Skipping evaluation for 0e03f272f224 (status=discarded)
+18:14:01 INFO Exp #984 (slot 1) saved to DB
+18:14:01 INFO Skipping evaluation for 24d85bfab3bd (status=discarded)
+18:14:01 INFO Exp #987 (slot 8) saved to DB
+18:14:01 INFO Skipping evaluation for 416bb70d50fc (status=discarded)
+18:14:01 INFO Exp #985 (slot 2) saved to DB
+18:14:01 INFO Skipping evaluation for 54ba2f55f480 (status=discarded)
+18:14:01 INFO Exp #986 (slot 5) saved to DB
+18:14:02 INFO Skipping evaluation for 49ff58b63c4c (status=discarded)
+18:14:02 INFO Exp #988 (slot 3) saved to DB
+18:14:02 INFO Skipping evaluation for 6325dba63fbf (status=discarded)
+18:14:02 INFO Exp #990 (slot 4) saved to DB
+18:14:02 INFO Skipping evaluation for 3fb8ca2a4410 (status=discarded)
+18:14:02 INFO Exp #989 (slot 0) saved to DB
+18:14:02 INFO Skipping evaluation for bea1758113d8 (status=discarded)
+18:14:02 INFO Exp #991 (slot 6) saved to DB
+18:14:02 INFO Skipping evaluation for 3b87d429295c (status=discarded)
+18:14:02 INFO Exp #992 (slot 9) saved to DB
+18:14:02 INFO Skipping evaluation for e6dc6ec0a6aa (status=discarded)
+18:14:02 INFO Exp #993 (slot 1) saved to DB
+18:14:02 INFO Skipping evaluation for 4de40eee913c (status=discarded)
+18:14:02 INFO Exp #994 (slot 8) saved to DB
+18:14:02 INFO Skipping evaluation for bb0f15abf794 (status=discarded)
+18:14:02 INFO Exp #996 (slot 5) saved to DB
+18:14:03 INFO Skipping evaluation for b8693cc11279 (status=discarded)
+18:14:03 INFO Exp #995 (slot 2) saved to DB
+18:14:03 INFO Skipping evaluation for 6f6929f7f763 (status=discarded)
+18:14:03 INFO Exp #999 (slot 0) saved to DB
+18:14:03 INFO Skipping evaluation for f7231dba14b3 (status=discarded)
+18:14:03 INFO Exp #997 (slot 3) saved to DB
+18:14:03 INFO Skipping evaluation for 8324517ad3da (status=discarded)
+18:14:03 INFO Exp #1000 (slot 6) saved to DB
+18:14:03 INFO Skipping evaluation for 3aa9d1284447 (status=discarded)
+18:14:03 INFO Exp #998 (slot 4) saved to DB
+18:14:03 INFO Skipping evaluation for 7546070317cd (status=discarded)
+18:14:03 INFO Exp #1001 (slot 9) saved to DB
+18:14:03 INFO Skipping evaluation for 301d91f3db7c (status=discarded)
+18:14:03 INFO Exp #1003 (slot 8) saved to DB
+18:14:03 INFO Skipping evaluation for 008e004880ca (status=discarded)
+18:14:03 INFO Exp #1004 (slot 5) saved to DB
+18:14:04 INFO Skipping evaluation for 704db83eb5a9 (status=discarded)
+18:14:04 INFO Exp #1002 (slot 1) saved to DB
+18:14:04 INFO Skipping evaluation for 0adaaedce562 (status=discarded)
+18:14:04 INFO Exp #1006 (slot 0) saved to DB
+18:14:04 INFO Skipping evaluation for 6b0540d2583d (status=discarded)
+18:14:04 INFO Exp #1005 (slot 2) saved to DB
+18:14:04 INFO Skipping evaluation for 3546604a1d62 (status=discarded)
+18:14:04 INFO Exp #1009 (slot 4) saved to DB
+18:14:04 INFO Skipping evaluation for 05a76b4ba191 (status=discarded)
+18:14:04 INFO Exp #1008 (slot 6) saved to DB
+18:14:04 INFO Skipping evaluation for d8293e2a252b (status=discarded)
+18:14:04 INFO Exp #1007 (slot 3) saved to DB
+18:14:04 INFO Skipping evaluation for 31770ecaf5d5 (status=discarded)
+18:14:04 INFO Exp #1010 (slot 9) saved to DB
+18:14:04 INFO Skipping evaluation for 1a40c34af9ec (status=discarded)
+18:14:04 INFO Exp #1011 (slot 8) saved to DB
+18:14:05 INFO Skipping evaluation for 9428d8b2c1cc (status=discarded)
+18:14:05 INFO Exp #1012 (slot 5) saved to DB
+18:14:05 INFO Skipping evaluation for 3c1e71797b7b (status=discarded)
+18:14:05 INFO Exp #1013 (slot 1) saved to DB
+18:14:05 INFO Skipping evaluation for 22cf0453b3fe (status=discarded)
+18:14:05 INFO Exp #1014 (slot 0) saved to DB
+18:14:05 INFO Skipping evaluation for 13ac4d5dc603 (status=discarded)
+18:14:05 INFO Exp #1015 (slot 2) saved to DB
+18:14:05 INFO Skipping evaluation for db920736b92b (status=discarded)
+18:14:05 INFO Exp #1017 (slot 6) saved to DB
+18:14:05 INFO Skipping evaluation for ff948f87babc (status=discarded)
+18:14:05 INFO Exp #1018 (slot 3) saved to DB
+18:14:06 INFO Skipping evaluation for 9b65b8486e5b (status=discarded)
+18:14:06 INFO Exp #1016 (slot 4) saved to DB
+18:14:06 INFO Skipping evaluation for a0564c608989 (status=discarded)
+18:14:06 INFO Exp #1019 (slot 9) saved to DB
+18:14:06 INFO Skipping evaluation for 30242afd5c70 (status=discarded)
+18:14:06 INFO Exp #1020 (slot 8) saved to DB
+18:14:06 INFO Skipping evaluation for f6b1d240a8a6 (status=discarded)
+18:14:06 INFO Exp #1022 (slot 1) saved to DB
+18:14:06 INFO Skipping evaluation for f1a4db9142c4 (status=discarded)
+18:14:06 INFO Exp #1021 (slot 5) saved to DB
+18:14:06 INFO Skipping evaluation for 93b87015da65 (status=discarded)
+18:14:06 INFO Exp #1023 (slot 0) saved to DB
+18:14:06 INFO Skipping evaluation for bb6dcaf89743 (status=discarded)
+18:14:06 INFO Exp #1025 (slot 6) saved to DB
+18:14:06 INFO Skipping evaluation for 034b30c58dbd (status=discarded)
+18:14:06 INFO Exp #1024 (slot 2) saved to DB
+18:14:06 INFO Skipping evaluation for de242d7231c8 (status=discarded)
+18:14:06 INFO Exp #1026 (slot 3) saved to DB
+18:14:07 INFO Skipping evaluation for 1ed8b8e08479 (status=discarded)
+18:14:07 INFO Exp #1027 (slot 4) saved to DB
+18:14:07 INFO Skipping evaluation for f749bac7dff2 (status=discarded)
+18:14:07 INFO Exp #1028 (slot 9) saved to DB
+18:14:07 INFO Skipping evaluation for 4f22065c6100 (status=discarded)
+18:14:07 INFO Exp #1029 (slot 8) saved to DB
+18:14:07 INFO Skipping evaluation for bef246c30050 (status=discarded)
+18:14:07 INFO Exp #1033 (slot 6) saved to DB
+18:14:07 INFO Skipping evaluation for 3255613e8987 (status=discarded)
+18:14:07 INFO Exp #1032 (slot 0) saved to DB
+18:14:07 INFO Skipping evaluation for 2193167830ca (status=discarded)
+18:14:07 INFO Exp #1031 (slot 5) saved to DB
+18:14:07 INFO Skipping evaluation for d638a4ee8e6c (status=discarded)
+18:14:07 INFO Exp #1030 (slot 1) saved to DB
+18:14:07 INFO Skipping evaluation for 08d29467d1d8 (status=discarded)
+18:14:07 INFO Exp #1034 (slot 2) saved to DB
+18:14:07 INFO Skipping evaluation for a00e2859e3fb (status=discarded)
+18:14:07 INFO Exp #1035 (slot 3) saved to DB
+18:14:08 INFO Skipping evaluation for a4d0eeec3b91 (status=discarded)
+18:14:08 INFO Exp #1037 (slot 9) saved to DB
+18:14:08 INFO Skipping evaluation for 39c6d1705120 (status=discarded)
+18:14:08 INFO Exp #1038 (slot 8) saved to DB
+18:14:08 INFO Skipping evaluation for a84fb741e6bf (status=discarded)
+18:14:08 INFO Exp #1036 (slot 4) saved to DB
+18:14:08 INFO Skipping evaluation for 18472ffec2e5 (status=discarded)
+18:14:08 INFO Exp #1039 (slot 6) saved to DB
+18:14:08 INFO Skipping evaluation for 318e329e462a (status=discarded)
+18:14:08 INFO Exp #1040 (slot 0) saved to DB
+18:14:08 INFO Skipping evaluation for 9c4ddc93b02b (status=discarded)
+18:14:08 INFO Exp #1041 (slot 5) saved to DB
+18:14:08 INFO Skipping evaluation for c1915e1f1827 (status=discarded)
+18:14:08 INFO Exp #1043 (slot 2) saved to DB
+18:14:08 INFO Skipping evaluation for e6794fca1afe (status=discarded)
+18:14:08 INFO Exp #1042 (slot 1) saved to DB
+18:14:09 INFO Skipping evaluation for 4f7cf1497565 (status=discarded)
+18:14:09 INFO Exp #1044 (slot 3) saved to DB
+18:14:09 INFO Skipping evaluation for 47253f54abea (status=discarded)
+18:14:09 INFO Exp #1045 (slot 9) saved to DB
+18:14:09 INFO Skipping evaluation for ca192b7bd06e (status=discarded)
+18:14:09 INFO Exp #1046 (slot 8) saved to DB
+18:14:09 INFO Skipping evaluation for 7d412419df48 (status=discarded)
+18:14:09 INFO Exp #1047 (slot 4) saved to DB
+18:14:10 INFO Skipping evaluation for c2d48342e0e5 (status=discarded)
+18:14:10 INFO Exp #1048 (slot 6) saved to DB
+18:14:10 INFO Skipping evaluation for 73f0cb4cc5ff (status=discarded)
+18:14:10 INFO Exp #1049 (slot 0) saved to DB
+18:14:10 INFO Skipping evaluation for 91e232c62907 (status=discarded)
+18:14:10 INFO Exp #1051 (slot 2) saved to DB
+18:14:10 INFO Skipping evaluation for 2338a829e938 (status=discarded)
+18:14:10 INFO Exp #1050 (slot 5) saved to DB
+18:14:10 INFO Skipping evaluation for 21ded1fe12ca (status=discarded)
+18:14:10 INFO Exp #1052 (slot 1) saved to DB
+18:14:10 INFO Skipping evaluation for 7d45bef365e5 (status=discarded)
+18:14:10 INFO Exp #1053 (slot 3) saved to DB
+18:14:10 INFO Skipping evaluation for ce60bd38c8b3 (status=discarded)
+18:14:10 INFO Exp #1054 (slot 9) saved to DB
+18:14:10 INFO Skipping evaluation for 56035d46ed12 (status=discarded)
+18:14:10 INFO Exp #1055 (slot 8) saved to DB
+18:14:10 INFO Skipping evaluation for b17fd5c56276 (status=discarded)
+18:14:10 INFO Exp #1056 (slot 4) saved to DB
+18:14:11 INFO Skipping evaluation for e728e3d5b098 (status=discarded)
+18:14:11 INFO Exp #1060 (slot 5) saved to DB
+18:14:11 INFO Skipping evaluation for f15cb8272ae5 (status=discarded)
+18:14:11 INFO Exp #1057 (slot 6) saved to DB
+18:14:11 INFO Skipping evaluation for 2b1f4d00813a (status=discarded)
+18:14:11 INFO Exp #1059 (slot 2) saved to DB
+18:14:11 INFO Skipping evaluation for d46e1c6eda86 (status=discarded)
+18:14:11 INFO Exp #1058 (slot 0) saved to DB
+18:14:11 INFO Skipping evaluation for fc25e080fff1 (status=discarded)
+18:14:11 INFO Exp #1061 (slot 1) saved to DB
+18:14:11 INFO Skipping evaluation for ba6ea4d9ea78 (status=discarded)
+18:14:11 INFO Exp #1064 (slot 8) saved to DB
+18:14:11 INFO Skipping evaluation for 609bcb7f0ba5 (status=discarded)
+18:14:11 INFO Exp #1065 (slot 4) saved to DB
+18:14:11 INFO Skipping evaluation for e4495693649b (status=discarded)
+18:14:11 INFO Exp #1062 (slot 3) saved to DB
+18:14:12 INFO Skipping evaluation for 66724aee3af3 (status=discarded)
+18:14:12 INFO Exp #1063 (slot 9) saved to DB
+18:14:12 INFO Skipping evaluation for f80969184469 (status=discarded)
+18:14:12 INFO Exp #1066 (slot 5) saved to DB
+18:14:12 INFO Skipping evaluation for 869c5d514bb7 (status=discarded)
+18:14:12 INFO Exp #1067 (slot 6) saved to DB
+18:14:12 INFO Skipping evaluation for 1525fb36457e (status=discarded)
+18:14:12 INFO Exp #1068 (slot 2) saved to DB
+18:14:12 INFO Skipping evaluation for 47f83fe971b3 (status=discarded)
+18:14:12 INFO Exp #1070 (slot 1) saved to DB
+18:14:12 INFO Skipping evaluation for 15f32cb4b14e (status=discarded)
+18:14:12 INFO Exp #1069 (slot 0) saved to DB
+18:14:12 INFO Skipping evaluation for 675a95bec7a3 (status=discarded)
+18:14:12 INFO Exp #1072 (slot 4) saved to DB
+18:14:12 INFO Skipping evaluation for 9561ff5011dc (status=discarded)
+18:14:12 INFO Exp #1073 (slot 3) saved to DB
+18:14:12 INFO Skipping evaluation for a681008545a3 (status=discarded)
+18:14:12 INFO Exp #1071 (slot 8) saved to DB
+18:14:13 INFO Skipping evaluation for 7f7ebca64f55 (status=discarded)
+18:14:13 INFO Exp #1074 (slot 9) saved to DB
+18:14:13 INFO Skipping evaluation for 63053107a25c (status=discarded)
+18:14:13 INFO Exp #1076 (slot 6) saved to DB
+18:14:13 INFO Skipping evaluation for 499f7c70e3e0 (status=discarded)
+18:14:13 INFO Exp #1075 (slot 5) saved to DB
+18:14:13 INFO Skipping evaluation for c61764cecfca (status=discarded)
+18:14:13 INFO Exp #1077 (slot 2) saved to DB
+18:14:13 INFO Skipping evaluation for 41cb455eca5e (status=discarded)
+18:14:13 INFO Exp #1079 (slot 0) saved to DB
+18:14:13 INFO Skipping evaluation for 475aa3df71dc (status=discarded)
+18:14:13 INFO Exp #1080 (slot 4) saved to DB
+18:14:13 INFO Skipping evaluation for 26750975fb65 (status=discarded)
+18:14:13 INFO Exp #1081 (slot 3) saved to DB
+18:14:13 INFO Skipping evaluation for 4e1c7daaac43 (status=discarded)
+18:14:13 INFO Exp #1078 (slot 1) saved to DB
+18:14:14 INFO Skipping evaluation for 17ad44e96842 (status=discarded)
+18:14:14 INFO Exp #1082 (slot 8) saved to DB
+18:14:14 INFO Skipping evaluation for 744e4c3b0c80 (status=discarded)
+18:14:14 INFO Exp #1083 (slot 9) saved to DB
+18:14:14 INFO Skipping evaluation for ffbdfa222960 (status=discarded)
+18:14:14 INFO Exp #1084 (slot 6) saved to DB
+18:14:14 INFO Skipping evaluation for ffd347d0f922 (status=discarded)
+18:14:14 INFO Exp #1086 (slot 2) saved to DB
+18:14:14 INFO Skipping evaluation for 202726eb8ddd (status=discarded)
+18:14:14 INFO Exp #1085 (slot 5) saved to DB
+18:14:14 INFO Skipping evaluation for 1dcc943cfbee (status=discarded)
+18:14:14 INFO Exp #1088 (slot 4) saved to DB
+18:14:14 INFO Skipping evaluation for 3ea7236d0f7f (status=discarded)
+18:14:14 INFO Exp #1089 (slot 3) saved to DB
+18:14:14 INFO Skipping evaluation for c8296abca1ee (status=discarded)
+18:14:14 INFO Exp #1087 (slot 0) saved to DB
+18:14:15 INFO Skipping evaluation for 74d2ea494503 (status=discarded)
+18:14:15 INFO Exp #1090 (slot 1) saved to DB
+18:14:15 INFO Skipping evaluation for 545f9088dd19 (status=discarded)
+18:14:15 INFO Exp #1091 (slot 8) saved to DB
+18:14:15 INFO Skipping evaluation for 75c672e301bb (status=discarded)
+18:14:15 INFO Exp #1092 (slot 9) saved to DB
+18:14:15 INFO Skipping evaluation for e085575ebd11 (status=discarded)
+18:14:15 INFO Exp #1094 (slot 2) saved to DB
+18:14:15 INFO Skipping evaluation for daaf647b5d5e (status=discarded)
+18:14:15 INFO Exp #1095 (slot 5) saved to DB
+18:14:15 INFO Skipping evaluation for ee5df8442932 (status=discarded)
+18:14:15 INFO Exp #1093 (slot 6) saved to DB
+18:14:15 INFO Skipping evaluation for ed56558d69e9 (status=discarded)
+18:14:15 INFO Exp #1096 (slot 4) saved to DB
+18:14:15 INFO Skipping evaluation for df9ce27ebed6 (status=discarded)
+18:14:15 INFO Exp #1097 (slot 3) saved to DB
+18:14:15 INFO Skipping evaluation for e5dc58235662 (status=discarded)
+18:14:15 INFO Exp #1098 (slot 0) saved to DB
+18:14:16 INFO Skipping evaluation for 983e70bd46c2 (status=discarded)
+18:14:16 INFO Exp #1099 (slot 1) saved to DB
+18:14:16 INFO Skipping evaluation for f9dd05637bcf (status=discarded)
+18:14:16 INFO Exp #1101 (slot 9) saved to DB
+18:14:16 INFO Skipping evaluation for dca9bd3a62fc (status=discarded)
+18:14:16 INFO Exp #1103 (slot 5) saved to DB
+18:14:16 INFO Skipping evaluation for 3fb9b37ab8ce (status=discarded)
+18:14:16 INFO Exp #1100 (slot 8) saved to DB
+18:14:16 INFO Skipping evaluation for 9aebd54b758a (status=discarded)
+18:14:16 INFO Exp #1104 (slot 6) saved to DB
+18:14:16 INFO Skipping evaluation for d8bc3f5bd0f7 (status=discarded)
+18:14:16 INFO Exp #1102 (slot 2) saved to DB
+18:14:16 INFO Skipping evaluation for ff6be7284849 (status=discarded)
+18:14:16 INFO Exp #1105 (slot 4) saved to DB
+18:14:16 INFO Skipping evaluation for 8804835c3065 (status=discarded)
+18:14:16 INFO Exp #1106 (slot 3) saved to DB
+18:14:16 INFO Skipping evaluation for 038e66dcd003 (status=discarded)
+18:14:16 INFO Exp #1107 (slot 0) saved to DB
+18:14:17 INFO Skipping evaluation for 3879df7d323d (status=discarded)
+18:14:17 INFO Exp #1108 (slot 1) saved to DB
+18:14:17 INFO Skipping evaluation for 5a8b44527767 (status=discarded)
+18:14:17 INFO Exp #1110 (slot 5) saved to DB
+18:14:17 INFO Skipping evaluation for 1be4edebfb23 (status=discarded)
+18:14:17 INFO Exp #1109 (slot 9) saved to DB
+18:14:17 INFO Skipping evaluation for 1f7f1a798806 (status=discarded)
+18:14:17 INFO Exp #1112 (slot 6) saved to DB
+18:14:17 INFO Skipping evaluation for 693ae3e1041c (status=discarded)
+18:14:17 INFO Exp #1111 (slot 8) saved to DB
+18:14:17 INFO Skipping evaluation for 0176d78a21fc (status=discarded)
+18:14:17 INFO Exp #1113 (slot 2) saved to DB
+18:14:17 INFO Skipping evaluation for 34f1073f83c1 (status=discarded)
+18:14:17 INFO Exp #1115 (slot 3) saved to DB
+18:14:17 INFO Skipping evaluation for 8f339ccabe7d (status=discarded)
+18:14:17 INFO Exp #1114 (slot 4) saved to DB
+18:14:17 INFO Skipping evaluation for 847f51e5c7c4 (status=discarded)
+18:14:17 INFO Exp #1116 (slot 0) saved to DB
+18:14:18 INFO Skipping evaluation for 37a3ca7edcbb (status=discarded)
+18:14:18 INFO Exp #1117 (slot 1) saved to DB
+18:14:18 INFO Skipping evaluation for 7809117d10c2 (status=discarded)
+18:14:18 INFO Exp #1118 (slot 5) saved to DB
+18:14:18 INFO Skipping evaluation for afcad1a61b0c (status=discarded)
+18:14:18 INFO Exp #1120 (slot 6) saved to DB
+18:14:18 INFO Skipping evaluation for c87eadfa11f3 (status=discarded)
+18:14:18 INFO Exp #1119 (slot 9) saved to DB
+18:14:19 INFO Skipping evaluation for cafc10aae1c3 (status=discarded)
+18:14:19 INFO Exp #1121 (slot 8) saved to DB
+18:14:19 INFO Skipping evaluation for bc3b4850e008 (status=discarded)
+18:14:19 INFO Exp #1124 (slot 4) saved to DB
+18:14:19 INFO Skipping evaluation for ece600e801fa (status=discarded)
+18:14:19 INFO Exp #1122 (slot 2) saved to DB
+18:14:19 INFO Skipping evaluation for c96ee226cbb0 (status=discarded)
+18:14:19 INFO Exp #1123 (slot 3) saved to DB
+18:14:19 INFO Skipping evaluation for 6f1522ca995a (status=discarded)
+18:14:19 INFO Exp #1125 (slot 0) saved to DB
+18:14:19 INFO Skipping evaluation for 02efeb638df6 (status=discarded)
+18:14:19 INFO Exp #1126 (slot 1) saved to DB
+18:14:19 INFO Skipping evaluation for b61cfa73d6fe (status=discarded)
+18:14:19 INFO Exp #1128 (slot 6) saved to DB
+18:14:19 INFO Skipping evaluation for 7b29f42a00d4 (status=discarded)
+18:14:19 INFO Exp #1129 (slot 9) saved to DB
+18:14:19 INFO Skipping evaluation for 03d4bfd876e2 (status=discarded)
+18:14:19 INFO Exp #1127 (slot 5) saved to DB
+18:14:20 INFO Skipping evaluation for 3ca33d6b6b91 (status=discarded)
+18:14:20 INFO Exp #1130 (slot 8) saved to DB
+18:14:20 INFO Skipping evaluation for f9c0e90707e1 (status=discarded)
+18:14:20 INFO Exp #1132 (slot 2) saved to DB
+18:14:20 INFO Skipping evaluation for 79adc98a63a7 (status=discarded)
+18:14:20 INFO Exp #1131 (slot 4) saved to DB
+18:14:20 INFO Skipping evaluation for 583b1295e771 (status=discarded)
+18:14:20 INFO Exp #1133 (slot 3) saved to DB
+18:14:20 INFO Skipping evaluation for 15dfaaa93650 (status=discarded)
+18:14:20 INFO Exp #1134 (slot 0) saved to DB
+18:14:20 INFO Skipping evaluation for baf24b8d59fa (status=discarded)
+18:14:20 INFO Exp #1135 (slot 1) saved to DB
+18:14:20 INFO Skipping evaluation for cf137986bbbe (status=discarded)
+18:14:20 INFO Exp #1136 (slot 6) saved to DB
+18:14:20 INFO Skipping evaluation for abca6c6b2c5c (status=discarded)
+18:14:20 INFO Exp #1137 (slot 9) saved to DB
+18:14:21 INFO Skipping evaluation for a1508ca048f8 (status=discarded)
+18:14:21 INFO Exp #1138 (slot 5) saved to DB
+18:14:21 INFO Skipping evaluation for 7bdea8dbdcfa (status=discarded)
+18:14:21 INFO Exp #1139 (slot 8) saved to DB
+18:14:21 INFO Skipping evaluation for 9d48e28e626a (status=discarded)
+18:14:21 INFO Exp #1140 (slot 2) saved to DB
+18:14:21 INFO Skipping evaluation for 648fbe17eaa2 (status=discarded)
+18:14:21 INFO Exp #1141 (slot 4) saved to DB
+18:14:21 INFO Skipping evaluation for 1cb765af1d23 (status=discarded)
+18:14:21 INFO Exp #1142 (slot 3) saved to DB
+18:14:21 INFO Skipping evaluation for 0ab05aa9ca5d (status=discarded)
+18:14:21 INFO Exp #1143 (slot 0) saved to DB
+18:14:21 INFO Skipping evaluation for ef0f252f5f57 (status=discarded)
+18:14:21 INFO Exp #1146 (slot 9) saved to DB
+18:14:21 INFO Skipping evaluation for 1e7a29e9126c (status=discarded)
+18:14:21 INFO Exp #1144 (slot 1) saved to DB
+18:14:21 INFO Skipping evaluation for b5d38f42c9c2 (status=discarded)
+18:14:21 INFO Exp #1145 (slot 6) saved to DB
+18:14:22 INFO Skipping evaluation for 2f1f9787460d (status=discarded)
+18:14:22 INFO Exp #1147 (slot 5) saved to DB
+18:14:22 INFO Skipping evaluation for 8fff2bba5d62 (status=discarded)
+18:14:22 INFO Exp #1151 (slot 3) saved to DB
+18:14:22 INFO Skipping evaluation for bd6b56648b97 (status=discarded)
+18:14:22 INFO Exp #1149 (slot 2) saved to DB
+18:14:22 INFO Skipping evaluation for d3141981a065 (status=discarded)
+18:14:22 INFO Exp #1150 (slot 4) saved to DB
+18:14:22 INFO Skipping evaluation for f3fd620e0e5a (status=discarded)
+18:14:22 INFO Exp #1148 (slot 8) saved to DB
+18:14:22 INFO Skipping evaluation for ef1f6e430f3d (status=discarded)
+18:14:22 INFO Exp #1152 (slot 0) saved to DB
+18:14:22 INFO Skipping evaluation for 35d5aea3b14c (status=discarded)
+18:14:22 INFO Exp #1154 (slot 1) saved to DB
+18:14:22 INFO Skipping evaluation for 96dd728d12c5 (status=discarded)
+18:14:22 INFO Exp #1153 (slot 9) saved to DB
+18:14:22 INFO Skipping evaluation for 966d20108285 (status=discarded)
+18:14:22 INFO Exp #1155 (slot 6) saved to DB
+18:14:23 INFO Skipping evaluation for bf364be8596e (status=discarded)
+18:14:23 INFO Exp #1157 (slot 3) saved to DB
+18:14:23 INFO Skipping evaluation for 1702dad9eb96 (status=discarded)
+18:14:23 INFO Exp #1160 (slot 8) saved to DB
+18:14:23 INFO Skipping evaluation for 82ed7bc6e219 (status=discarded)
+18:14:23 INFO Exp #1159 (slot 4) saved to DB
+18:14:23 INFO Skipping evaluation for d211552a5a69 (status=discarded)
+18:14:23 INFO Exp #1156 (slot 5) saved to DB
+18:14:23 INFO Skipping evaluation for b01c33bba2fb (status=discarded)
+18:14:23 INFO Exp #1158 (slot 2) saved to DB
+18:14:23 INFO Skipping evaluation for 55af48ba76c0 (status=discarded)
+18:14:23 INFO Exp #1161 (slot 0) saved to DB
+18:14:23 INFO Skipping evaluation for c986b723740d (status=discarded)
+18:14:23 INFO Exp #1162 (slot 1) saved to DB
+18:14:23 INFO Skipping evaluation for 97d9cb3bbd93 (status=discarded)
+18:14:23 INFO Exp #1163 (slot 9) saved to DB
+18:14:24 INFO Skipping evaluation for e214a070882a (status=discarded)
+18:14:24 INFO Exp #1164 (slot 6) saved to DB
+18:14:24 INFO Skipping evaluation for 4b075a05e7b2 (status=discarded)
+18:14:24 INFO Exp #1165 (slot 3) saved to DB
+18:14:24 INFO Skipping evaluation for 29133d235d37 (status=discarded)
+18:14:24 INFO Exp #1168 (slot 5) saved to DB
+18:14:24 INFO Skipping evaluation for cec95d90b078 (status=discarded)
+18:14:24 INFO Exp #1169 (slot 2) saved to DB
+18:14:24 INFO Skipping evaluation for 75e2f8dbc543 (status=discarded)
+18:14:24 INFO Exp #1167 (slot 4) saved to DB
+18:14:25 INFO Skipping evaluation for 01dbf0b0fcff (status=discarded)
+18:14:25 INFO Exp #1166 (slot 8) saved to DB
+18:14:25 INFO Skipping evaluation for 435baad97557 (status=discarded)
+18:14:25 INFO Exp #1170 (slot 0) saved to DB
+18:14:25 INFO Skipping evaluation for ce8ae90e367c (status=discarded)
+18:14:25 INFO Exp #1171 (slot 1) saved to DB
+18:14:25 INFO Skipping evaluation for eda1ae96fcf1 (status=discarded)
+18:14:25 INFO Exp #1172 (slot 9) saved to DB
+18:14:25 INFO Skipping evaluation for 1f3e96423bed (status=discarded)
+18:14:25 INFO Exp #1173 (slot 6) saved to DB
+18:14:25 INFO Skipping evaluation for e77c61ef4ea0 (status=discarded)
+18:14:25 INFO Exp #1175 (slot 5) saved to DB
+18:14:25 INFO Skipping evaluation for 9f354e6bfb22 (status=discarded)
+18:14:25 INFO Exp #1174 (slot 3) saved to DB
+18:14:25 INFO Skipping evaluation for 1c9b91e9273b (status=discarded)
+18:14:25 INFO Exp #1177 (slot 4) saved to DB
+18:14:25 INFO Skipping evaluation for e884ddc61713 (status=discarded)
+18:14:25 INFO Exp #1176 (slot 2) saved to DB
+18:14:25 INFO Skipping evaluation for edb344fa74c7 (status=discarded)
+18:14:26 INFO Exp #1178 (slot 8) saved to DB
+18:14:26 INFO Skipping evaluation for d5cd6297af44 (status=discarded)
+18:14:26 INFO Exp #1180 (slot 1) saved to DB
+18:14:26 INFO Skipping evaluation for a24fd1e06992 (status=discarded)
+18:14:26 INFO Exp #1179 (slot 0) saved to DB
+18:14:26 INFO Skipping evaluation for 9e8047081c1c (status=discarded)
+18:14:26 INFO Exp #1181 (slot 9) saved to DB
+18:14:26 INFO Skipping evaluation for 2c4b82eb3444 (status=discarded)
+18:14:26 INFO Exp #1182 (slot 6) saved to DB
+18:14:26 INFO Skipping evaluation for f5059c171499 (status=discarded)
+18:14:26 INFO Exp #1183 (slot 5) saved to DB
+18:14:26 INFO Skipping evaluation for ad566ff199dc (status=discarded)
+18:14:26 INFO Exp #1184 (slot 3) saved to DB
+18:14:27 INFO Skipping evaluation for b7bcdde5a64d (status=discarded)
+18:14:27 INFO Exp #1185 (slot 4) saved to DB
+18:14:27 INFO Skipping evaluation for 2e0a1ec1ab10 (status=discarded)
+18:14:27 INFO Exp #1186 (slot 2) saved to DB
+18:14:27 INFO Skipping evaluation for c052f0aa7dcf (status=discarded)
+18:14:27 INFO Exp #1190 (slot 9) saved to DB
+18:14:27 INFO Skipping evaluation for 2fa791cef649 (status=discarded)
+18:14:27 INFO Exp #1189 (slot 0) saved to DB
+18:14:27 INFO Skipping evaluation for 50d7ddf44ec3 (status=discarded)
+18:14:27 INFO Exp #1187 (slot 8) saved to DB
+18:14:27 INFO Skipping evaluation for 149fe5550261 (status=discarded)
+18:14:27 INFO Exp #1188 (slot 1) saved to DB
+18:14:27 INFO Skipping evaluation for 0d13cd4ec16f (status=discarded)
+18:14:27 INFO Exp #1191 (slot 6) saved to DB
+18:14:27 INFO Skipping evaluation for a5156fd74c76 (status=discarded)
+18:14:27 INFO Exp #1192 (slot 5) saved to DB
+18:14:27 INFO Skipping evaluation for ce43629bac6d (status=discarded)
+18:14:27 INFO Exp #1193 (slot 3) saved to DB
+18:14:28 INFO Skipping evaluation for 0822839e4b79 (status=discarded)
+18:14:28 INFO Exp #1194 (slot 4) saved to DB
+18:14:28 INFO Skipping evaluation for 2a901cabc64f (status=discarded)
+18:14:28 INFO Exp #1195 (slot 2) saved to DB
+18:14:28 INFO Skipping evaluation for 5d8a8721bf9c (status=discarded)
+18:14:28 INFO Exp #1197 (slot 0) saved to DB
+18:14:28 INFO Skipping evaluation for 3e8d4dcdb057 (status=discarded)
+18:14:28 INFO Exp #1196 (slot 9) saved to DB
+18:14:28 INFO Skipping evaluation for dbc83ac2322b (status=discarded)
+18:14:28 INFO Exp #1198 (slot 8) saved to DB
+18:14:28 INFO Skipping evaluation for 1d8897ceecc3 (status=discarded)
+18:14:28 INFO Exp #1200 (slot 6) saved to DB
+18:14:28 INFO Skipping evaluation for 3473a10bbeaf (status=discarded)
+18:14:28 INFO Exp #1199 (slot 1) saved to DB
+18:14:28 INFO Skipping evaluation for 35fc358c9f9b (status=discarded)
+18:14:28 INFO Exp #1202 (slot 3) saved to DB
+18:14:28 INFO Skipping evaluation for 6ee176790b20 (status=discarded)
+18:14:28 INFO Exp #1201 (slot 5) saved to DB
+18:14:29 INFO Skipping evaluation for 40f7f8e5cf4a (status=failed)
+18:14:29 INFO Exp #320 (slot 7) saved to DB
+18:14:29 INFO Skipping evaluation for a4c933cefd49 (status=discarded)
+18:14:29 INFO Exp #1203 (slot 4) saved to DB
+18:14:29 INFO Skipping evaluation for 0d04e9576f84 (status=discarded)
+18:14:29 INFO Exp #1204 (slot 2) saved to DB
+18:14:29 INFO Skipping evaluation for a7125d8ec1e9 (status=discarded)
+18:14:29 INFO Exp #1205 (slot 0) saved to DB
+18:14:29 INFO Skipping evaluation for deb2a6b318f8 (status=discarded)
+18:14:29 INFO Exp #1206 (slot 9) saved to DB
+18:14:29 INFO Skipping evaluation for 811ce41c7af7 (status=discarded)
+18:14:29 INFO Exp #1207 (slot 8) saved to DB
+18:14:29 INFO Skipping evaluation for 4a072e2614e2 (status=discarded)
+18:14:30 INFO Exp #1208 (slot 6) saved to DB
+18:14:30 INFO Skipping evaluation for 42acbc07b8d4 (status=discarded)
+18:14:30 INFO Exp #1209 (slot 1) saved to DB
+18:14:30 INFO Skipping evaluation for e52af1b80088 (status=discarded)
+18:14:30 INFO Exp #1210 (slot 3) saved to DB
+18:14:30 INFO Skipping evaluation for 7d2b63cd6c09 (status=discarded)
+18:14:30 INFO Exp #1211 (slot 5) saved to DB
+18:14:30 INFO Skipping evaluation for 1f346c008f1a (status=discarded)
+18:14:30 INFO Exp #1212 (slot 7) saved to DB
+18:14:30 INFO Skipping evaluation for eb8b3d930b0d (status=discarded)
+18:14:30 INFO Exp #1216 (slot 9) saved to DB
+18:14:30 INFO Skipping evaluation for e818731cb448 (status=discarded)
+18:14:30 INFO Exp #1215 (slot 0) saved to DB
+18:14:30 INFO Skipping evaluation for cd28358f3e55 (status=discarded)
+18:14:30 INFO Exp #1214 (slot 2) saved to DB
+18:14:31 INFO Skipping evaluation for 3bd45f0f2fda (status=discarded)
+18:14:31 INFO Exp #1213 (slot 4) saved to DB
+18:14:31 INFO Skipping evaluation for 8bb97564e2de (status=discarded)
+18:14:31 INFO Exp #1217 (slot 8) saved to DB
+18:14:31 INFO Skipping evaluation for d508128b22c9 (status=discarded)
+18:14:31 INFO Exp #1218 (slot 6) saved to DB
+18:14:31 INFO Skipping evaluation for bf38c05bee07 (status=discarded)
+18:14:31 INFO Exp #1219 (slot 1) saved to DB
+18:14:31 INFO Skipping evaluation for 7e745369cd49 (status=discarded)
+18:14:31 INFO Exp #1220 (slot 3) saved to DB
+18:14:31 INFO Skipping evaluation for 204e43c3cff1 (status=discarded)
+18:14:31 INFO Exp #1221 (slot 5) saved to DB
+18:14:31 INFO Skipping evaluation for eb717246dd5c (status=discarded)
+18:14:31 INFO Exp #1223 (slot 9) saved to DB
+18:14:31 INFO Skipping evaluation for ba76478678d2 (status=discarded)
+18:14:31 INFO Exp #1225 (slot 2) saved to DB
+18:14:31 INFO Skipping evaluation for 672b3b548ca8 (status=discarded)
+18:14:31 INFO Exp #1222 (slot 7) saved to DB
+18:14:31 INFO Skipping evaluation for 78c3a5ec58a5 (status=discarded)
+18:14:31 INFO Exp #1224 (slot 0) saved to DB
+18:14:32 INFO Skipping evaluation for f4c5a0b8d33f (status=discarded)
+18:14:32 INFO Exp #1228 (slot 6) saved to DB
+18:14:32 INFO Skipping evaluation for eabec5008bab (status=discarded)
+18:14:32 INFO Exp #1227 (slot 8) saved to DB
+18:14:32 INFO Skipping evaluation for de3b998e1fff (status=discarded)
+18:14:32 INFO Exp #1226 (slot 4) saved to DB
+18:14:32 INFO Skipping evaluation for b691978f4145 (status=discarded)
+18:14:32 INFO Exp #1229 (slot 1) saved to DB
+18:14:32 INFO Skipping evaluation for a5cc4de80086 (status=discarded)
+18:14:32 INFO Exp #1230 (slot 3) saved to DB
+18:14:32 INFO Skipping evaluation for 600e5372a480 (status=discarded)
+18:14:32 INFO Exp #1231 (slot 5) saved to DB
+18:14:33 INFO Skipping evaluation for 03cf08368c4f (status=discarded)
+18:14:33 INFO Exp #1234 (slot 7) saved to DB
+18:14:33 INFO Skipping evaluation for 61d565a9d235 (status=discarded)
+18:14:33 INFO Exp #1232 (slot 9) saved to DB
+18:14:33 INFO Skipping evaluation for 54af296fdb46 (status=discarded)
+18:14:33 INFO Exp #1233 (slot 2) saved to DB
+18:14:33 INFO Skipping evaluation for e2503cb399fc (status=discarded)
+18:14:33 INFO Exp #1235 (slot 0) saved to DB
+18:14:33 INFO Skipping evaluation for 35fd092a04f3 (status=discarded)
+18:14:33 INFO Exp #1239 (slot 1) saved to DB
+18:14:33 INFO Skipping evaluation for 51e64b7e0a75 (status=discarded)
+18:14:33 INFO Exp #1236 (slot 6) saved to DB
+18:14:33 INFO Skipping evaluation for 27761517d360 (status=discarded)
+18:14:33 INFO Exp #1241 (slot 5) saved to DB
+18:14:33 INFO Skipping evaluation for 1741cbabc83c (status=discarded)
+18:14:33 INFO Exp #1238 (slot 4) saved to DB
+18:14:33 INFO Skipping evaluation for e45acfcf946f (status=discarded)
+18:14:33 INFO Exp #1240 (slot 3) saved to DB
+18:14:33 INFO Skipping evaluation for 6825cb64b876 (status=discarded)
+18:14:33 INFO Exp #1237 (slot 8) saved to DB
+18:14:34 INFO Skipping evaluation for fe72dd6e1d1d (status=discarded)
+18:14:34 INFO Exp #1242 (slot 7) saved to DB
+18:14:34 INFO Skipping evaluation for 1a17b95a9a94 (status=discarded)
+18:14:34 INFO Exp #1243 (slot 9) saved to DB
+18:14:34 INFO Skipping evaluation for b1ca5e521df2 (status=discarded)
+18:14:34 INFO Exp #1244 (slot 2) saved to DB
+18:14:34 INFO Skipping evaluation for 598e6b4e925d (status=discarded)
+18:14:34 INFO Exp #1245 (slot 0) saved to DB
+18:14:34 INFO Skipping evaluation for 325661912c40 (status=discarded)
+18:14:34 INFO Exp #1247 (slot 6) saved to DB
+18:14:34 INFO Skipping evaluation for 50f2953b0a5e (status=discarded)
+18:14:34 INFO Exp #1246 (slot 1) saved to DB
+18:14:34 INFO Skipping evaluation for 5f5a5968b800 (status=discarded)
+18:14:34 INFO Exp #1248 (slot 5) saved to DB
+18:14:34 INFO Skipping evaluation for 69bbfcec41eb (status=discarded)
+18:14:34 INFO Exp #1251 (slot 8) saved to DB
+18:14:34 INFO Skipping evaluation for ccd92863f74e (status=discarded)
+18:14:34 INFO Exp #1249 (slot 4) saved to DB
+18:14:34 INFO Skipping evaluation for abce1f8f245f (status=discarded)
+18:14:34 INFO Exp #1250 (slot 3) saved to DB
+18:14:35 INFO Skipping evaluation for 80fd5ad255c1 (status=discarded)
+18:14:35 INFO Exp #1254 (slot 2) saved to DB
+18:14:35 INFO Skipping evaluation for 39c1609430e1 (status=discarded)
+18:14:35 INFO Exp #1253 (slot 9) saved to DB
+18:14:35 INFO Skipping evaluation for 181f2b9cd797 (status=discarded)
+18:14:35 INFO Exp #1256 (slot 6) saved to DB
+18:14:35 INFO Skipping evaluation for efa10270c04a (status=discarded)
+18:14:35 INFO Exp #1252 (slot 7) saved to DB
+18:14:35 INFO Skipping evaluation for a55b27d35654 (status=discarded)
+18:14:35 INFO Exp #1255 (slot 0) saved to DB
+18:14:36 INFO Skipping evaluation for c2718f9160ec (status=discarded)
+18:14:36 INFO Exp #1259 (slot 8) saved to DB
+18:14:36 INFO Skipping evaluation for 45ef9c578321 (status=discarded)
+18:14:36 INFO Exp #1257 (slot 1) saved to DB
+18:14:36 INFO Skipping evaluation for 820faaf3e2ec (status=discarded)
+18:14:36 INFO Exp #1258 (slot 5) saved to DB
+18:14:36 INFO Skipping evaluation for 570a11b5bef8 (status=discarded)
+18:14:36 INFO Exp #1260 (slot 4) saved to DB
+18:14:36 INFO Skipping evaluation for 140fe8a082a5 (status=discarded)
+18:14:36 INFO Exp #1261 (slot 3) saved to DB
+18:14:36 INFO Skipping evaluation for 7e9d48507c85 (status=discarded)
+18:14:36 INFO Exp #1263 (slot 9) saved to DB
+18:14:36 INFO Skipping evaluation for 7c665dfb2fba (status=discarded)
+18:14:36 INFO Exp #1262 (slot 2) saved to DB
+18:14:36 INFO Skipping evaluation for e3008f1bb26c (status=discarded)
+18:14:36 INFO Exp #1265 (slot 7) saved to DB
+18:14:36 INFO Skipping evaluation for 2dfd0de61b47 (status=discarded)
+18:14:36 INFO Exp #1264 (slot 6) saved to DB
+18:14:36 INFO Skipping evaluation for 6226589a227f (status=discarded)
+18:14:36 INFO Exp #1266 (slot 0) saved to DB
+18:14:37 INFO Skipping evaluation for 10a2b3feec6d (status=discarded)
+18:14:37 INFO Exp #1269 (slot 5) saved to DB
+18:14:37 INFO Skipping evaluation for e59a260c4311 (status=discarded)
+18:14:37 INFO Exp #1267 (slot 8) saved to DB
+18:14:37 INFO Skipping evaluation for 9f5e4d6c2c10 (status=discarded)
+18:14:37 INFO Exp #1270 (slot 4) saved to DB
+18:14:37 INFO Skipping evaluation for 3a50f7f18e4c (status=discarded)
+18:14:37 INFO Exp #1268 (slot 1) saved to DB
+18:14:37 INFO Skipping evaluation for f61cbd28d7bf (status=discarded)
+18:14:37 INFO Exp #1271 (slot 3) saved to DB
+18:14:37 INFO Skipping evaluation for fe5dd83a6420 (status=discarded)
+18:14:37 INFO Exp #1272 (slot 9) saved to DB
+18:14:37 INFO Skipping evaluation for 213604112922 (status=discarded)
+18:14:37 INFO Exp #1273 (slot 2) saved to DB
+18:14:37 INFO Skipping evaluation for 31efa40d7f0d (status=discarded)
+18:14:37 INFO Exp #1274 (slot 7) saved to DB
+18:14:37 INFO Skipping evaluation for 30a446171daf (status=discarded)
+18:14:37 INFO Exp #1275 (slot 6) saved to DB
+18:14:38 INFO Skipping evaluation for be036a5fe349 (status=discarded)
+18:14:38 INFO Exp #1276 (slot 0) saved to DB
+18:14:38 INFO Skipping evaluation for 5cde46fd9221 (status=discarded)
+18:14:38 INFO Exp #1277 (slot 5) saved to DB
+18:14:38 INFO Skipping evaluation for 5ecc626229c6 (status=discarded)
+18:14:38 INFO Exp #1278 (slot 8) saved to DB
+18:14:38 INFO Skipping evaluation for 660a41c18127 (status=discarded)
+18:14:38 INFO Exp #1281 (slot 3) saved to DB
+18:14:38 INFO Skipping evaluation for 504f168a9f0c (status=discarded)
+18:14:38 INFO Exp #1279 (slot 4) saved to DB
+18:14:38 INFO Skipping evaluation for e339e349e914 (status=discarded)
+18:14:38 INFO Exp #1280 (slot 1) saved to DB
+18:14:38 INFO Skipping evaluation for c9271a1e0109 (status=discarded)
+18:14:38 INFO Exp #1282 (slot 9) saved to DB
+18:14:39 INFO Skipping evaluation for faaa754d8aaf (status=discarded)
+18:14:39 INFO Exp #1283 (slot 2) saved to DB
+18:14:39 INFO Skipping evaluation for fc9b35a28235 (status=discarded)
+18:14:39 INFO Exp #1284 (slot 7) saved to DB
+18:14:39 INFO Skipping evaluation for 02bf1af50961 (status=discarded)
+18:14:39 INFO Exp #1285 (slot 6) saved to DB
+18:14:39 INFO Skipping evaluation for 405055e46fd0 (status=discarded)
+18:14:39 INFO Exp #1286 (slot 0) saved to DB
+18:14:39 INFO Skipping evaluation for 62e7febc352f (status=discarded)
+18:14:39 INFO Exp #1290 (slot 4) saved to DB
+18:14:39 INFO Skipping evaluation for 37e9a28a1b51 (status=discarded)
+18:14:39 INFO Exp #1289 (slot 3) saved to DB
+18:14:39 INFO Skipping evaluation for 513b5adf6f7a (status=discarded)
+18:14:39 INFO Exp #1288 (slot 8) saved to DB
+18:14:39 INFO Skipping evaluation for 0288fd8ec033 (status=discarded)
+18:14:39 INFO Exp #1287 (slot 5) saved to DB
+18:14:39 INFO Skipping evaluation for c2fbfffcb130 (status=discarded)
+18:14:39 INFO Exp #1291 (slot 1) saved to DB
+18:14:39 INFO Skipping evaluation for 1617cc41dc10 (status=discarded)
+18:14:39 INFO Exp #1292 (slot 9) saved to DB
+18:14:40 INFO Skipping evaluation for dc0b357c5885 (status=discarded)
+18:14:40 INFO Exp #1293 (slot 2) saved to DB
+18:14:40 INFO Skipping evaluation for e9f6c0928c93 (status=discarded)
+18:14:40 INFO Exp #1294 (slot 7) saved to DB
+18:14:40 INFO Skipping evaluation for 73711d927ccd (status=discarded)
+18:14:40 INFO Exp #1295 (slot 6) saved to DB
+18:14:40 INFO Skipping evaluation for e9755e959f4f (status=discarded)
+18:14:40 INFO Exp #1296 (slot 0) saved to DB
+18:14:40 INFO Skipping evaluation for 1fdfe90fe6ef (status=discarded)
+18:14:40 INFO Exp #1298 (slot 3) saved to DB
+18:14:40 INFO Skipping evaluation for 82392be2140a (status=discarded)
+18:14:40 INFO Exp #1297 (slot 4) saved to DB
+18:14:40 INFO Skipping evaluation for 745416b6f641 (status=discarded)
+18:14:40 INFO Exp #1299 (slot 8) saved to DB
+18:14:41 INFO Skipping evaluation for fff033c52331 (status=discarded)
+18:14:41 INFO Exp #1300 (slot 5) saved to DB
+18:14:41 INFO Skipping evaluation for 89d19bddfc32 (status=discarded)
+18:14:41 INFO Exp #1301 (slot 1) saved to DB
+18:14:41 INFO Skipping evaluation for 8cbf3332614b (status=discarded)
+18:14:41 INFO Exp #1302 (slot 9) saved to DB
+18:14:41 INFO Skipping evaluation for 6e8f572ba714 (status=discarded)
+18:14:41 INFO Exp #1304 (slot 7) saved to DB
+18:14:41 INFO Skipping evaluation for a5f742cb1a82 (status=discarded)
+18:14:41 INFO Exp #1303 (slot 2) saved to DB
+18:14:41 INFO Skipping evaluation for fd76dc5545cd (status=discarded)
+18:14:41 INFO Exp #1305 (slot 6) saved to DB
+18:14:41 INFO Skipping evaluation for 68afd34888d2 (status=discarded)
+18:14:41 INFO Exp #1306 (slot 0) saved to DB
+18:14:41 INFO Skipping evaluation for a9766a7a2beb (status=discarded)
+18:14:41 INFO Exp #1307 (slot 3) saved to DB
+18:14:41 INFO Skipping evaluation for d0e3e88be2e9 (status=discarded)
+18:14:41 INFO Exp #1308 (slot 4) saved to DB
+18:14:41 INFO Skipping evaluation for 590b5878c477 (status=discarded)
+18:14:41 INFO Exp #1309 (slot 8) saved to DB
+18:14:42 INFO Skipping evaluation for 17ec32545752 (status=discarded)
+18:14:42 INFO Exp #1311 (slot 1) saved to DB
+18:14:42 INFO Skipping evaluation for 1b5a46e709e4 (status=discarded)
+18:14:42 INFO Exp #1310 (slot 5) saved to DB
+18:14:42 INFO Skipping evaluation for 125921b4595f (status=discarded)
+18:14:42 INFO Exp #1312 (slot 9) saved to DB
+18:14:42 INFO Skipping evaluation for e600af8b6cd9 (status=discarded)
+18:14:42 INFO Exp #1313 (slot 7) saved to DB
+18:14:42 INFO Skipping evaluation for a0745ecca387 (status=discarded)
+18:14:42 INFO Exp #1314 (slot 2) saved to DB
+18:14:42 INFO Skipping evaluation for 0ce3885f743c (status=discarded)
+18:14:42 INFO Exp #1315 (slot 6) saved to DB

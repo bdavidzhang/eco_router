@@ -1,0 +1,8 @@
+{
+  "buildCommand": "vite build",
+  "outputDirectory": ".",
+  "installCommand": "npm install",
+  "redirects": [
+    { "source": "/", "destination": "/dist/globe.html", "permanent": false }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "timestamp": "20260328_114055",
+  "total_time_sec": 600,
+  "time_budget_per_experiment_sec": 90,
+  "strategy": "auto",
+  "region": "us_average",
+  "sensor_interval_sec": 1,
+  "max_iterations": 50,
+  "hostname": "gx10-f443",
+  "script_version": "1.0.0"
+}

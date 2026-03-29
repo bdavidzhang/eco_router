@@ -1,0 +1,8 @@
+config_hash,model_name,quantization,batch_size,sequence_length,sci_per_token,val_bpb,energy_per_token_j,tokens_per_sec,gpu_power_avg_w,gpu_util_avg_pct,gpu_clock_avg_mhz,mem_used_gb,mem_pressure_pct,latency_p50_ms,carbon_operational_g,carbon_embodied_g,nvme_temp_c,system_load_avg,pareto_rank,status,created_at
+a3dd3b679614,Qwen/Qwen3.5-4B,none,32,1024,,,,,,,,,,,,,,,,failed,2026-03-28T22:50:46.132305+00:00
+319cb40a6608,Qwen/Qwen3.5-4B,none,16,512,,,,,,,,,,,,,,,,failed,2026-03-28T22:54:07.989963+00:00
+ffaba47e216c,Qwen/Qwen3.5-4B,none,4,2048,,,,,,,,,,,,,,,,failed,2026-03-28T22:55:48.906487+00:00
+ff77c77fb438,Qwen/Qwen3.5-0.8B,none,1,1024,0.0005013891608867184,4.065588352168114,4.242502447980466,5.140667746904397,22.37837837837838,65.35135135135135,2398.0,89.1,74.5,93.14017078907,0.00047138916088671845,3e-05,49.85,15.38,0,completed,2026-03-28T22:56:28.302276+00:00
+c368d7bba8ad,Qwen/Qwen3.5-9B,none,32,512,,,,,,,,,,,,,,,,failed,2026-03-28T22:58:22.005293+00:00
+5242a9388aea,Qwen/Qwen3.5-9B,none,2,512,,,,,,,,,,,,,,,,failed,2026-03-28T23:01:30.381685+00:00
+e924910d808b,Qwen/Qwen3.5-0.8B,none,8,2048,0.00011622312056335199,4.065588352168114,0.7760080850701679,32.28980841566406,25.865,74.11363636363636,2399.5454545454545,72.71,60.8,12.761540304687458,8.622312056335199e-05,3e-05,51.85,9.32,,discarded,2026-03-28T23:02:17.834054+00:00
